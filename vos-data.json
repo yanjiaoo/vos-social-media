@@ -2,156 +2,341 @@
   {
     "id": "vos_001",
     "rank": 1,
-    "title": "亚马逊全球站点3月12日全面执行DD+7资金预留新政，回款周期最长延长30天",
-    "verified": "official",
-    "effectDate": "2026-03-12",
-    "summary": "该政策统一全球卖家资金预留规则，要求所有订单货款在商品妥投后需额外冻结7天方可转入卖家可用余额。FBA订单回款周期普遍延长8-9天，FBM订单回款周期最长延长至20-30天，直接加剧卖家现金流压力，月销百万美金卖家额外资金占用超20万美金。",
-    "source": "亚马逊官方",
-    "sellerVoices": [
-      {"source": "知无不言", "content": "月销50万美金，现在要多压近10万美金的货款，本来物流和采购账期就紧，现金流直接要断了"},
-      {"source": "Reddit r/FBA", "content": "FBM自发货本来利润就薄，现在妥投后还要等7天，回款周期直接翻倍，小卖家根本扛不住"},
-      {"source": "卖家之家", "content": "平台说是统一标准，实际就是把退款风险全转嫁给卖家，我们已经开始收缩非核心品类的备货了"}
-    ],
-    "comparison": [
-      {"dimension": "资金释放节点", "before": "妥投后1-2天即可转入可用余额", "after": "妥投后必须冻结7天，期满后才可转入"},
-      {"dimension": "FBA订单回款周期", "before": "平均3-5天", "after": "平均8-9天"},
-      {"dimension": "FBM订单回款周期", "before": "平均7-14天", "after": "平均20-30天"},
-      {"dimension": "资金占用(月销100万)", "before": "常规资金占用约30万美金", "after": "额外新增20-25万美金资金占用"},
-      {"dimension": "适用范围", "before": "仅部分站点、部分卖家执行", "after": "全球所有站点、所有卖家统一强制执行"}
-    ],
+    "title": "2026跨境新卖家“开挂”秘籍：亚马逊AI数字员工+官方路径，首年销量暴增10倍",
+    "verified": "unconfirmed",
+    "effectDate": "2026-04-21",
+    "summary": "2026跨境新卖家“开挂”秘籍：亚马逊AI数字员工+官方路径，首年销量暴增10倍？！  雨果跨境",
+    "source": "雨果跨境",
+    "sellerVoices": [],
+    "comparison": [],
     "links": [
-      {"label": "亚马逊帮助中心-付款政策", "url": "https://sellercentral.amazon.com/help/hub/200380620"},
-      {"label": "AMZ123政策解读", "url": "https://m.amz123.com/t/1pyPezpH"},
-      {"label": "卖家之家报道", "url": "https://m.mjzj.com/article/fedd55y6i3gg"}
+      {
+        "label": "雨果跨境",
+        "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE4yT3NLekJQVlo0bU9Ya1l1MzJSdjRRSDUxbnNEVTNHN1FVaHVDLTFqZDVrYjZYVHlBZlZTaE1OcXJCTHBmbWxyLTNra1Y?oc=5"
+      }
     ]
   },
   {
     "id": "vos_002",
     "rank": 2,
-    "title": "3月31日起亚马逊终止FBA共享库存政策，六大站点贴标规则全面重构",
-    "verified": "official",
-    "effectDate": "2026-03-31",
-    "summary": "政策覆盖美、加、墨、欧、澳、日六大核心站点，彻底取消共享库存池机制，所有卖家库存独立管理。品牌注册卖家带有效GTIN商品可免贴FNSKU标签入库，非品牌卖家必须全量粘贴亚马逊条形码，否则货件将被拒收。从根源遏制跟卖乱象，同时大幅提升非品牌卖家的入库合规成本。",
-    "source": "亚马逊官方",
-    "sellerVoices": [
-      {"source": "知无不言", "content": "终于不用被跟卖蹭库存了，之前跟卖的发劣质货，差评全算在我们头上，现在库存彻底独立"},
-      {"source": "卖家之家", "content": "一个店铺几千个SKU，全要重新贴标，人工和物料成本直接涨了好几万，不贴就拒收"},
-      {"source": "Reddit r/FBA", "content": "3月31号之后发的货必须全贴标，现在已经在清非品牌的铺货SKU了，根本扛不住这个成本"}
-    ],
-    "comparison": [
-      {"dimension": "库存管理模式", "before": "同GTIN商品共享库存池，平台随机发货", "after": "所有卖家库存100%独立存放，仅从对应卖家库存发货"},
-      {"dimension": "品牌卖家贴标", "before": "需粘贴FNSKU标签，否则进入共享库存池", "after": "完成品牌注册+有效GTIN可免贴FNSKU标签"},
-      {"dimension": "非品牌卖家贴标", "before": "可使用制造商条形码入共享库存池", "after": "必须强制粘贴FNSKU标签，否则货件拒收"},
-      {"dimension": "跟卖风险", "before": "跟卖者可蹭正品库存池发货", "after": "跟卖者必须自有库存发货，正品与仿品库存彻底切割"},
-      {"dimension": "入库成本", "before": "非品牌卖家可免贴标", "after": "全量SKU贴标，单SKU成本增加0.1-0.3元"}
-    ],
+    "title": "2026亚马逊Prime Day新规全解析：价格与折扣要求全面升级，卖家该如何破局",
+    "verified": "unconfirmed",
+    "effectDate": "2026-04-21",
+    "summary": "2026亚马逊Prime Day新规全解析：价格与折扣要求全面升级，卖家该如何破局？  雨果跨境",
+    "source": "雨果跨境",
+    "sellerVoices": [],
+    "comparison": [],
     "links": [
-      {"label": "亚马逊帮助中心-FBA条形码要求", "url": "https://sellercentral.amazon.com/help/hub/200141500"},
-      {"label": "AMZ123政策解读", "url": "https://m.amz123.com/t/wTGdKFdY"},
-      {"label": "卖家之家报道", "url": "https://m.mjzj.com/article/ff5m2etauk8w"}
+      {
+        "label": "雨果跨境",
+        "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5nUjV1SE4wTGx2ajNGWTROSjBrRkNJRTBvdWZoWmN6RHdPWlVMS3B5MXJSNU1pWDJiWXpKSWFfVk1IWHVXVGZXYXdWRHA?oc=5"
+      }
     ]
   },
   {
     "id": "vos_003",
     "rank": 3,
-    "title": "3月5日亚马逊全球电商系统大规模宕机，黄金时段订单停摆广告持续扣费",
-    "verified": "official",
-    "effectDate": "2026-03-05",
-    "summary": "宕机覆盖亚马逊全球核心站点，持续约4小时，出现商品页面变狗、订单系统停摆、后台操作失效等问题。恰好处于美国站消费黄金时段，卖家订单量暴跌40%-100%，但广告系统仍正常扣费，大量卖家秒杀活动受影响，单卖家最高损失超2万美金。",
-    "source": "AWS / 中国新闻网",
-    "sellerVoices": [
-      {"source": "知无不言", "content": "爆款正好在宕机时段做秒杀，4个小时一单没出，广告费花了3000多美金，直接损失超2万美金"},
-      {"source": "AMZ123", "content": "凌晨起来看后台，3个小时全店零单，ACoS直接冲到80%，以为账号被封了"},
-      {"source": "Reddit r/FBA", "content": "这是半年内第二次大规模宕机了，平台技术团队裁员后稳定性越来越差，我们卖家却要承担所有损失"}
-    ],
-    "comparison": [
-      {"dimension": "订单转化", "before": "黄金时段正常出单", "after": "订单量暴跌40%-100%，大量卖家3-4小时零单"},
-      {"dimension": "广告系统", "before": "曝光、点击、转化正常匹配", "after": "持续正常扣费，转化几乎为零，ACoS异常飙升"},
-      {"dimension": "后台操作", "before": "正常操作库存、调价、促销", "after": "全面瘫痪，无法进行任何操作，无法紧急关停广告"},
-      {"dimension": "售后与物流", "before": "订单履约、物流追踪正常", "after": "订单履约中断，物流信息无法同步"}
-    ],
+    "title": "亚马逊严打“降佣金和定制Vine”来看调查→",
+    "verified": "unconfirmed",
+    "effectDate": "2026-04-21",
+    "summary": "亚马逊严打“降佣金和定制Vine”？来看调查→  雨果跨境",
+    "source": "雨果跨境",
+    "sellerVoices": [],
+    "comparison": [],
     "links": [
-      {"label": "AWS服务状态", "url": "https://status.aws.amazon.com/"},
-      {"label": "中国新闻网报道", "url": "https://wap.chinanews.com/wap/detail/chs/zw/jw661738.shtml"}
+      {
+        "label": "雨果跨境",
+        "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9HemhQNW9Wby1Lb01GbWNITVpzay1QSjY0Ym1FZTd5OW1ib1FJTG02d1RtZ1dKa3J4RlBqYjlDUklFaHZ4Zkp5OWFfUXQ?oc=5"
+      }
     ]
   },
   {
     "id": "vos_004",
     "rank": 4,
-    "title": "3月4日亚马逊更新BSA协议，新增AI/自动化工具最严监管规则",
-    "verified": "official",
-    "effectDate": "2026-03-04",
-    "summary": "亚马逊更新《商业解决方案协议》，新增Agent Policy代理政策，对所有AI自动化工具提出强制合规要求：禁止使用平台数据训练AI模型，要求工具必须明确标识自动化身份，平台可随时切断不合规工具访问权限。全球超300万卖家、数千家第三方工具商受影响。",
-    "source": "亚马逊官方",
-    "sellerVoices": [
-      {"source": "知无不言", "content": "我们用的第三方调价工具已经发通知了，要是不合规随时会被平台切断，现在只能换回手动调价"},
-      {"source": "卖家之家", "content": "禁止用平台数据训练AI，那市面上大部分选品工具都要凉，以后选品只能靠自己瞎摸了"},
-      {"source": "Reddit r/FBA", "content": "平台就是想把所有第三方工具都清出去，推自己的AI工具，以后卖家只能用亚马逊的原生工具"}
-    ],
-    "comparison": [
-      {"dimension": "自动化工具监管", "before": "无专门协议条款，仅个案处理", "after": "新增Agent Policy，纳入协议框架，具备法律约束力"},
-      {"dimension": "数据使用规则", "before": "无明确禁止使用平台数据训练AI", "after": "明确禁止使用亚马逊平台任何数据训练AI模型"},
-      {"dimension": "工具身份要求", "before": "无强制标识，可模拟人工操作", "after": "必须明确标识自动化身份，禁止伪装人工"},
-      {"dimension": "平台处置权限", "before": "仅能对卖家账号进行处置", "after": "可随时、无条件切断不合规工具的API访问权限"},
-      {"dimension": "卖家合规责任", "before": "无明确的工具合规审查责任", "after": "卖家需对所有第三方工具合规性负责，违规连带处罚"}
-    ],
+    "title": "紧急预警2026亚马逊Prime day规则升级",
+    "verified": "unconfirmed",
+    "effectDate": "2026-04-20",
+    "summary": "紧急预警！2026亚马逊Prime day规则升级！  雨果跨境",
+    "source": "雨果跨境",
+    "sellerVoices": [],
+    "comparison": [],
     "links": [
-      {"label": "亚马逊帮助中心-BSA协议", "url": "https://sellercentral.amazon.com/help/hub/200386250"},
-      {"label": "AMZ123政策解读", "url": "https://m.amz123.com/t/XOuMo43q"}
+      {
+        "label": "雨果跨境",
+        "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE92YkVudlgyaGVHWE1WWW9TVGxMV01VYU1UNTg5ZnhQWXJiYXRLZ3dkLXdRUnNoNVZHNk5JUXVRckFGYU82MElMQUk4NldjWVk?oc=5"
+      }
     ]
   },
   {
     "id": "vos_005",
     "rank": 5,
-    "title": "2026春季大促多站点规则重大调整，流量分配逻辑重构",
+    "title": "卖家警惕，亚马逊严查打击Vine定制评论",
     "verified": "unconfirmed",
-    "effectDate": "2026-03-15",
-    "summary": "本次春促核心调整：美国站新增10天预热期，限时秒杀（LD）、镇店之宝（BD）免除提报费用，Prime专享折扣取消专属Prime标志、无单独提报入口。欧洲站、日本站同步调整促销门槛，平台流量向秒杀类促销倾斜，重构大促流量分配逻辑，卖家促销策略需全面调整。",
-    "source": "亚马逊招商经理确认 / 行业媒体",
-    "sellerVoices": [
-      {"source": "知无不言", "content": "Prime折扣不显示标志了，之前靠这个拉会员转化，现在开了和没开一样，只能转去报秒杀"},
-      {"source": "卖家之家", "content": "新增10天预热期，之前的运营节奏全乱了，现在只能提前开优惠券拉加购"},
-      {"source": "Reddit r/FBA", "content": "免费的秒杀坑位，现在报的人巨多，竞争比去年大了一倍，小卖家根本抢不到好的时段"}
-    ],
-    "comparison": [
-      {"dimension": "美国站节奏", "before": "无预热期，仅7天正式期", "after": "新增10天预热期（3.15-24）+7天正式期（3.25-31）"},
-      {"dimension": "促销工具费用", "before": "LD/BD秒杀需支付提报费用", "after": "LD/BD秒杀全免提报费用"},
-      {"dimension": "Prime折扣展示", "before": "显示专属Prime标志，会员流量加权", "after": "取消专属标志，无单独提报入口，无额外流量加权"},
-      {"dimension": "流量分配逻辑", "before": "Prime折扣与秒杀共享流量池", "after": "流量向LD/BD秒杀大幅倾斜，秒杀商品获80%以上大促流量"},
-      {"dimension": "欧洲站时间", "before": "3月下旬开启，与美国站同步", "after": "3月10日-16日提前开启，与美国站错峰"}
-    ],
+    "effectDate": "2026-04-19",
+    "summary": "卖家警惕，亚马逊严查打击Vine定制评论？  雨果跨境",
+    "source": "雨果跨境",
+    "sellerVoices": [],
+    "comparison": [],
     "links": [
-      {"label": "亚马逊帮助中心-促销规则", "url": "https://sellercentral.amazon.com/help/hub/200338300"},
-      {"label": "AMZ123春促解读", "url": "https://m.amz123.com/t/KRPU6J9q"},
-      {"label": "卖家之家报道", "url": "https://m.mjzj.com/article/ff5m2etauk8w"}
+      {
+        "label": "雨果跨境",
+        "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5aVG81OHpjcUlkNnNfaWFCb0l4ZTBNODN0ejlsUGltaWJUMTRsQnR3el9vbkhMS2M3bEFZODg2REZicjdfM2o2V0xtNjA?oc=5"
+      }
     ]
   },
   {
     "id": "vos_006",
     "rank": 6,
-    "title": "2026亚马逊Prime Day新规：价格与折扣要求全面升级",
+    "title": "亚马逊正式开征“燃油附加费”：面向欧盟与北美站点 适用于FBA及MCF卖家",
     "verified": "unconfirmed",
-    "effectDate": "2026-04-21",
-    "summary": "亚马逊2026年Prime Day对参与商品的价格和折扣要求进行全面升级，卖家需提前调整定价策略以满足新的参与门槛。具体规则调整涉及最低折扣比例、价格基准期计算方式等。",
-    "source": "雨果跨境",
+    "effectDate": "2026-04-18",
+    "summary": "亚马逊正式开征“燃油附加费”：面向欧盟与北美站点 适用于FBA及MCF卖家  亿邦动力网",
+    "source": "亿邦动力网",
     "sellerVoices": [],
     "comparison": [],
     "links": [
-      {"label": "雨果跨境解读", "url": "https://www.cifnews.com"}
+      {
+        "label": "亿邦动力网",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE16cWljSGdmTEFNMFVUcmNtNFROY1dYMmZaMTJicm5QVVVidDNFZUQ3bGplaldCRllqaXQ4cnlqb2IyVzNEaHI3Tkl1eVhnVWU1azdOZ0RR?oc=5"
+      }
     ]
   },
   {
     "id": "vos_007",
     "rank": 7,
-    "title": "亚马逊严查打击Vine定制评论和降佣金违规行为",
+    "title": "2026年亚马逊卖家必避的五大坑：合规扫号、评论拆分、成本上涨、资金周转、税务风险",
     "verified": "unconfirmed",
-    "effectDate": "2026-04-19",
-    "summary": "亚马逊加大对Vine评论定制和违规降佣金行为的打击力度。部分卖家因通过第三方服务定制Vine评论内容或利用漏洞降低佣金费率而收到警告或处罚。",
+    "effectDate": "2026-04-18",
+    "summary": "2026年亚马逊卖家必避的五大坑：合规扫号、评论拆分、成本上涨、资金周转、税务风险  雨果跨境",
     "source": "雨果跨境",
     "sellerVoices": [],
     "comparison": [],
     "links": [
-      {"label": "雨果跨境报道", "url": "https://www.cifnews.com"}
+      {
+        "label": "雨果跨境",
+        "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9VWXZKYVpFbnNpR2xEd3BKYXVZUUg2WUdTVVVEaHhndEFZOGdkQnFRWG0wdmt5U3RGR0l1cHd1dmN5aHR5cXdDa2Y3clctZDg?oc=5"
+      }
+    ]
+  },
+  {
+    "id": "vos_008",
+    "rank": 8,
+    "title": "亚马逊“连坐封号潮”恐持续至会员日抓紧自查（附名单）",
+    "verified": "unconfirmed",
+    "effectDate": "2026-04-16",
+    "summary": "亚马逊“连坐封号潮”恐持续至会员日！抓紧自查（附名单）  雨果跨境",
+    "source": "雨果跨境",
+    "sellerVoices": [],
+    "comparison": [],
+    "links": [
+      {
+        "label": "雨果跨境",
+        "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9FXzNkZGdQRlg4ZWhxNWx4bG5fN0pFNV9KVWtYb3VmZlZiby1kN01Ub0JMV1E0cU1NV1dvUTM4T2RJb1NWYWxSeS1SVzc?oc=5"
+      }
+    ]
+  },
+  {
+    "id": "vos_009",
+    "rank": 9,
+    "title": "成本占比飙升到50%卖家深陷“涨价潮”",
+    "verified": "unconfirmed",
+    "effectDate": "2026-04-14",
+    "summary": "成本占比飙升到50%！卖家深陷“涨价潮”  雨果跨境",
+    "source": "雨果跨境",
+    "sellerVoices": [],
+    "comparison": [],
+    "links": [
+      {
+        "label": "雨果跨境",
+        "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE12a0tmMjRTc0tCSFRlUVhXSmJ5b3pXVUIybjB0MlIxSG90c21rNnBRNi05anMwOTIyQWtIM1VTbGJlRjNuT0kyblA4T08?oc=5"
+      }
+    ]
+  },
+  {
+    "id": "vos_010",
+    "rank": 10,
+    "title": "2026 Prime Day提报开启：三大规则变了，你的备货计划跟上了吗",
+    "verified": "unconfirmed",
+    "effectDate": "2026-04-10",
+    "summary": "2026 Prime Day提报开启：三大规则变了，你的备货计划跟上了吗？  雨果跨境",
+    "source": "雨果跨境",
+    "sellerVoices": [],
+    "comparison": [],
+    "links": [
+      {
+        "label": "雨果跨境",
+        "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE95bldKb3lWeUNPejZCek9Mb1FuWUZ5cktVME5KMmdMUHdzSTl5eTZKYmt1VWl2Y1FlblpBTDc4cTg2SGk4SEs4UlhPRUM?oc=5"
+      }
+    ]
+  },
+  {
+    "id": "vos_011",
+    "rank": 11,
+    "title": "亚马逊加码欧洲市场：已对中国卖家开放10个站点新卖家入驻降费率- 跨境电商",
+    "verified": "unconfirmed",
+    "effectDate": "2026-04-08",
+    "summary": "亚马逊加码欧洲市场：已对中国卖家开放10个站点新卖家入驻降费率- 跨境电商  亿邦动力网",
+    "source": "亿邦动力网",
+    "sellerVoices": [],
+    "comparison": [],
+    "links": [
+      {
+        "label": "亿邦动力网",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5uQ0p1ZFVvTjEwNkVJbFhtLUtsQl9USWJKQ2s1MnlnOEd4WXRENTBCTUpJQTZUN2ZxM2RRMzZ2NlVibDhrcHBYVGRGRzY0amY1dXNsZ2V3?oc=5"
+      }
+    ]
+  },
+  {
+    "id": "vos_012",
+    "rank": 12,
+    "title": "卖家必看2026年全球跨境电商哪些值得做",
+    "verified": "unconfirmed",
+    "effectDate": "2026-04-02",
+    "summary": "卖家必看！2026年全球跨境电商哪些值得做？  雨果跨境",
+    "source": "雨果跨境",
+    "sellerVoices": [],
+    "comparison": [],
+    "links": [
+      {
+        "label": "雨果跨境",
+        "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBJS2VpU3pNSXN2akhhYXRNS3p4NnBuREkyZ25reWVPTHcwdkp5ZTg2TlNDX01zT3RVT3RueExTaFNDdHlSVS1Wdl9BZ3A?oc=5"
+      }
+    ]
+  },
+  {
+    "id": "vos_013",
+    "rank": 13,
+    "title": "亚马逊Prime会员日大促收费模式变更：固定费用改“预付+抽成”，卖家成本是涨是降",
+    "verified": "unconfirmed",
+    "effectDate": "2026-04-02",
+    "summary": "亚马逊Prime会员日大促收费模式变更：固定费用改“预付+抽成”，卖家成本是涨是降？  亿邦动力网",
+    "source": "亿邦动力网",
+    "sellerVoices": [],
+    "comparison": [],
+    "links": [
+      {
+        "label": "亿邦动力网",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5lRXVOQlRweGJaS1ptc0o2ODcwVnlBTktLS2Zlam1BOXFtTU9Ya3lucGg4VmpYTG14NGQ3SlUwdVg1NEF0R003YlN0VjEwWTEtWUJrR0Nn?oc=5"
+      }
+    ]
+  },
+  {
+    "id": "vos_014",
+    "rank": 14,
+    "title": "调整2026年亚马逊日本站费用“大洗牌”",
+    "verified": "unconfirmed",
+    "effectDate": "2026-04-01",
+    "summary": "重磅调整！2026年亚马逊日本站费用“大洗牌”  雨果跨境",
+    "source": "雨果跨境",
+    "sellerVoices": [],
+    "comparison": [],
+    "links": [
+      {
+        "label": "雨果跨境",
+        "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5ucFJSYnM4SXpvUjVvZ0FabVFqMURQWUlkTG1Cd29oSWtBd2JDcVpMOHVtN1cwOG9MVGJpOU53WHVFcEt2UjRGU0I4bmU?oc=5"
+      }
+    ]
+  },
+  {
+    "id": "vos_015",
+    "rank": 15,
+    "title": "从入门到成长，亚马逊多举措支持卖家优化物流及运营成本 高效拓展全球跨境业务",
+    "verified": "unconfirmed",
+    "effectDate": "2026-03-31",
+    "summary": "从入门到成长，亚马逊多举措支持卖家优化物流及运营成本 高效拓展全球跨境业务  潮新闻",
+    "source": "潮新闻",
+    "sellerVoices": [],
+    "comparison": [],
+    "links": [
+      {
+        "label": "潮新闻",
+        "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1xamlZODRORkp5VzB4U3BxNENaN0FaNTl3VVI4LXQ5Q0xLaHE4OVZ3YktyYjdMcDVBVElJb2M0TGcyZVZ3TXVraWtPOHktdm9kYWNiQUwtdXpOQ3FDQS0xcllZMEJEOV9UYWZwZjR4b0kxQ2M?oc=5"
+      }
+    ]
+  },
+  {
+    "id": "vos_016",
+    "rank": 16,
+    "title": "亚马逊最新政策汇总：这些变化要额外注意",
+    "verified": "unconfirmed",
+    "effectDate": "2026-03-30",
+    "summary": "亚马逊最新政策汇总：这些变化要额外注意！  雨果跨境",
+    "source": "雨果跨境",
+    "sellerVoices": [],
+    "comparison": [],
+    "links": [
+      {
+        "label": "雨果跨境",
+        "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE45RVRib0FKMFVXS05UYzdXUUpSWk5FQl90WGZ4eFRGZmtDUkJ0Sm5JT0tacm5SRmozOU44d0RrY3hzWU5pTjFINS1ieHg?oc=5"
+      }
+    ]
+  },
+  {
+    "id": "vos_017",
+    "rank": 17,
+    "title": "3月政策风暴来袭：亚马逊四大新规齐发，卖家如何稳住现金流与流量",
+    "verified": "unconfirmed",
+    "effectDate": "2026-03-27",
+    "summary": "3月政策风暴来袭：亚马逊四大新规齐发，卖家如何稳住现金流与流量？  雨果跨境",
+    "source": "雨果跨境",
+    "sellerVoices": [],
+    "comparison": [],
+    "links": [
+      {
+        "label": "雨果跨境",
+        "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9FRmRxWFd0T0R1NEYtMVJWam95Y0NBa0ZXbXJEZWJyZjl0TEhVSWdseVhDaUdsdkx3bnFuejJsbVdQYVBuaHp1VXJGMDM?oc=5"
+      }
+    ]
+  },
+  {
+    "id": "vos_018",
+    "rank": 18,
+    "title": "亚马逊绿标申请全攻略：2026年值得委托的合规化代理机构公司推荐",
+    "verified": "unconfirmed",
+    "effectDate": "2026-03-24",
+    "summary": "亚马逊绿标申请全攻略：2026年值得委托的合规化代理机构公司推荐  潮新闻",
+    "source": "潮新闻",
+    "sellerVoices": [],
+    "comparison": [],
+    "links": [
+      {
+        "label": "潮新闻",
+        "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9oSEtCb0J1d2pYRnpBLU1RblVmRFI1MWxpV0djS0swZUJKQlFoanFvQjRHeGlKOXdCYThyVTRkaUUyMGJTOWdPSHV5Zlh0Zy1sSU5adkptaTZKQjVzVHZUc2cwU1lsdkx1WU5nZ3NnU2NaUzQ?oc=5"
+      }
+    ]
+  },
+  {
+    "id": "vos_019",
+    "rank": 19,
+    "title": "亚马逊美国站春促调整:LD/BD免报费，Prime折扣变了|prime|亚马逊公司|卖家|大促|春促|知名企业",
+    "verified": "unconfirmed",
+    "effectDate": "2026-03-21",
+    "summary": "亚马逊美国站春促调整:LD/BD免报费，Prime折扣变了|prime|亚马逊公司|卖家|大促|春促|知名企业|美国站  新浪财经",
+    "source": "新浪财经",
+    "sellerVoices": [],
+    "comparison": [],
+    "links": [
+      {
+        "label": "新浪财经",
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQZ2MzWWw3cG9RZU9LRldFTkprVEZtVHpkbVM0aHFJdVB0Nm1OSWFPZVJldVhROUpuaVhhdmtXcXA2OERPWkNFRlRhcnVPOUVYRExuWWs1WDdMM2dCUG55S01oYWFzTXFVcTlFMXZCcF8xem0tVW9YRDVhWFBCN1pRSUktRTg?oc=5"
+      }
+    ]
+  },
+  {
+    "id": "vos_020",
+    "rank": 20,
+    "title": "亚马逊又在封号收到这类通知需及时处理，以防“秋后算账”",
+    "verified": "unconfirmed",
+    "effectDate": "2026-03-17",
+    "summary": "亚马逊又在封号！收到这类通知需及时处理，以防“秋后算账”！  雨果跨境",
+    "source": "雨果跨境",
+    "sellerVoices": [],
+    "comparison": [],
+    "links": [
+      {
+        "label": "雨果跨境",
+        "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBfa2VKLU9SUlpMUEVGS3hDbkhnNk4ta1U1RUt3dUxYbmRfUjQzdHFMME5DYjdSNko1TndPaWxaZEkzeW1MdUxzenhmY3Q?oc=5"
+      }
     ]
   }
 ]

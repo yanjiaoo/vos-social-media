@@ -61,7 +61,7 @@
   {
     "id": "vos_004",
     "rank": 4,
-    "title": "Amazon's Seller Assistant now checks review sharing eligibility per variation",
+    "title": "亚马逊Seller Assistant新增按变体检查评论共享资格功能",
     "effectDate": "2026-04-18",
     "summary": "亚马逊Seller Assistant工具新增按变体维度检查评论共享资格的功能。此前评论共享（Review Sharing）仅在父ASIN层面判断，现在系统会逐一检查每个子变体是否符合共享条件，不符合的变体将被单独排除。这意味着部分卖家的变体Listing可能出现评论数量骤降的情况，尤其是通过合并变体积累评论的卖家受影响最大。卖家社区已有反馈称部分变体评论数从数百条降至个位数。AM需关注卖家Listing评论变动，协助排查是否因新规则导致。",
     "source": "PPC Land",
@@ -81,7 +81,7 @@
   {
     "id": "vos_005",
     "rank": 5,
-    "title": "Amazon Sellers Protest Policy Changes With One-Day Ad Boycott",
+    "title": "亚马逊卖家发起24小时广告抵制行动，抗议多项政策叠加",
     "effectDate": "2026-04-16",
     "summary": "数百名亚马逊大卖家于4月16日发起24小时广告抵制行动，集体暂停SP/SB/SD广告投放，抗议平台近期密集推出的DD+7资金预留、FBA费用上涨、退货政策放宽等多项政策叠加。此次抵制由Reddit r/FBA社区和多个卖家社群同步发起，参与卖家月销规模多在50万-500万美金区间。这是近年来规模最大的卖家集体行动，反映出卖家对平台政策叠加效应的强烈不满。AM需密切关注卖家情绪，及时上报异常动态。",
     "source": "PYMNTS.com",
@@ -121,7 +121,7 @@
   {
     "id": "vos_007",
     "rank": 7,
-    "title": "Amazon sellers face a cash crunch due to new fees, policy changes",
+    "title": "亚马逊卖家因费用上涨和政策变更面临现金流紧缩",
     "effectDate": "2026-04-09",
     "summary": "Modern Retail报道，亚马逊卖家正面临多重费用上涨和政策变更带来的现金流紧缩。2026年以来，FBA配送费平均上涨5-8%，仓储费旺季附加费扩大适用范围，DD+7资金预留政策冻结大量流动资金，退货政策放宽导致退货率上升2-3个百分点。多项成本叠加下，卖家净利润率普遍下降3-5个百分点，部分低毛利品类卖家已处于亏损边缘。中小卖家受冲击最大，部分开始考虑转向FBM或缩减SKU数量。AM需关注卖家经营健康度，对高风险卖家提前预警。",
     "source": "Modern Retail",
@@ -429,7 +429,7 @@
   {
     "id": "vos_014",
     "rank": 14,
-    "title": "Amazon's new AI agent rules shake up sellers before March 4 deadline",
+    "title": "亚马逊AI代理新规3月4日生效，卖家紧急排查工具合规",
     "effectDate": "2026-02-22",
     "summary": "亚马逊于3月4日生效的新版BSA协议中新增AI代理政策（Agent Policy），要求所有接入亚马逊API的AI工具和自动化代理必须在3月4日前完成合规注册。PPC Land报道称，新规对广告自动化工具影响尤为显著，包括自动竞价、自动投放、AI生成Listing等工具均需重新审核。未完成注册的工具将被切断API访问权限，卖家使用未合规工具可能面临账号关联风险。大量卖家在截止日前紧急排查所用工具的合规状态。AM需提醒卖家确认第三方工具是否已完成亚马逊合规注册。",
     "source": "PPC Land",

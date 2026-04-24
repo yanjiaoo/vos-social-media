@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+﻿#!/usr/bin/env python3
 """
 VOS AI 总结模块 - 使用 DeepSeek API
 读取 vos-data.json 中没有 summary 或 summary 质量低的条目，
@@ -93,3 +93,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+

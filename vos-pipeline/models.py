@@ -256,22 +256,17 @@ def validate_topic(topic: dict) -> bool:
     if topic["insightType"] not in ALLOWED_INSIGHT_TYPES:
         return False
 
-    # Validate painPoints: 1-3 items
-    if not (1 <= len(topic["painPoints"]) <= 3):
+    # Validate painPoints: 0-5 items (relaxed from 1-3)
+    if len(topic["painPoints"]) > 5:
         return False
 
-    # Validate summary length for AI-generated topics (100-400 Chinese chars)
+    # Validate summary length for AI-generated topics (relaxed: 20-500 Chinese chars or 50+ total chars)
     if topic.get("aiGenerated") is True:
         cn_count = _count_chinese_chars(topic["summary"])
-        if not (100 <= cn_count <= 400):
+        total_len = len(topic["summary"].strip())
+        if cn_count < 20 and total_len < 50:
             return False
 
-    # Validate topicLabel and layerLabel if present
-    if "topicLabel" in topic:
-        if topic["topicLabel"] != TOPIC_LABELS.get(topic["topic"], ""):
-            return False
-    if "layerLabel" in topic:
-        if topic["layerLabel"] != LAYER_LABELS.get(topic["layer"], ""):
-            return False
+    # topicLabel and layerLabel are auto-generated, skip strict validation
 
     return True

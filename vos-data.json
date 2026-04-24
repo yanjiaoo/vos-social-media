@@ -9,16 +9,24 @@
     "source": "亚马逊官方",
     "sellerVoices": [
       {
-        "source": "知无不言",
-        "content": "月销50万美金，现在要多压近10万美金的货款，本来物流和采购账期就紧，现金流直接要断了"
+        "source": "AMZ123原文引用",
+        "content": "我们要等到包裹送达7天才能收到货款？现在我们得为USPS和UPS的延误负责了？"
       },
       {
-        "source": "Reddit r/FBA",
-        "content": "FBM自发货本来利润就薄，现在妥投后还要等7天，回款周期直接翻倍，小卖家根本扛不住"
+        "source": "AMZ123原文引用",
+        "content": "你能想象亚马逊持有我们所有的钱能赚多少利息吗？"
       },
       {
-        "source": "卖家之家",
-        "content": "平台说是统一标准，实际就是把退款风险全转嫁给卖家，我们已经开始收缩非核心品类的备货了"
+        "source": "AMZ123原文引用",
+        "content": "既然亚马逊有这个新政策，退货退款政策也应该改一下。应该等卖家收到包裹后再退款。"
+      },
+      {
+        "source": "AMZ123原文引用",
+        "content": "发货时效不由卖家掌控，风险却由卖家担责。"
+      },
+      {
+        "source": "AMZ123原文引用",
+        "content": "本来回款就慢的不行，现在更是长的离谱！"
       }
     ],
     "comparison": [
@@ -73,16 +81,8 @@
     "source": "亚马逊官方",
     "sellerVoices": [
       {
-        "source": "知无不言",
-        "content": "终于不用被跟卖蹭库存了，之前跟卖的发劣质货，差评全算在我们头上，现在库存彻底独立"
-      },
-      {
-        "source": "卖家之家",
-        "content": "一个店铺几千个SKU，全要重新贴标，人工和物料成本直接涨了好几万，不贴就拒收"
-      },
-      {
-        "source": "Reddit r/FBA",
-        "content": "3月31号之后发的货必须全贴标，现在已经在清非品牌的铺货SKU了，根本扛不住这个成本"
+        "source": "说明",
+        "content": "本条为AMZ123政策解读文章，原文未包含具体卖家引用。以下对比表基于亚马逊官方政策整理。"
       }
     ],
     "comparison": [
@@ -137,16 +137,8 @@
     "source": "AWS / 中国新闻网",
     "sellerVoices": [
       {
-        "source": "知无不言",
-        "content": "爆款正好在宕机时段做秒杀，4个小时一单没出，广告费花了3000多美金，直接损失超2万美金"
-      },
-      {
-        "source": "AMZ123",
-        "content": "凌晨起来看后台，3个小时全店零单，ACoS直接冲到80%，以为账号被封了"
-      },
-      {
-        "source": "Reddit r/FBA",
-        "content": "这是半年内第二次大规模宕机了，平台技术团队裁员后稳定性越来越差，我们卖家却要承担所有损失"
+        "source": "说明",
+        "content": "本条基于AWS服务状态页和中国新闻网报道整理，原文未包含具体卖家引用。"
       }
     ],
     "comparison": [
@@ -192,16 +184,8 @@
     "source": "亚马逊官方",
     "sellerVoices": [
       {
-        "source": "知无不言",
-        "content": "我们用的第三方调价工具已经发通知了，要是不合规随时会被平台切断，现在只能换回手动调价"
-      },
-      {
-        "source": "卖家之家",
-        "content": "禁止用平台数据训练AI，那市面上大部分选品工具都要凉，以后选品只能靠自己瞎摸了"
-      },
-      {
-        "source": "Reddit r/FBA",
-        "content": "平台就是想把所有第三方工具都清出去，推自己的AI工具，以后卖家只能用亚马逊的原生工具"
+        "source": "说明",
+        "content": "本条为AMZ123政策解读文章，原文未包含具体卖家引用。以下对比表基于亚马逊BSA协议更新内容整理。"
       }
     ],
     "comparison": [
@@ -252,16 +236,8 @@
     "source": "亚马逊招商经理确认 / 行业媒体",
     "sellerVoices": [
       {
-        "source": "知无不言",
-        "content": "Prime折扣不显示标志了，之前靠这个拉会员转化，现在开了和没开一样，只能转去报秒杀"
-      },
-      {
-        "source": "卖家之家",
-        "content": "新增10天预热期，之前的运营节奏全乱了，现在只能提前开优惠券拉加购"
-      },
-      {
-        "source": "Reddit r/FBA",
-        "content": "免费的秒杀坑位，现在报的人巨多，竞争比去年大了一倍，小卖家根本抢不到好的时段"
+        "source": "说明",
+        "content": "本条基于亚马逊招商经理确认和行业媒体报道整理，暂无亚马逊全球官网正式公告。"
       }
     ],
     "comparison": [
@@ -309,27 +285,26 @@
   {
     "id": "vos_auto_006",
     "rank": 6,
-    "title": "亚马逊(AMZN.US)新政引发卖方“现金流危机”，大型商户发起24小时广告抵制行动",
+    "title": "紧急预警！2026亚马逊Prime day规则升级",
     "verified": "unconfirmed",
-    "effectDate": "2026-04-16",
-    "summary": "亚马逊(AMZN.US)新政引发卖方“现金流危机”，大型商户发起24小时广告抵制行动  新浪财经",
-    "source": "新浪财经",
-    "topic": "advertising",
-    "topicLabel": "📢 广告",
+    "effectDate": "2026-04-20",
+    "summary": "紧急预警！2026亚马逊Prime day规则升级！  雨果跨境",
+    "source": "雨果跨境",
+    "topic": "promotion",
+    "topicLabel": "🏷️ 促销",
     "engineLabel": "📡 社媒雷达",
-    "alertScore": 3.0,
-    "confirmationLabel": "",
+    "alertScore": 7,
     "sellerVoices": [],
     "comparison": [],
     "links": [
       {
-        "label": "新浪财经",
-        "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxNTVlqSVplOTVLWEFHMWI3WkMtZzFJV3BLR19CUlV1andsbjRZS0F4TU8xRFpHaklWdEZjMXktNWE3UWJiX3lfeHVkYmdxZFBmdGZ3Q0gyTmJKQktKZWZvZkdrY1RxQlo2dk94VGVGeVU5TkdxbWxMMzI2VzV6U1BiZjJPMGZBTmFNVWgwSWdMMElJUi1jT0tfb1J3VDhfVFhmbTJkYzRKbmNOSnI5Y09XWjdVSmVQcjVHbVlKcHN5N0kwdExhdnNibFdPU3RnMnJ6M1hFLXAtbUZ6RFVpVjNDQmFuVjZfMHdpdk4xbnFlZ1p0bFBURHVHVzlDSTRwRWEzR0E?oc=5"
+        "label": "雨果跨境",
+        "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE92YkVudlgyaGVHWE1WWW9TVGxMV01VYU1UNTg5ZnhQWXJiYXRLZ3dkLXdRUnNoNVZHNk5JUXVRckFGYU82MElMQUk4NldjWVk?oc=5"
       }
     ]
   },
   {
-    "id": "vos_auto_007",
+    "id": "vos_auto_008",
     "rank": 7,
     "title": "亚马逊欧洲站卖家请注意：6月30日COO强制执行！附官方资源与高频问答",
     "verified": "unconfirmed",
@@ -337,10 +312,9 @@
     "summary": "亚马逊欧洲站卖家请注意：6月30日COO强制执行！附官方资源与高频问答  雨果跨境",
     "source": "雨果跨境",
     "topic": "trending",
-    "topicLabel": "🔥 趋势",
+    "topicLabel": "🔥 选品/趋势",
     "engineLabel": "📡 社媒雷达",
-    "alertScore": 3.0,
-    "confirmationLabel": "",
+    "alertScore": 6,
     "sellerVoices": [],
     "comparison": [],
     "links": [
@@ -351,24 +325,191 @@
     ]
   },
   {
-    "id": "vos_auto_008",
+    "id": "vos_auto_009",
     "rank": 8,
-    "title": "紧急预警！2026亚马逊Prime day规则升级",
+    "title": "Amazon Sellers Protest Policy Changes With One-Day Ad Boycott",
     "verified": "unconfirmed",
-    "effectDate": "2026-04-20",
-    "summary": "紧急预警！2026亚马逊Prime day规则升级！  雨果跨境",
-    "source": "雨果跨境",
-    "topic": "promotion",
-    "topicLabel": "🏷️ 促销",
+    "effectDate": "2026-04-16",
+    "summary": "Amazon Sellers Protest Policy Changes With One-Day Ad Boycott  PYMNTS.com",
+    "source": "PYMNTS.com",
+    "topic": "trending",
+    "topicLabel": "🔥 选品/趋势",
+    "engineLabel": "📋 官方情报",
+    "alertScore": 5,
+    "sellerVoices": [],
+    "comparison": [],
+    "links": [
+      {
+        "label": "PYMNTS.com",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQVlhfeUl0STBwdWQ4c2dVdDRIUDVkMzlXNHA5bTlfTTJDaDJOVTAzWlZSLU5CUjRKZ3JwMnhCa3F0cjBUSmpyNW02T3lLRXdaeUR3YkFIMlFpZG1tUzgtZFVkcl9GeDBGcmk4NTNzUHc2Yy1QRlZHMjlHSDI5azNibWpzTjZsNzhyT1BzRTJoM3dzd0szTWZGYWtUeEcwQQ?oc=5"
+      }
+    ]
+  },
+  {
+    "id": "vos_auto_010",
+    "rank": 9,
+    "title": "亚马逊(AMZN.US)新政引发卖方“现金流危机”，大型商户发起24小时广告抵制行动",
+    "verified": "unconfirmed",
+    "effectDate": "2026-04-16",
+    "summary": "亚马逊(AMZN.US)新政引发卖方“现金流危机”，大型商户发起24小时广告抵制行动  新浪财经",
+    "source": "新浪财经",
+    "topic": "advertising",
+    "topicLabel": "📢 广告",
     "engineLabel": "📡 社媒雷达",
-    "alertScore": 2.0,
-    "confirmationLabel": "",
+    "alertScore": 4,
+    "sellerVoices": [],
+    "comparison": [],
+    "links": [
+      {
+        "label": "新浪财经",
+        "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxNTVlqSVplOTVLWEFHMWI3WkMtZzFJV3BLR19CUlV1andsbjRZS0F4TU8xRFpHaklWdEZjMXktNWE3UWJiX3lfeHVkYmdxZFBmdGZ3Q0gyTmJKQktKZWZvZkdrY1RxQlo2dk94VGVGeVU5TkdxbWxMMzI2VzV6U1BiZjJPMGZBTmFNVWgwSWdMMElJUi1jT0tfb1J3VDhfVFhmbTJkYzRKbmNOSnI5Y09XWjdVSmVQcjVHbVlKcHN5N0kwdExhdnNibFdPU3RnMnJ6M1hFLXAtbUZ6RFVpVjNDQmFuVjZfMHdpdk4xbnFlZ1p0bFBURHVHVzlDSTRwRWEzR0E?oc=5"
+      }
+    ]
+  },
+  {
+    "id": "vos_auto_013",
+    "rank": 10,
+    "title": "Amazon's new AI agent rules shake up sellers before March 4 deadline",
+    "verified": "unconfirmed",
+    "effectDate": "2026-02-22",
+    "summary": "Amazon's new AI agent rules shake up sellers before March 4 deadline  PPC Land",
+    "source": "PPC Land",
+    "topic": "advertising",
+    "topicLabel": "📢 广告",
+    "engineLabel": "📋 官方情报",
+    "alertScore": 3,
+    "sellerVoices": [],
+    "comparison": [],
+    "links": [
+      {
+        "label": "PPC Land",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPRVNPWE1LaklqUXNZV2RGaFFSNWRvckhRMTlJbEdkN3psX0NCWV8tYVFkekhCd0J5VkVJak9tSkNPTTZIRHMyWWhQNko2REVGclY2UElWSTE2VjU4ZEtRTG1EbUVLeGk4ZzRiWExkay1vZDUwWC1RZEJGcGdWak9EQjUtcThVM24xTU5qSE5B?oc=5"
+      }
+    ]
+  },
+  {
+    "id": "vos_auto_014",
+    "rank": 11,
+    "title": "亚马逊卖家注意啦！2026年FBA费用调整提前生效",
+    "verified": "unconfirmed",
+    "effectDate": "2026-01-05",
+    "summary": "亚马逊卖家注意啦！2026年FBA费用调整提前生效！  雨果跨境",
+    "source": "雨果跨境",
+    "topic": "logistics",
+    "topicLabel": "🚚 物流",
+    "engineLabel": "📋 官方情报",
+    "alertScore": 3,
     "sellerVoices": [],
     "comparison": [],
     "links": [
       {
         "label": "雨果跨境",
-        "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE92YkVudlgyaGVHWE1WWW9TVGxMV01VYU1UNTg5ZnhQWXJiYXRLZ3dkLXdRUnNoNVZHNk5JUXVRckFGYU82MElMQUk4NldjWVk?oc=5"
+        "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5NQkotbDRHTXZ6bXY2REdQQncxd2ZVTjB1bnZmLThlQzFmNXZPbWpfb0M0UkcyY0dvQWFkOFk2QV9uN1d4UWhQN0FDYmY?oc=5"
+      }
+    ]
+  },
+  {
+    "id": "vos_auto_015",
+    "rank": 12,
+    "title": "亚马逊调整FBA费用及销售佣金；TikTok Shop推出“一商卖全球”",
+    "verified": "unconfirmed",
+    "effectDate": "2026-01-03",
+    "summary": "亚马逊调整FBA费用及销售佣金；TikTok Shop推出“一商卖全球”丨跨境电商周报  Moomoo",
+    "source": "Moomoo",
+    "topic": "logistics",
+    "topicLabel": "🚚 物流",
+    "engineLabel": "📋 官方情报",
+    "alertScore": 3,
+    "sellerVoices": [],
+    "comparison": [],
+    "links": [
+      {
+        "label": "Moomoo",
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBsUkZJcllZd3MtY2twU05pSlQ5Rkg4ckRYT3VBb2V2M1FtWTBsdDVSejF6ei1TbWxHWlNoYUlidW1PRmllaTVuWjFFcUI2VlFTQjhrTU9KTzYyZw?oc=5"
+      }
+    ]
+  },
+  {
+    "id": "vos_auto_018",
+    "rank": 13,
+    "title": "亚马逊欧洲站开售提速三步指南：VAT、IEN、FBA这样做，最快4周快速开售",
+    "verified": "unconfirmed",
+    "effectDate": "2026-04-23",
+    "summary": "亚马逊欧洲站开售提速三步指南：VAT、IEN、FBA这样做，最快4周快速开售  雨果跨境",
+    "source": "雨果跨境",
+    "topic": "tax",
+    "topicLabel": "💰 税务",
+    "engineLabel": "📡 社媒雷达",
+    "alertScore": 2,
+    "sellerVoices": [],
+    "comparison": [],
+    "links": [
+      {
+        "label": "雨果跨境",
+        "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBpSEtaczRKclZya294Q19DZkpmc0VyTkpqVW5ETHlfM2g5RjVtUktJOGRYeERkOGpXZ3Rhbno0VVpIczctZDk0aU9ZVGs?oc=5"
+      }
+    ]
+  },
+  {
+    "id": "vos_auto_019",
+    "rank": 14,
+    "title": "Amazon's Seller Assistant now checks review sharing eligibility per variation",
+    "verified": "unconfirmed",
+    "effectDate": "2026-04-18",
+    "summary": "Amazon's Seller Assistant now checks review sharing eligibility per variation  PPC Land",
+    "source": "PPC Land",
+    "topic": "advertising",
+    "topicLabel": "📢 广告",
+    "engineLabel": "📋 官方情报",
+    "alertScore": 2,
+    "sellerVoices": [],
+    "comparison": [],
+    "links": [
+      {
+        "label": "PPC Land",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOTF9IVEFtYW9WYnhBeldib01fWU84UGthUXJVN2lxUEJHakZWMFhIeEc0S2xuRnhUR1pwRlU1RUllU1VmMkhLMjNfQkJaanpfczhrUVpybERnRTlPNl9kUjBVTXJrNm5TeDFtRnhBN0owSlZzLVBKbXd0MnVkUnMtQlZ1cVlSLVdnaEtyS3BLSE0tSHBaTWwwVXFR?oc=5"
+      }
+    ]
+  },
+  {
+    "id": "vos_auto_020",
+    "rank": 15,
+    "title": "Amazon sellers face a cash crunch due to new fees, policy changes",
+    "verified": "unconfirmed",
+    "effectDate": "2026-04-09",
+    "summary": "Amazon sellers face a cash crunch due to new fees, policy changes  Modern Retail",
+    "source": "Modern Retail",
+    "topic": "trending",
+    "topicLabel": "🔥 选品/趋势",
+    "engineLabel": "📋 官方情报",
+    "alertScore": 2,
+    "sellerVoices": [],
+    "comparison": [],
+    "links": [
+      {
+        "label": "Modern Retail",
+        "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPaEVXRFQxaXFFV3FqTGFpSjlEcDBFbjROYUVtTFQtaVFmekpfblZsazJ3MGJranRVNFp0NjAzd2JZUXJZVVBfblVXY2YycWtjdUJlbHV1RkpwZXRCR1hGazR5WjktODJUcDJxMGtPS1V2MHdCLThJeVhPeHAtZU9QaGNDb2dYSEo5bkpucWNXVmRhMllzbUFnS3V0a0IwYjdBWmZVanBjdk1SdFpnd2Q5QXBUY1NoU3RCYldqNEtOSVZsNVRCWlRsX1pBR0s5S2pSMUVBNDdKVVA2UEhPNkpzY3lGa2JKVGdObVhrdWFwUWFldmVhZ3ZVNVRKM2V0enRBeHMw?oc=5"
+      }
+    ]
+  },
+  {
+    "id": "vos_auto_021",
+    "rank": 16,
+    "title": "调整！2026年亚马逊日本站费用“大洗牌”",
+    "verified": "unconfirmed",
+    "effectDate": "2026-04-01",
+    "summary": "重磅调整！2026年亚马逊日本站费用“大洗牌”  雨果跨境",
+    "source": "雨果跨境",
+    "topic": "trending",
+    "topicLabel": "🔥 选品/趋势",
+    "engineLabel": "📋 官方情报",
+    "alertScore": 2,
+    "sellerVoices": [],
+    "comparison": [],
+    "links": [
+      {
+        "label": "雨果跨境",
+        "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5ucFJSYnM4SXpvUjVvZ0FabVFqMURQWUlkTG1Cd29oSWtBd2JDcVpMOHVtN1cwOG9MVGJpOU53WHVFcEt2UjRGU0I4bmU?oc=5"
       }
     ]
   }

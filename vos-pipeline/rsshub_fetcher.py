@@ -24,13 +24,11 @@ class RSSHubFetcher:
     NATIVE_RSS = {
         "Value Added Resource": "https://www.valueaddedresource.net/feed/",
     }
-    TIMEOUT = 15  # seconds per source
+    TIMEOUT = 5  # seconds per source (reduced from 15 to avoid pipeline stalling)
 
-    # Multiple RSSHub instances for fallback
+    # Multiple RSSHub instances — only try first one, skip if fails
     RSSHUB_INSTANCES = [
         "https://rsshub.rssforever.com",
-        "https://rsshub.moeyy.cn",
-        "https://rsshub.app",
     ]
 
     # Map route keys to display source names

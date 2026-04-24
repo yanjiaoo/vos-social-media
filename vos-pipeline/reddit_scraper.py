@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+﻿#!/usr/bin/env python3
 """
 Reddit deep scraper with comment analysis for Amazon seller subreddits.
 Uses the public JSON API (no OAuth required).
@@ -77,7 +77,7 @@ class RedditScraper:
         
         req = urllib.request.Request(url, headers=headers)
         try:
-            with urllib.request.urlopen(req, timeout=15) as resp:
+            with urllib.request.urlopen(req, timeout=8) as resp:
                 return json.loads(resp.read().decode("utf-8"))
         except urllib.error.HTTPError as e:
             if e.code == 429:
@@ -86,7 +86,7 @@ class RedditScraper:
                 # Retry once
                 self._throttle()
                 req2 = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
-                with urllib.request.urlopen(req2, timeout=15) as resp:
+                with urllib.request.urlopen(req2, timeout=8) as resp:
                     return json.loads(resp.read().decode("utf-8"))
             raise
 
@@ -205,3 +205,4 @@ class RedditScraper:
                 all_items.append(item)
             print(f"  [Reddit] Got {len([i for i in all_items if i.source_platform == source_name])} posts from r/{sub}")
         return all_items
+

@@ -265,10 +265,10 @@
   {
     "id": "vos_auto_006",
     "rank": 6,
-    "title": "亚马逊(AMZN.US)新政引发卖方“现金流危机”，大型商户发起24小时广告抵制行动",
+    "title": "亚马逊FBA加收3.5%%燃油附加费，大型商户发起24小时广告抵制行动",
     "verified": "unconfirmed",
     "effectDate": "2026-04-16",
-    "summary": "亚马逊(AMZN.US)新政引发卖方“现金流危机”，大型商户发起24小时广告抵制行动  新浪财经",
+    "summary": "2026年4月，亚马逊宣布自4月17日起对FBA履约费加收3.5%%燃油及物流附加费（平均每件+0.17美元），覆盖美国和加拿大FBA、MCF及Buy with Prime。大型商户发起24小时广告抵制行动抗议。这是继DD+7资金预留、FBA共享库存终止、API收费等一系列政策后的又一成本增加。",
     "source": "新浪财经",
     "topic": "advertising",
     "topicLabel": "📢 广告",
@@ -282,15 +282,16 @@
         "label": "新浪财经",
         "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxNTVlqSVplOTVLWEFHMWI3WkMtZzFJV3BLR19CUlV1andsbjRZS0F4TU8xRFpHaklWdEZjMXktNWE3UWJiX3lfeHVkYmdxZFBmdGZ3Q0gyTmJKQktKZWZvZkdrY1RxQlo2dk94VGVGeVU5TkdxbWxMMzI2VzV6U1BiZjJPMGZBTmFNVWgwSWdMMElJUi1jT0tfb1J3VDhfVFhmbTJkYzRKbmNOSnI5Y09XWjdVSmVQcjVHbVlKcHN5N0kwdExhdnNibFdPU3RnMnJ6M1hFLXAtbUZ6RFVpVjNDQmFuVjZfMHdpdk4xbnFlZ1p0bFBURHVHVzlDSTRwRWEzR0E?oc=5"
       }
-    ]
+    ],
+    "aiSummarized": true
   },
   {
     "id": "vos_auto_007",
     "rank": 7,
-    "title": "亚马逊欧洲站卖家请注意：6月30日COO强制执行！附官方资源与高频问答",
+    "title": "亚马逊欧洲站6月30日起强制执行COO原产国标注，未标注商品将下架",
     "verified": "unconfirmed",
     "effectDate": "2026-04-23",
-    "summary": "亚马逊欧洲站卖家请注意：6月30日COO强制执行！附官方资源与高频问答  雨果跨境",
+    "summary": "亚马逊欧洲站要求所有卖家在2026年6月30日前完成商品原产国（COO）标注，届时未标注COO的商品将无法在欧洲站销售。该政策涉及所有FBA和FBM商品，卖家需在商品详情页和实物包装上同时标注原产国信息。",
     "source": "雨果跨境",
     "topic": "trending",
     "topicLabel": "🔥 趋势",
@@ -304,15 +305,16 @@
         "label": "雨果跨境",
         "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFA0NjBIcjBSYjlwVnhXaGg5T0Z5SXBIbzljLWkxTUZNNDBvcXZiQ1NLS1NiamllWWxuVEhHNUpFVy00bGVJVzB2R0U4WWY?oc=5"
       }
-    ]
+    ],
+    "aiSummarized": true
   },
   {
     "id": "vos_auto_008",
     "rank": 8,
-    "title": "紧急预警！2026亚马逊Prime day规则升级",
+    "title": "2026亚马逊Prime Day规则升级：价格与折扣要求全面提高",
     "verified": "unconfirmed",
     "effectDate": "2026-04-20",
-    "summary": "紧急预警！2026亚马逊Prime day规则升级！  雨果跨境",
+    "summary": "2026年亚马逊Prime Day对参与商品的价格和折扣要求进行全面升级，包括最低折扣比例提高、价格基准期计算方式调整、以及对历史最低价的更严格审核。卖家需提前调整定价策略以满足新的参与门槛。",
     "source": "雨果跨境",
     "topic": "promotion",
     "topicLabel": "🏷️ 促销",
@@ -326,6 +328,7 @@
         "label": "雨果跨境",
         "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE92YkVudlgyaGVHWE1WWW9TVGxMV01VYU1UNTg5ZnhQWXJiYXRLZ3dkLXdRUnNoNVZHNk5JUXVRckFGYU82MElMQUk4NldjWVk?oc=5"
       }
-    ]
+    ],
+    "aiSummarized": true
   }
 ]

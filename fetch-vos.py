@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+﻿#!/usr/bin/env python3
 """
 VOS From Social Media v4
 第一步：Reddit 评论区深度抓取（评论数+确认词权重）
@@ -361,6 +361,25 @@ def main():
         })
         rank += 1
 
+    
+    # Preserve AI summaries from existing data
+    existing_ai = {}
+    try:
+        with open('vos-data.json', 'r', encoding='utf-8') as f:
+            old_data = json.load(f)
+        for old_item in old_data:
+            if old_item.get('aiSummarized'):
+                existing_ai[old_item.get('title', '')] = old_item.get('summary', '')
+    except Exception:
+        pass
+
+    # Apply preserved AI summaries to matching items
+    for item in final:
+        title = item.get('title', '')
+        if title in existing_ai and not item.get('aiSummarized'):
+            item['summary'] = existing_ai[title]
+            item['aiSummarized'] = True
+
     with open('vos-data.json', 'w', encoding='utf-8') as f:
         json.dump(final, f, ensure_ascii=False, indent=2)
 
@@ -369,3 +388,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+

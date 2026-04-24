@@ -29,7 +29,7 @@ from manual_entry import ManualEntryPreserver
 
 class VOSPipeline:
     TOTAL_TOPICS = 20
-    EXECUTION_TIMEOUT = 120  # seconds
+    EXECUTION_TIMEOUT = 180  # seconds (3 API calls: topics + titles + summaries)
     OUTPUT_FILE = "vos-data.json"
 
     def __init__(self):
@@ -209,6 +209,14 @@ class VOSPipeline:
                 ai_topics = self.deepseek.optimize_titles(ai_topics)
             except Exception as e:
                 print(f"  [DeepSeek] Title optimization failed: {e}")
+
+        # 7b. Enrich short summaries with DeepSeek
+        if ai_topics and not self._check_timeout():
+            print("\n[Phase 6c] Enriching short summaries...")
+            try:
+                ai_topics = self.deepseek.enrich_short_summaries(ai_topics)
+            except Exception as e:
+                print(f"  [DeepSeek] Summary enrichment failed: {e}")
 
         # 8. Enrich Reddit data into AI topics
         print("\n[Phase 7] Enriching with Reddit data...")

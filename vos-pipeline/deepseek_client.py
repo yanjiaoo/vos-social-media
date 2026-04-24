@@ -206,3 +206,42 @@ class DeepSeekClient:
                 "sourceBreakdown": {},
                 "sellerConsensus": "",
             }
+
+    def optimize_titles(self, topics: list) -> list:
+        """Use DeepSeek to rewrite clickbait titles into factual news-style titles."""
+        titles = [t.get("title", "") for t in topics if t.get("title")]
+        if not titles:
+            return topics
+
+        titles_text = "\n".join([f"{i+1}. {t}" for i, t in enumerate(titles)])
+        prompt = f"""以下是从社媒抓取的亚马逊卖家话题标题，很多使用了博眼球的用词（问句、叹号、夸张语气）。
+请将每个标题改写为新闻播报式的陈述句，要求：
+- 核心信息前置
+- 去掉问句、叹号、"重磅"、"紧急"、"速看"等营销词
+- 保留具体的政策名称、数字、日期等关键信息
+- 中文输出
+
+原始标题：
+{titles_text}
+
+请以JSON格式返回：{{"titles": ["改写后的标题1", "改写后的标题2", ...]}}"""
+
+        messages = [
+            {"role": "system", "content": "你是专业的新闻编辑，擅长将社媒标题改写为客观、信息密度高的新闻标题。严格返回JSON格式。"},
+            {"role": "user", "content": prompt},
+        ]
+
+        try:
+            result = self._call_api(messages)
+            new_titles = result.get("titles", [])
+            if len(new_titles) == len(topics):
+                for i, topic in enumerate(topics):
+                    if new_titles[i] and len(new_titles[i]) > 5:
+                        topic["title"] = new_titles[i]
+                print(f"  [DeepSeek] Optimized {len(new_titles)} titles")
+            else:
+                print(f"  [DeepSeek] Title count mismatch ({len(new_titles)} vs {len(topics)}), skipping optimization")
+        except Exception as e:
+            print(f"  [DeepSeek] Title optimization failed: {e}, keeping original titles")
+
+        return topics

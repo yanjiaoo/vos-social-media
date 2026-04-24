@@ -138,6 +138,17 @@ class VOSPipeline:
                 print(f"  [RSSHub] Collection failed: {e}")
 
         candidate_pool = reddit_items + rss_items
+        
+        # 2b. If RSSHub got very few items, use Google News RSS as fallback
+        if len(rss_items) < 5 and not self._check_timeout():
+            print("\n[Phase 2b] RSSHub insufficient, using Google News RSS fallback...")
+            try:
+                google_items = self.rsshub.fetch_google_news_fallback()
+                candidate_pool.extend(google_items)
+                print(f"  Google News fallback: {len(google_items)} items")
+            except Exception as e:
+                print(f"  [Google News] Fallback failed: {e}")
+        
         print(f"  Total candidate pool: {len(candidate_pool)} items")
 
         # 3. Filter noise
@@ -191,7 +202,15 @@ class VOSPipeline:
                 except Exception as e:
                     print(f"  [DeepSeek] Briefing failed: {e}")
 
-        # 7. Enrich Reddit data into AI topics
+        # 7. Optimize titles with DeepSeek (remove clickbait, make factual)
+        if ai_topics and not self._check_timeout():
+            print("\n[Phase 6b] Optimizing titles...")
+            try:
+                ai_topics = self.deepseek.optimize_titles(ai_topics)
+            except Exception as e:
+                print(f"  [DeepSeek] Title optimization failed: {e}")
+
+        # 8. Enrich Reddit data into AI topics
         print("\n[Phase 7] Enriching with Reddit data...")
         for topic in ai_topics:
             # Try to match with Reddit items for confirmation data

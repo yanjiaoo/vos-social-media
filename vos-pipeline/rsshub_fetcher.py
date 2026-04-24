@@ -24,6 +24,18 @@ class RSSHubFetcher:
     NATIVE_RSS = {
         "Value Added Resource": "https://www.valueaddedresource.net/feed/",
     }
+    
+    # Google News RSS as fallback (always works from GitHub Actions)
+    GOOGLE_NEWS_QUERIES = [
+        {"q": "知无不言 亚马逊 卖家 政策 OR 广告 OR 合规", "source": "知无不言", "lang": "zh"},
+        {"q": "卖家之家 亚马逊 政策 OR 费用 OR 广告", "source": "卖家之家", "lang": "zh"},
+        {"q": "AMZ123 亚马逊 卖家 政策 OR 热议", "source": "AMZ123", "lang": "zh"},
+        {"q": "雨果跨境 亚马逊 卖家 政策 OR FBA", "source": "雨果跨境", "lang": "zh"},
+        {"q": "亚马逊 FBA OR 广告 OR 账号 卖家 2026", "source": "行业媒体", "lang": "zh"},
+        {"q": "亚马逊卖家 政策 OR 变动 site:mp.weixin.qq.com", "source": "微信公众号", "lang": "zh"},
+        {"q": "Amazon seller policy change FBA fee 2026", "source": "Industry Media", "lang": "en"},
+        {"q": "Amazon FBA seller protest complaint 2026", "source": "Industry Media", "lang": "en"},
+    ]
     TIMEOUT = 5  # seconds per source (reduced from 15 to avoid pipeline stalling)
 
     # Multiple RSSHub instances — only try first one, skip if fails
@@ -198,4 +210,26 @@ class RSSHubFetcher:
             print(f"  [RSS] Got {len(items)} items from {source_name}")
 
         print(f"  [RSS] Total: {len(all_items)} items from all feeds")
+        return all_items
+
+    def _fetch_google_news_rss(self, query: str, lang: str, source_name: str, max_items: int = 8) -> list:
+        """Fetch from Google News RSS as fallback source."""
+        from urllib.parse import quote
+        hl = "zh-CN" if lang == "zh" else "en"
+        gl = "CN" if lang == "zh" else "US"
+        ceid = "CN:zh-Hans" if lang == "zh" else "US:en"
+        url = f"https://news.google.com/rss/search?q={quote(query)}&hl={hl}&gl={gl}&ceid={ceid}"
+        return self.fetch_feed(url, source_name)[:max_items]
+
+    def fetch_google_news_fallback(self) -> list:
+        """Fetch from Google News RSS queries as fallback when RSSHub fails."""
+        all_items = []
+        seen_titles = set()
+        for qcfg in self.GOOGLE_NEWS_QUERIES:
+            items = self._fetch_google_news_rss(qcfg["q"], qcfg["lang"], qcfg["source"])
+            for item in items:
+                if item.title not in seen_titles:
+                    seen_titles.add(item.title)
+                    all_items.append(item)
+        print(f"  [RSS] Google News fallback: {len(all_items)} items")
         return all_items

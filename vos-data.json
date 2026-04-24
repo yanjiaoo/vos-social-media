@@ -265,27 +265,26 @@
   {
     "id": "vos_auto_006",
     "rank": 6,
-    "title": "亚马逊(AMZN.US)新政引发卖方“现金流危机”，大型商户发起24小时广告抵制行动",
+    "title": "紧急预警！2026亚马逊Prime day规则升级",
     "verified": "unconfirmed",
-    "effectDate": "2026-04-16",
-    "summary": "亚马逊(AMZN.US)新政引发卖方“现金流危机”，大型商户发起24小时广告抵制行动  新浪财经",
-    "source": "新浪财经",
-    "topic": "advertising",
-    "topicLabel": "📢 广告",
+    "effectDate": "2026-04-20",
+    "summary": "紧急预警！2026亚马逊Prime day规则升级！  雨果跨境",
+    "source": "雨果跨境",
+    "topic": "promotion",
+    "topicLabel": "🏷️ 促销",
     "engineLabel": "📡 社媒雷达",
-    "alertScore": 3.0,
-    "confirmationLabel": "",
+    "alertScore": 7,
     "sellerVoices": [],
     "comparison": [],
     "links": [
       {
-        "label": "新浪财经",
-        "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxNTVlqSVplOTVLWEFHMWI3WkMtZzFJV3BLR19CUlV1andsbjRZS0F4TU8xRFpHaklWdEZjMXktNWE3UWJiX3lfeHVkYmdxZFBmdGZ3Q0gyTmJKQktKZWZvZkdrY1RxQlo2dk94VGVGeVU5TkdxbWxMMzI2VzV6U1BiZjJPMGZBTmFNVWgwSWdMMElJUi1jT0tfb1J3VDhfVFhmbTJkYzRKbmNOSnI5Y09XWjdVSmVQcjVHbVlKcHN5N0kwdExhdnNibFdPU3RnMnJ6M1hFLXAtbUZ6RFVpVjNDQmFuVjZfMHdpdk4xbnFlZ1p0bFBURHVHVzlDSTRwRWEzR0E?oc=5"
+        "label": "雨果跨境",
+        "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE92YkVudlgyaGVHWE1WWW9TVGxMV01VYU1UNTg5ZnhQWXJiYXRLZ3dkLXdRUnNoNVZHNk5JUXVRckFGYU82MElMQUk4NldjWVk?oc=5"
       }
     ]
   },
   {
-    "id": "vos_auto_007",
+    "id": "vos_auto_008",
     "rank": 7,
     "title": "亚马逊欧洲站卖家请注意：6月30日COO强制执行！附官方资源与高频问答",
     "verified": "unconfirmed",
@@ -293,10 +292,9 @@
     "summary": "亚马逊欧洲站卖家请注意：6月30日COO强制执行！附官方资源与高频问答  雨果跨境",
     "source": "雨果跨境",
     "topic": "trending",
-    "topicLabel": "🔥 趋势",
+    "topicLabel": "🔥 选品/趋势",
     "engineLabel": "📡 社媒雷达",
-    "alertScore": 3.0,
-    "confirmationLabel": "",
+    "alertScore": 6,
     "sellerVoices": [],
     "comparison": [],
     "links": [
@@ -307,24 +305,191 @@
     ]
   },
   {
-    "id": "vos_auto_008",
+    "id": "vos_auto_009",
     "rank": 8,
-    "title": "紧急预警！2026亚马逊Prime day规则升级",
+    "title": "Amazon Sellers Protest Policy Changes With One-Day Ad Boycott",
     "verified": "unconfirmed",
-    "effectDate": "2026-04-20",
-    "summary": "紧急预警！2026亚马逊Prime day规则升级！  雨果跨境",
-    "source": "雨果跨境",
-    "topic": "promotion",
-    "topicLabel": "🏷️ 促销",
+    "effectDate": "2026-04-16",
+    "summary": "Amazon Sellers Protest Policy Changes With One-Day Ad Boycott  PYMNTS.com",
+    "source": "PYMNTS.com",
+    "topic": "trending",
+    "topicLabel": "🔥 选品/趋势",
+    "engineLabel": "📋 官方情报",
+    "alertScore": 5,
+    "sellerVoices": [],
+    "comparison": [],
+    "links": [
+      {
+        "label": "PYMNTS.com",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQVlhfeUl0STBwdWQ4c2dVdDRIUDVkMzlXNHA5bTlfTTJDaDJOVTAzWlZSLU5CUjRKZ3JwMnhCa3F0cjBUSmpyNW02T3lLRXdaeUR3YkFIMlFpZG1tUzgtZFVkcl9GeDBGcmk4NTNzUHc2Yy1QRlZHMjlHSDI5azNibWpzTjZsNzhyT1BzRTJoM3dzd0szTWZGYWtUeEcwQQ?oc=5"
+      }
+    ]
+  },
+  {
+    "id": "vos_auto_010",
+    "rank": 9,
+    "title": "亚马逊(AMZN.US)新政引发卖方“现金流危机”，大型商户发起24小时广告抵制行动",
+    "verified": "unconfirmed",
+    "effectDate": "2026-04-16",
+    "summary": "亚马逊(AMZN.US)新政引发卖方“现金流危机”，大型商户发起24小时广告抵制行动  新浪财经",
+    "source": "新浪财经",
+    "topic": "advertising",
+    "topicLabel": "📢 广告",
     "engineLabel": "📡 社媒雷达",
-    "alertScore": 2.0,
-    "confirmationLabel": "",
+    "alertScore": 4,
+    "sellerVoices": [],
+    "comparison": [],
+    "links": [
+      {
+        "label": "新浪财经",
+        "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxNTVlqSVplOTVLWEFHMWI3WkMtZzFJV3BLR19CUlV1andsbjRZS0F4TU8xRFpHaklWdEZjMXktNWE3UWJiX3lfeHVkYmdxZFBmdGZ3Q0gyTmJKQktKZWZvZkdrY1RxQlo2dk94VGVGeVU5TkdxbWxMMzI2VzV6U1BiZjJPMGZBTmFNVWgwSWdMMElJUi1jT0tfb1J3VDhfVFhmbTJkYzRKbmNOSnI5Y09XWjdVSmVQcjVHbVlKcHN5N0kwdExhdnNibFdPU3RnMnJ6M1hFLXAtbUZ6RFVpVjNDQmFuVjZfMHdpdk4xbnFlZ1p0bFBURHVHVzlDSTRwRWEzR0E?oc=5"
+      }
+    ]
+  },
+  {
+    "id": "vos_auto_013",
+    "rank": 10,
+    "title": "Amazon's new AI agent rules shake up sellers before March 4 deadline",
+    "verified": "unconfirmed",
+    "effectDate": "2026-02-22",
+    "summary": "Amazon's new AI agent rules shake up sellers before March 4 deadline  PPC Land",
+    "source": "PPC Land",
+    "topic": "advertising",
+    "topicLabel": "📢 广告",
+    "engineLabel": "📋 官方情报",
+    "alertScore": 3,
+    "sellerVoices": [],
+    "comparison": [],
+    "links": [
+      {
+        "label": "PPC Land",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPRVNPWE1LaklqUXNZV2RGaFFSNWRvckhRMTlJbEdkN3psX0NCWV8tYVFkekhCd0J5VkVJak9tSkNPTTZIRHMyWWhQNko2REVGclY2UElWSTE2VjU4ZEtRTG1EbUVLeGk4ZzRiWExkay1vZDUwWC1RZEJGcGdWak9EQjUtcThVM24xTU5qSE5B?oc=5"
+      }
+    ]
+  },
+  {
+    "id": "vos_auto_014",
+    "rank": 11,
+    "title": "亚马逊卖家注意啦！2026年FBA费用调整提前生效",
+    "verified": "unconfirmed",
+    "effectDate": "2026-01-05",
+    "summary": "亚马逊卖家注意啦！2026年FBA费用调整提前生效！  雨果跨境",
+    "source": "雨果跨境",
+    "topic": "logistics",
+    "topicLabel": "🚚 物流",
+    "engineLabel": "📋 官方情报",
+    "alertScore": 3,
     "sellerVoices": [],
     "comparison": [],
     "links": [
       {
         "label": "雨果跨境",
-        "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE92YkVudlgyaGVHWE1WWW9TVGxMV01VYU1UNTg5ZnhQWXJiYXRLZ3dkLXdRUnNoNVZHNk5JUXVRckFGYU82MElMQUk4NldjWVk?oc=5"
+        "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5NQkotbDRHTXZ6bXY2REdQQncxd2ZVTjB1bnZmLThlQzFmNXZPbWpfb0M0UkcyY0dvQWFkOFk2QV9uN1d4UWhQN0FDYmY?oc=5"
+      }
+    ]
+  },
+  {
+    "id": "vos_auto_015",
+    "rank": 12,
+    "title": "亚马逊调整FBA费用及销售佣金；TikTok Shop推出“一商卖全球”",
+    "verified": "unconfirmed",
+    "effectDate": "2026-01-03",
+    "summary": "亚马逊调整FBA费用及销售佣金；TikTok Shop推出“一商卖全球”丨跨境电商周报  Moomoo",
+    "source": "Moomoo",
+    "topic": "logistics",
+    "topicLabel": "🚚 物流",
+    "engineLabel": "📋 官方情报",
+    "alertScore": 3,
+    "sellerVoices": [],
+    "comparison": [],
+    "links": [
+      {
+        "label": "Moomoo",
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBsUkZJcllZd3MtY2twU05pSlQ5Rkg4ckRYT3VBb2V2M1FtWTBsdDVSejF6ei1TbWxHWlNoYUlidW1PRmllaTVuWjFFcUI2VlFTQjhrTU9KTzYyZw?oc=5"
+      }
+    ]
+  },
+  {
+    "id": "vos_auto_018",
+    "rank": 13,
+    "title": "亚马逊欧洲站开售提速三步指南：VAT、IEN、FBA这样做，最快4周快速开售",
+    "verified": "unconfirmed",
+    "effectDate": "2026-04-23",
+    "summary": "亚马逊欧洲站开售提速三步指南：VAT、IEN、FBA这样做，最快4周快速开售  雨果跨境",
+    "source": "雨果跨境",
+    "topic": "tax",
+    "topicLabel": "💰 税务",
+    "engineLabel": "📡 社媒雷达",
+    "alertScore": 2,
+    "sellerVoices": [],
+    "comparison": [],
+    "links": [
+      {
+        "label": "雨果跨境",
+        "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBpSEtaczRKclZya294Q19DZkpmc0VyTkpqVW5ETHlfM2g5RjVtUktJOGRYeERkOGpXZ3Rhbno0VVpIczctZDk0aU9ZVGs?oc=5"
+      }
+    ]
+  },
+  {
+    "id": "vos_auto_019",
+    "rank": 14,
+    "title": "Amazon's Seller Assistant now checks review sharing eligibility per variation",
+    "verified": "unconfirmed",
+    "effectDate": "2026-04-18",
+    "summary": "Amazon's Seller Assistant now checks review sharing eligibility per variation  PPC Land",
+    "source": "PPC Land",
+    "topic": "advertising",
+    "topicLabel": "📢 广告",
+    "engineLabel": "📋 官方情报",
+    "alertScore": 2,
+    "sellerVoices": [],
+    "comparison": [],
+    "links": [
+      {
+        "label": "PPC Land",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOTF9IVEFtYW9WYnhBeldib01fWU84UGthUXJVN2lxUEJHakZWMFhIeEc0S2xuRnhUR1pwRlU1RUllU1VmMkhLMjNfQkJaanpfczhrUVpybERnRTlPNl9kUjBVTXJrNm5TeDFtRnhBN0owSlZzLVBKbXd0MnVkUnMtQlZ1cVlSLVdnaEtyS3BLSE0tSHBaTWwwVXFR?oc=5"
+      }
+    ]
+  },
+  {
+    "id": "vos_auto_020",
+    "rank": 15,
+    "title": "Amazon sellers face a cash crunch due to new fees, policy changes",
+    "verified": "unconfirmed",
+    "effectDate": "2026-04-09",
+    "summary": "Amazon sellers face a cash crunch due to new fees, policy changes  Modern Retail",
+    "source": "Modern Retail",
+    "topic": "trending",
+    "topicLabel": "🔥 选品/趋势",
+    "engineLabel": "📋 官方情报",
+    "alertScore": 2,
+    "sellerVoices": [],
+    "comparison": [],
+    "links": [
+      {
+        "label": "Modern Retail",
+        "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPaEVXRFQxaXFFV3FqTGFpSjlEcDBFbjROYUVtTFQtaVFmekpfblZsazJ3MGJranRVNFp0NjAzd2JZUXJZVVBfblVXY2YycWtjdUJlbHV1RkpwZXRCR1hGazR5WjktODJUcDJxMGtPS1V2MHdCLThJeVhPeHAtZU9QaGNDb2dYSEo5bkpucWNXVmRhMllzbUFnS3V0a0IwYjdBWmZVanBjdk1SdFpnd2Q5QXBUY1NoU3RCYldqNEtOSVZsNVRCWlRsX1pBR0s5S2pSMUVBNDdKVVA2UEhPNkpzY3lGa2JKVGdObVhrdWFwUWFldmVhZ3ZVNVRKM2V0enRBeHMw?oc=5"
+      }
+    ]
+  },
+  {
+    "id": "vos_auto_021",
+    "rank": 16,
+    "title": "调整！2026年亚马逊日本站费用“大洗牌”",
+    "verified": "unconfirmed",
+    "effectDate": "2026-04-01",
+    "summary": "重磅调整！2026年亚马逊日本站费用“大洗牌”  雨果跨境",
+    "source": "雨果跨境",
+    "topic": "trending",
+    "topicLabel": "🔥 选品/趋势",
+    "engineLabel": "📋 官方情报",
+    "alertScore": 2,
+    "sellerVoices": [],
+    "comparison": [],
+    "links": [
+      {
+        "label": "雨果跨境",
+        "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5ucFJSYnM4SXpvUjVvZ0FabVFqMURQWUlkTG1Cd29oSWtBd2JDcVpMOHVtN1cwOG9MVGJpOU53WHVFcEt2UjRGU0I4bmU?oc=5"
       }
     ]
   }

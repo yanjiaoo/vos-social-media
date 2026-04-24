@@ -1,8 +1,8 @@
-﻿name: VOS 自动更新（抓取+AI总结）
+name: 自动更新VOS卖家热议
 
 on:
   schedule:
-    - cron: '0 8 * * *'
+    - cron: '0 6 * * *'
   workflow_dispatch:
 
 permissions:
@@ -11,19 +11,20 @@ permissions:
 jobs:
   update-vos:
     runs-on: ubuntu-latest
+    timeout-minutes: 5
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
         with:
           python-version: '3.12'
 
-      - name: 抓取卖家热议（Reddit深度+中文社媒+官方核实）
-        run: python fetch-vos.py
-
-      - name: AI总结（DeepSeek）
+      - name: Run VOS AI Pipeline
         env:
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
-        run: python ai-summarize.py
+        run: python vos-pipeline/fetch_vos.py
 
       - name: Commit and Push
         run: |
@@ -31,8 +32,8 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add vos-data.json
           if git diff --staged --quiet; then
-            echo "No changes"
+            echo "No changes to commit"
           else
-            git commit -m "auto: VOS更新+AI总结 $(date +%Y-%m-%d)"
+            git commit -m "auto: 更新VOS卖家热议 $(date +%Y-%m-%d)"
             git push
           fi

@@ -5,8 +5,11 @@ Uses the public JSON API (no OAuth required).
 """
 import json
 import time
+import os
+import base64
 import urllib.request
 import urllib.error
+import urllib.parse
 from datetime import datetime, timezone
 
 from models import RawItem, CONFIRMATION_WORDS, get_source_priority
@@ -22,6 +25,38 @@ class RedditScraper:
 
     def __init__(self):
         self._last_request_time = 0
+        self._access_token = None
+        self._init_oauth()
+
+    def _init_oauth(self):
+        """Try to initialize Reddit OAuth. Falls back to public API if no credentials."""
+        client_id = os.environ.get("REDDIT_CLIENT_ID", "")
+        client_secret = os.environ.get("REDDIT_CLIENT_SECRET", "")
+        if client_id and client_secret:
+            try:
+                # Get OAuth token
+                auth_str = base64.b64encode(f"{client_id}:{client_secret}".encode()).decode()
+                data = urllib.parse.urlencode({"grant_type": "client_credentials"}).encode()
+                req = urllib.request.Request(
+                    "https://www.reddit.com/api/v1/access_token",
+                    data=data,
+                    headers={
+                        "Authorization": f"Basic {auth_str}",
+                        "User-Agent": USER_AGENT,
+                    },
+                    method="POST",
+                )
+                with urllib.request.urlopen(req, timeout=10) as resp:
+                    token_data = json.loads(resp.read().decode())
+                self._access_token = token_data.get("access_token")
+                if self._access_token:
+                    print("  [Reddit] OAuth authenticated successfully")
+                else:
+                    print("  [Reddit] OAuth failed, falling back to public API")
+            except Exception as e:
+                print(f"  [Reddit] OAuth init failed: {e}, falling back to public API")
+        else:
+            print("  [Reddit] No OAuth credentials, using public API")
 
     def _throttle(self):
         """Ensure minimum delay between requests."""
@@ -33,7 +68,14 @@ class RedditScraper:
     def _get_json(self, url: str) -> dict:
         """Fetch JSON from a URL with throttling and error handling."""
         self._throttle()
-        req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
+        headers = {"User-Agent": USER_AGENT}
+        
+        # Use OAuth API if authenticated
+        if self._access_token:
+            url = url.replace("https://www.reddit.com", "https://oauth.reddit.com")
+            headers["Authorization"] = f"Bearer {self._access_token}"
+        
+        req = urllib.request.Request(url, headers=headers)
         try:
             with urllib.request.urlopen(req, timeout=15) as resp:
                 return json.loads(resp.read().decode("utf-8"))

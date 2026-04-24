@@ -26,6 +26,13 @@ class RSSHubFetcher:
     }
     TIMEOUT = 15  # seconds per source
 
+    # Multiple RSSHub instances for fallback
+    RSSHUB_INSTANCES = [
+        "https://rsshub.rssforever.com",
+        "https://rsshub.moeyy.cn",
+        "https://rsshub.app",
+    ]
+
     # Map route keys to display source names
     _SOURCE_NAMES = {
         "知无不言_hot": "知无不言",
@@ -37,8 +44,9 @@ class RSSHubFetcher:
         "Value Added Resource": "Value Added Resource",
     }
 
-    def __init__(self, rsshub_base_url: str = "https://rsshub.app"):
-        self.rsshub_base_url = rsshub_base_url.rstrip("/")
+    def __init__(self, rsshub_base_url: str = None):
+        # If no URL provided, will try multiple instances
+        self.rsshub_base_url = rsshub_base_url
 
     def _parse_date(self, date_str: str) -> str:
         """Parse various date formats to ISO YYYY-MM-DD."""
@@ -148,19 +156,43 @@ class RSSHubFetcher:
             return []
 
     def fetch_all(self) -> list:
-        """Fetch all configured feeds, skipping failures gracefully."""
+        """Fetch all configured feeds, trying multiple RSSHub instances for fallback."""
         all_items = []
 
-        # RSSHub routes
-        for key, route in self.ROUTES.items():
-            source_name = self._SOURCE_NAMES.get(key, key)
-            url = f"{self.rsshub_base_url}{route}"
-            print(f"  [RSS] Fetching {source_name} from {url}...")
-            items = self.fetch_feed(url, source_name)
-            all_items.extend(items)
-            print(f"  [RSS] Got {len(items)} items from {source_name}")
+        # Determine which RSSHub instances to try
+        if self.rsshub_base_url:
+            instances = [self.rsshub_base_url.rstrip("/")]
+        else:
+            instances = self.RSSHUB_INSTANCES
 
-        # Native RSS feeds
+        # RSSHub routes — try each instance until one works
+        rsshub_success = False
+        for instance in instances:
+            print(f"  [RSS] Trying RSSHub instance: {instance}")
+            instance_items = []
+            failures = 0
+            for key, route in self.ROUTES.items():
+                source_name = self._SOURCE_NAMES.get(key, key)
+                url = f"{instance}{route}"
+                items = self.fetch_feed(url, source_name)
+                if items:
+                    instance_items.extend(items)
+                    print(f"  [RSS] Got {len(items)} items from {source_name}")
+                else:
+                    failures += 1
+            
+            if instance_items:
+                all_items.extend(instance_items)
+                rsshub_success = True
+                print(f"  [RSS] RSSHub instance {instance}: {len(instance_items)} items total")
+                break  # Found a working instance
+            else:
+                print(f"  [RSS] RSSHub instance {instance} failed ({failures} failures), trying next...")
+
+        if not rsshub_success:
+            print("  [RSS] All RSSHub instances failed")
+
+        # Native RSS feeds (always try these)
         for source_name, url in self.NATIVE_RSS.items():
             print(f"  [RSS] Fetching {source_name} (native)...")
             items = self.fetch_feed(url, source_name)

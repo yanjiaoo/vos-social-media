@@ -240,7 +240,11 @@ class VOSPipeline:
         valid_topics = self._assign_ranks(valid_topics)
         self._ensure_diversity(valid_topics)
 
-        # 11. Write output
+        # 11. Write output — SAFETY: never write empty file if we had existing data
+        if not valid_topics and existing:
+            print("\n[Phase 10] WARNING: No valid topics generated but existing data exists. Preserving existing data.")
+            return
+        
         print(f"\n[Phase 10] Writing {self.OUTPUT_FILE}...")
         with open(self.OUTPUT_FILE, "w", encoding="utf-8") as f:
             json.dump(valid_topics, f, ensure_ascii=False, indent=2)

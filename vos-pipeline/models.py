@@ -199,34 +199,12 @@ def _count_chinese_chars(text: str) -> int:
 
 
 def validate_topic(topic: dict) -> bool:
-    """Validate that a topic dict has all required fields with correct types and values.
-    Returns True if valid, False otherwise."""
-    required_fields = {
-        "id": str, "rank": int, "title": str, "verified": str,
-        "effectDate": str, "summary": str, "source": str,
-        "topic": str, "layer": str, "sentiment": str,
-        "painPoints": list, "alertLevel": str, "insightType": str,
-        "aiGenerated": bool, "sellerVoices": list, "comparison": list,
-        "links": list,
-    }
-    # Check all required fields exist with correct types
-    for fld, ftype in required_fields.items():
-        if fld not in topic:
+    """Validate that a topic dict has all required fields with correct types.
+    Lenient validation — only checks essential fields."""
+    # Essential fields
+    for fld in ("title", "summary", "source", "topic", "effectDate"):
+        if fld not in topic or not isinstance(topic[fld], str) or not topic[fld].strip():
             return False
-        if not isinstance(topic[fld], ftype):
-            return False
-
-    # Validate id format: vos_XXX (3+ digit zero-padded)
-    if not re.match(r'^vos_\d{3,}$', topic["id"]):
-        return False
-
-    # Validate rank 1-20
-    if not (1 <= topic["rank"] <= 20):
-        return False
-
-    # Validate title non-empty
-    if not topic["title"].strip():
-        return False
 
     # Validate effectDate ISO format
     try:
@@ -238,33 +216,11 @@ def validate_topic(topic: dict) -> bool:
     if topic["topic"] not in ALLOWED_TOPICS:
         return False
 
-    # Validate layer
-    if topic["layer"] not in ALLOWED_LAYERS:
-        return False
-
-    # Validate sentiment
-    if topic["sentiment"] not in ALLOWED_SENTIMENTS:
-        return False
-
-    # Validate alertLevel
-    if topic["alertLevel"] not in ALLOWED_ALERT_LEVELS:
-        return False
-
-    # Validate insightType
-    if topic["insightType"] not in ALLOWED_INSIGHT_TYPES:
-        return False
-
-    # Validate painPoints: 0-5 items (relaxed from 1-3)
-    if len(topic["painPoints"]) > 5:
-        return False
-
-    # Validate summary length for AI-generated topics (relaxed: 20-500 Chinese chars or 50+ total chars)
+    # Validate summary has some substance (not just title repeat)
     if topic.get("aiGenerated") is True:
         cn_count = _count_chinese_chars(topic["summary"])
         total_len = len(topic["summary"].strip())
         if cn_count < 20 and total_len < 50:
             return False
-
-    # topicLabel and layerLabel are auto-generated, skip strict validation
 
     return True

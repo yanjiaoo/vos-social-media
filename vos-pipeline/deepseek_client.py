@@ -80,7 +80,7 @@ class DeepSeekClient:
         # Build context from scraped items
         context_text = ""
         if context_items:
-            context_text = "\n\n以下是从Reddit和中文卖家论坛抓取的近期讨论，作为参考素材：\n"
+            context_text = "\n\n以下是从Google News和卖家论坛抓取的近期讨论，作为参考素材：\n"
             for i, item in enumerate(context_items[:30]):
                 context_text += f"\n{i+1}. [{item.source_platform}] {item.title}"
                 if item.content:
@@ -103,7 +103,7 @@ class DeepSeekClient:
   (c) 卖家反应：卖家社区的主流情绪和典型反馈（如"大量卖家反映现金流吃紧"、"中小卖家考虑转FBM"）
   (d) AM行动建议：对AM日常工作的意义，需要关注什么、如何帮助卖家应对
   **严禁**：摘要不能只是标题的重复或简单扩写，必须包含标题中没有的增量信息
-- source: 信息来源平台（从以下选择：Reddit r/FulfillmentByAmazon, Reddit r/AmazonSeller, 知无不言, AMZ123, Amazon Seller Central Forums, Value Added Resource, 卖家之家, 雨果跨境, 微信公众号）
+- source: 信息来源平台（从以下选择：知无不言, AMZ123, Amazon Seller Central Forums, Value Added Resource, 卖家之家, 雨果跨境, 微信公众号, PPC Land, 行业媒体）
 - topic: 话题分类（advertising/promotion/compliance/brand/returns/tax/logistics/trending）
 - layer: 信息层级（policy_impact/macro_event/emerging_unknown）
 - effectDate: 相关日期（YYYY-MM-DD格式）

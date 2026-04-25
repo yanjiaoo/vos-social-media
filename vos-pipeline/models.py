@@ -68,9 +68,7 @@ class RawItem:
     source_priority: str  # "high", "medium", "low"
     date: str             # ISO date YYYY-MM-DD
     url: str              # original URL, empty string if none
-    engagement: int = 0   # upvotes, comments, or 0
-    confirmation_count: int = 0
-    seller_voices: list = field(default_factory=list)
+    engagement: int = 0
 
 
 @dataclass

@@ -24,8 +24,6 @@ jobs:
       - name: Run VOS AI Pipeline
         env:
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
-          REDDIT_CLIENT_ID: ${{ secrets.REDDIT_CLIENT_ID }}
-          REDDIT_CLIENT_SECRET: ${{ secrets.REDDIT_CLIENT_SECRET }}
         run: python vos-pipeline/fetch_vos.py
 
       - name: Commit and Push

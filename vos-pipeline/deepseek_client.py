@@ -90,6 +90,8 @@ class DeepSeekClient:
 
         prompt = f"""你是一位资深的亚马逊Account Manager情报分析师。请基于你对亚马逊卖家社区的了解，生成20个当前最热门的亚马逊卖家话题。
 
+**重要限制：所有话题必须与亚马逊（Amazon）平台直接相关。严禁包含eBay、Shopify、沃尔玛、速卖通等其他电商平台的话题，除非该话题直接影响亚马逊卖家的经营决策。**
+
 {context_text}
 
 ## 话题分层要求
@@ -98,7 +100,7 @@ class DeepSeekClient:
 - Layer 3 - 盲区发现 (emerging_unknown): 5个话题 — 卖家在社媒上活跃讨论但AM可能不知道的问题，代表真正的信息盲区
 
 ## 每个话题必须包含以下字段
-- title: 中文标题，陈述式，核心信息前置，不要问句、叹号、"重磅"、"紧急"、"速看"等营销词
+- title: 中文标题（30-35字），陈述式，核心信息前置。要求：包含具体政策名称/数字/日期/影响范围等关键信息，让读者仅通过标题就能获取最多信息。不要问句、叹号、"重磅"、"紧急"、"速看"等营销词。示例："亚马逊全球站3月12日执行DD+7资金预留新政，FBM回款延长至30天"
 - summary: **这是最重要的字段**。AM视角的深度影响分析（150-300个中文字符），必须包含以下四个要素：
   (a) 核心事件：发生了什么，具体政策/事件名称、生效日期、适用范围
   (b) 影响分析：谁受影响（哪些站点、哪类卖家、哪些品类），具体影响方式和程度（用数字量化，如费用增加多少、周期延长多少天）
@@ -108,12 +110,12 @@ class DeepSeekClient:
 - source: 信息来源平台（从以下选择：知无不言, AMZ123, Amazon Seller Central Forums, Value Added Resource, 卖家之家, 雨果跨境, 微信公众号, PPC Land, 行业媒体）
 - topic: 话题分类（advertising/promotion/compliance/brand/returns/tax/logistics/trending）
 - layer: 信息层级（policy_impact/macro_event/emerging_unknown）
-- effectDate: 文章或帖子的实际发布日期（YYYY-MM-DD格式），不是政策生效日期。如果无法确定发布日期，使用你认为该话题最早被讨论的大致日期。严禁使用政策生效日期或未来日期。
+- effectDate: 必须使用参考素材中的实际发布日期（YYYY-MM-DD格式）。如果话题来自参考素材，直接使用素材的日期。如果是你补充的话题，使用2026-04-01作为默认日期。严禁编造精确日期，严禁使用未来日期。
 - sentiment: 卖家主导情绪（negative/neutral/positive）
 - painPoints: 1-3个具体卖家痛点（如"现金流压力"、"合规成本增加"）
 - alertLevel: 紧急程度（critical/high/normal）
 - insightType: 洞察类型（blind_spot/amplifier/confirmation）
-- links: 参考链接数组，每个包含label和url。**必须尽量提供真实链接**。优先使用参考素材中提供的原始URL。如果素材中有URL，必须包含在links中。只有在完全没有任何可用URL时，才放来源平台名称不放URL。严禁编造虚假URL。
+- links: 参考链接数组，每个包含label和url。**只能使用参考素材中提供的真实URL**。如果话题来自参考素材，必须引用素材的URL。如果没有对应的素材URL，links设为空数组[]。严禁编造URL，严禁放没有url字段的假链接。
 
 ## 摘要质量标准（极其重要）
 优秀摘要示例：
@@ -228,12 +230,13 @@ class DeepSeekClient:
             return topics
 
         titles_text = "\n".join([f"{i+1}. {t}" for i, t in enumerate(titles)])
-        prompt = f"""以下是从社媒抓取的亚马逊卖家话题标题，很多使用了博眼球的用词（问句、叹号、夸张语气）。
-请将每个标题改写为新闻播报式的陈述句，要求：
-- 核心信息前置
+        prompt = f"""以下是从社媒抓取的亚马逊卖家话题标题，请将每个标题改写为高信息密度的陈述句，要求：
+- 控制在30-35个中文字符
+- 核心信息前置，包含具体政策名称、数字、日期、影响范围等关键信息
+- 让读者仅通过标题就能获取最多信息
 - 去掉问句、叹号、"重磅"、"紧急"、"速看"等营销词
-- 保留具体的政策名称、数字、日期等关键信息
 - 中文输出
+- 示例："亚马逊全球站3月12日执行DD+7资金预留新政，FBM回款延长至30天"
 
 原始标题：
 {titles_text}

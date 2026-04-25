@@ -76,6 +76,18 @@ class VOSPipeline:
         topic["topic"] = normalize_category(topic.get("topic", ""))
         topic["topicLabel"] = TOPIC_LABELS.get(topic["topic"], "🔥 趋势")
         topic["source"] = normalize_source(topic.get("source", ""))
+
+        # Strip fake links — only keep links with real http URLs
+        if topic.get("links"):
+            topic["links"] = [l for l in topic["links"]
+                              if l.get("url", "").startswith("http")]
+
+        # For AI-generated topics, force date to pipeline run date
+        # DeepSeek cannot reliably produce real publication dates
+        if topic.get("aiGenerated") is True:
+            from datetime import datetime, timezone
+            topic["effectDate"] = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+
         return topic
 
     def run(self) -> None:

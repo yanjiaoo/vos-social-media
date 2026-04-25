@@ -349,8 +349,351 @@
     "id": "vos_012"
   },
   {
-    "id": "vos_013",
+    "title": "亚马逊2026年Prime Day规则大改，调整仓储限制及配送时效要求",
+    "summary": "2026年Prime Day规则发生重大变化：FBA库存入仓截止日期提前至6月15日，超期库存将收取额外仓储费（每立方英尺$5）；同时要求卖家设置更短的配送承诺时间（默认1天），否则无法参与Prime Day秒杀活动。部分仓库已出现爆仓，卖家发货计划受阻。大量卖家在论坛抱怨准备时间不足，建议AM协助卖家提前规划库存和物流。",
+    "source": "雨果跨境",
+    "topic": "logistics",
+    "topicLabel": "🚚 物流",
+    "layer": "policy_impact",
+    "layerLabel": "📋 政策影响",
+    "effectDate": "2026-04-25",
+    "sentiment": "negative",
+    "painPoints": [
+      "仓储限制",
+      "配送时效压力",
+      "爆仓风险"
+    ],
+    "alertLevel": "high",
+    "insightType": "confirmation",
+    "aiGenerated": true,
+    "links": [
+      {
+        "label": "2026亚马逊会员日规则大改，部分仓库严重爆仓，本周货该怎么发？",
+        "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9uckJJdGtHZ3ktb2Z2YkZQVUs1REZRTHd6OV8tT2pKclliVVBNa0VpUnpNUFRVV0lidmFPYzctNURxd0FuS0l3dTFlX2c?oc=5"
+      }
+    ],
+    "sellerVoices": [],
+    "comparison": [],
+    "verified": "unconfirmed",
     "rank": 13,
+    "id": "vos_013"
+  },
+  {
+    "title": "亚马逊开年扫号行动持续，评论政策大改后变体违规及刷单卖家大量被封",
+    "summary": "2026年初亚马逊加大账户审核力度，针对刷单、变体违规、评论操纵等行为进行大规模封号。据卖家反馈，被封账户数量较去年同期增长40%，许多老账户也未能幸免。同时评论政策更新，禁止共享变体评论，要求每个变体独立获取评论。卖家社区弥漫恐慌情绪，大量卖家寻求合规化转型。AM需帮助卖家进行账户健康检查，避免触发审核。",
+    "source": "雨果跨境",
+    "topic": "compliance",
+    "topicLabel": "⚖️ 合规",
+    "layer": "policy_impact",
+    "layerLabel": "📋 政策影响",
+    "effectDate": "2026-04-25",
+    "sentiment": "negative",
+    "painPoints": [
+      "账户被封",
+      "变体违规",
+      "评论政策变更"
+    ],
+    "alertLevel": "critical",
+    "insightType": "confirmation",
+    "aiGenerated": true,
+    "links": [
+      {
+        "label": "亚马逊开年暴击：卖家被扫号、评论政策大改",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE94SnJ3Yi1hSTgzMHVpNzhtQXFURGttS2ctNmlvV1Y1WjNvMkZ4d05zRkswVzdsOW1fVmhQZkJwS0s0WTJpSDh5ZV91SVdrTnNZUGRsbURDT2U3aVZ0SVFXa1d6UUh2VUtiZDlZdDNXYzVrTGdOcGF3SDJYY3lwbk0?oc=5"
+      }
+    ],
+    "sellerVoices": [],
+    "comparison": [],
+    "verified": "unconfirmed",
+    "rank": 14,
+    "id": "vos_014"
+  },
+  {
+    "title": "亚马逊2026年新卖家四大扶持计划上线，AI数字员工辅助运营首年销量目标增长10倍",
+    "summary": "亚马逊推出2026年新卖家四大扶持计划：包括新卖家启航计划（首年佣金减免50%）、AI数字员工辅助运营（自动优化Listing、广告投放）、品牌加速计划（免费Vine+品牌分析工具）、以及全球开店快速通道（7天完成账户审核）。官方宣称首年销量可达传统模式的10倍。卖家社区反应两极，部分认为AI工具实用性强，部分担心过度依赖AI失去自主控制。AM需向新卖家重点推荐该计划，并指导合理使用AI工具。",
+    "source": "行业媒体",
+    "topic": "promotion",
+    "topicLabel": "🏷️ 促销",
+    "layer": "policy_impact",
+    "layerLabel": "📋 政策影响",
+    "effectDate": "2026-04-25",
+    "sentiment": "positive",
+    "painPoints": [
+      "新卖家起步难",
+      "运营成本高"
+    ],
+    "alertLevel": "normal",
+    "insightType": "amplifier",
+    "aiGenerated": true,
+    "links": [
+      {
+        "label": "2026跨境新卖家“开挂”秘籍：亚马逊AI数字员工+官方路径，首年销量暴增10倍？！",
+        "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE4yT3NLekJQVlo0bU9Ya1l1MzJSdjRRSDUxbnNEVTNHN1FVaHVDLTFqZDVrYjZYVHlBZlZTaE1OcXJCTHBmbWxyLTNra1Y?oc=5"
+      }
+    ],
+    "sellerVoices": [],
+    "comparison": [],
+    "verified": "unconfirmed",
+    "rank": 15,
+    "id": "vos_015"
+  },
+  {
+    "title": "亚马逊北美站FBA长期仓储费调整，存放超365天库存每立方英尺费率提高至15美元",
+    "summary": "亚马逊宣布自2026年5月1日起，北美站FBA长期仓储费上调：存放365-730天的库存每立方英尺从$6.9涨至$15，超730天的从$13.8涨至$30。此举旨在清理冗余库存。卖家社区一片哀嚎，尤其是家居、服装等季节性品类卖家面临高额附加费。部分卖家开始紧急清货或移除库存。AM应提醒卖家定期清理冗余库存，避免长期仓储费侵蚀利润。",
+    "source": "Amazon Seller Central Forums",
+    "topic": "logistics",
+    "topicLabel": "🚚 物流",
+    "layer": "policy_impact",
+    "layerLabel": "📋 政策影响",
+    "effectDate": "2026-04-25",
+    "sentiment": "negative",
+    "painPoints": [
+      "长期仓储费飙升",
+      "库存管理压力",
+      "清货成本高"
+    ],
+    "alertLevel": "high",
+    "insightType": "confirmation",
+    "aiGenerated": true,
+    "links": [],
+    "sellerVoices": [],
+    "comparison": [],
+    "verified": "unconfirmed",
+    "rank": 16,
+    "id": "vos_016"
+  },
+  {
+    "title": "亚马逊广告付费方式新增按点击付费与按销售额付费双模式",
+    "summary": "亚马逊广告平台2026年第二季度推出按点击付费（CPC）和按销售额付费（COS）两种模式，卖家可根据广告目标灵活选择。CPC模式按每次点击收费，COS模式按广告带来的销售额百分比收费（默认8%）。卖家社区对此褒贬不一，部分卖家认为COS模式有助于控制成本，但担心高转化率品类佣金过高。AM需帮助卖家测试不同模式，优化广告ROI。",
+    "source": "行业媒体",
+    "topic": "advertising",
+    "topicLabel": "📢 广告",
+    "layer": "policy_impact",
+    "layerLabel": "📋 政策影响",
+    "effectDate": "2026-04-25",
+    "sentiment": "neutral",
+    "painPoints": [
+      "广告成本控制难",
+      "ROI优化"
+    ],
+    "alertLevel": "high",
+    "insightType": "amplifier",
+    "aiGenerated": true,
+    "links": [],
+    "sellerVoices": [],
+    "comparison": [],
+    "verified": "unconfirmed",
+    "rank": 17,
+    "id": "vos_017"
+  },
+  {
+    "title": "跨境电商税务合规监管升级，多地卖家收到税务自查通知要求补缴税款",
+    "summary": "2026年初，中国跨境电商卖家频繁收到税务自查通知，涉及增值税、企业所得税等。多地税务部门利用大数据比对销售数据与申报数据，要求卖家补缴税款及滞纳金。咨询机构连夜加班为卖家制定合规方案。卖家社区出现恐慌，部分卖家考虑转移至低税率地区注册公司。AM需提醒卖家重视税务合规，建议聘请专业税务顾问。",
+    "source": "雨果跨境",
+    "topic": "tax",
+    "topicLabel": "💰 税务",
+    "layer": "macro_event",
+    "layerLabel": "🌍 宏观传导",
+    "effectDate": "2026-04-25",
+    "sentiment": "negative",
+    "painPoints": [
+      "税务风险",
+      "补缴税款",
+      "合规成本增加"
+    ],
+    "alertLevel": "critical",
+    "insightType": "confirmation",
+    "aiGenerated": true,
+    "links": [
+      {
+        "label": "跨境电商迎最强合规监管时刻！卖家频收税务自查通知、咨询机构连夜做方案",
+        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9NMkZjSGItWktucTFhbkszVWt6MnpMOTF1bGpHaGlrUko5cVR2dTZhNmdZN3hGWGN3ME9nenVfUll6ZjVnY1dJT3NPckxma2lBdXlUTU5lT3lUaWda?oc=5"
+      }
+    ],
+    "sellerVoices": [],
+    "comparison": [],
+    "verified": "unconfirmed",
+    "rank": 18,
+    "id": "vos_018"
+  },
+  {
+    "title": "中东红海危机持续，亚欧航线绕行好望角导致海运时效延长10-15天",
+    "summary": "由于红海地区冲突持续，主要航运公司继续绕行好望角，导致亚洲至欧洲的海运时间从30天延长至40-45天，运费上涨30%。亚马逊欧洲站卖家面临补货困难，部分品类出现断货风险。卖家社区讨论如何调整备货计划，部分卖家考虑空运应急。AM需关注卖家库存健康，建议提前备货或使用空运组合。",
+    "source": "行业媒体",
+    "topic": "logistics",
+    "topicLabel": "🚚 物流",
+    "layer": "macro_event",
+    "layerLabel": "🌍 宏观传导",
+    "effectDate": "2026-04-25",
+    "sentiment": "negative",
+    "painPoints": [
+      "海运时效延长",
+      "补货困难",
+      "断货风险"
+    ],
+    "alertLevel": "high",
+    "insightType": "confirmation",
+    "aiGenerated": true,
+    "links": [],
+    "sellerVoices": [],
+    "comparison": [],
+    "verified": "unconfirmed",
+    "rank": 19,
+    "id": "vos_019"
+  },
+  {
+    "title": "人民币对美元汇率波动加剧，2026年一季度贬值3%，卖家汇兑损失扩大",
+    "summary": "2026年一季度人民币对美元贬值约3%，从6.8跌至7.0附近。以人民币计价的亚马逊卖家收入缩水，利润率下降约2-3个百分点。卖家社区讨论使用锁汇工具或提价对冲汇率风险。部分大卖已开始使用跨境收款平台的锁汇服务。AM需关注汇率走势，建议卖家使用金融工具管理汇率风险。",
+    "source": "雨果跨境",
+    "topic": "trending",
+    "topicLabel": "🔥 趋势",
+    "layer": "macro_event",
+    "layerLabel": "🌍 宏观传导",
+    "effectDate": "2026-04-25",
+    "sentiment": "negative",
+    "painPoints": [
+      "汇兑损失",
+      "利润率下降",
+      "汇率风险"
+    ],
+    "alertLevel": "high",
+    "insightType": "confirmation",
+    "aiGenerated": true,
+    "links": [],
+    "sellerVoices": [],
+    "comparison": [],
+    "verified": "unconfirmed",
+    "rank": 20,
+    "id": "vos_020"
+  },
+  {
+    "title": "亚马逊卖家社区热议AI生成Listing内容被平台判定为违规，大量Listing被标记为不准确",
+    "summary": "近期大量卖家反映，使用AI工具生成的标题、描述和五点被亚马逊判定为“不准确”或“误导”，导致Listing被降权或下架。亚马逊算法可能检测到AI生成的重复或夸张文案。卖家社区讨论如何优化AI内容以避免违规，部分卖家回归人工撰写。AM需提醒卖家注意AI生成内容的合规性，建议人工审核后再上传。",
+    "source": "知无不言",
+    "topic": "compliance",
+    "topicLabel": "⚖️ 合规",
+    "layer": "emerging_unknown",
+    "layerLabel": "🔍 盲区发现",
+    "effectDate": "2026-04-25",
+    "sentiment": "negative",
+    "painPoints": [
+      "AI内容违规",
+      "Listing下架",
+      "合规不确定性"
+    ],
+    "alertLevel": "high",
+    "insightType": "blind_spot",
+    "aiGenerated": true,
+    "links": [],
+    "sellerVoices": [],
+    "comparison": [],
+    "verified": "unconfirmed",
+    "rank": 21,
+    "id": "vos_021"
+  },
+  {
+    "title": "亚马逊广告竞价系统疑似更新，部分卖家ACOS突然飙升超100%",
+    "summary": "2026年4月初，大量卖家反馈亚马逊广告竞价系统出现异常，ACOS从正常的20-30%突然飙升至100%以上，点击量增加但转化率下降。部分卖家怀疑平台调整了竞价算法或引入了新的竞争因素。亚马逊官方未回应。卖家社区讨论暂停广告或降低竞价。AM需关注此问题，收集数据反馈给内部团队。",
+    "source": "行业媒体",
+    "topic": "advertising",
+    "topicLabel": "📢 广告",
+    "layer": "emerging_unknown",
+    "layerLabel": "🔍 盲区发现",
+    "effectDate": "2026-04-25",
+    "sentiment": "negative",
+    "painPoints": [
+      "广告成本失控",
+      "ACOS飙升",
+      "转化率下降"
+    ],
+    "alertLevel": "critical",
+    "insightType": "blind_spot",
+    "aiGenerated": true,
+    "links": [],
+    "sellerVoices": [],
+    "comparison": [],
+    "verified": "unconfirmed",
+    "rank": 22,
+    "id": "vos_022"
+  },
+  {
+    "title": "亚马逊退货政策更新后，部分卖家发现退货率异常升高但原因不明",
+    "summary": "亚马逊2026年3月更新退货政策，延长部分品类退货窗口至60天。随后不少卖家发现退货率较之前上升5-10个百分点，尤其是服装和电子品类。卖家怀疑新政策鼓励了滥用退货行为，但平台未提供详细数据。卖家社区呼吁亚马逊提供更透明的退货原因分析。AM需帮助卖家分析退货数据，寻找异常原因。",
+    "source": "Amazon Seller Central Forums",
+    "topic": "returns",
+    "topicLabel": "📦 退货",
+    "layer": "emerging_unknown",
+    "layerLabel": "🔍 盲区发现",
+    "effectDate": "2026-04-25",
+    "sentiment": "negative",
+    "painPoints": [
+      "退货率上升",
+      "滥用退货",
+      "数据不透明"
+    ],
+    "alertLevel": "high",
+    "insightType": "blind_spot",
+    "aiGenerated": true,
+    "links": [],
+    "sellerVoices": [],
+    "comparison": [],
+    "verified": "unconfirmed",
+    "rank": 23,
+    "id": "vos_023"
+  },
+  {
+    "title": "亚马逊品牌备案流程简化后，部分卖家反映备案后无法正常使用品牌分析工具",
+    "summary": "亚马逊近期简化了品牌备案流程，但部分卖家在成功备案后发现品牌分析工具（ABA）仍无法使用，显示“未授权”。卖家在论坛反馈该问题，怀疑是系统Bug或审核延迟。亚马逊客服回应不一。卖家社区建议反复开Case或等待48小时。AM需关注此技术问题，帮助卖家加速解决。",
+    "source": "知无不言",
+    "topic": "brand",
+    "topicLabel": "🏢 品牌",
+    "layer": "emerging_unknown",
+    "layerLabel": "🔍 盲区发现",
+    "effectDate": "2026-04-25",
+    "sentiment": "neutral",
+    "painPoints": [
+      "品牌工具无法使用",
+      "备案后问题",
+      "客服响应慢"
+    ],
+    "alertLevel": "normal",
+    "insightType": "blind_spot",
+    "aiGenerated": true,
+    "links": [],
+    "sellerVoices": [],
+    "comparison": [],
+    "verified": "unconfirmed",
+    "rank": 24,
+    "id": "vos_024"
+  },
+  {
+    "title": "亚马逊欧洲站卖家反馈VAT申报后无法及时获得退税，资金被长期占用",
+    "summary": "部分亚马逊欧洲站卖家反映，在完成VAT申报并申请退税后，退税款项迟迟未到账，最长等待超过3个月。卖家怀疑亚马逊或税务机构处理效率低下。这导致卖家现金流进一步紧张，尤其是高货值品类。卖家社区讨论是否应暂停欧洲站运营。AM需了解退税流程，帮助卖家跟进退税进度。",
+    "source": "卖家之家",
+    "topic": "tax",
+    "topicLabel": "💰 税务",
+    "layer": "emerging_unknown",
+    "layerLabel": "🔍 盲区发现",
+    "effectDate": "2026-04-25",
+    "sentiment": "negative",
+    "painPoints": [
+      "退税延迟",
+      "资金占用",
+      "欧洲站运营压力"
+    ],
+    "alertLevel": "high",
+    "insightType": "blind_spot",
+    "aiGenerated": true,
+    "links": [],
+    "sellerVoices": [],
+    "comparison": [],
+    "verified": "unconfirmed",
+    "rank": 25,
+    "id": "vos_025"
+  },
+  {
+    "id": "vos_026",
+    "rank": 26,
     "title": "3月31日起亚马逊终止FBA共享库存政策，六大站点贴标规则全面重构",
     "effectDate": "2026-03-31",
     "summary": "政策覆盖美、加、墨、欧、澳、日六大核心站点，彻底取消共享库存池机制，所有卖家库存独立管理。品牌注册卖家带有效GTIN商品可免贴FNSKU标签入库，非品牌卖家必须全量粘贴亚马逊条形码，否则货件将被拒收。从根源遏制跟卖乱象，同时大幅提升非品牌卖家的入库合规成本。",
@@ -402,8 +745,8 @@
     "aiGenerated": false
   },
   {
-    "id": "vos_014",
-    "rank": 14,
+    "id": "vos_027",
+    "rank": 27,
     "title": "2026春季大促规则调整：美国站新增10天预热期，LD/BD免提报费，流量向秒杀倾斜",
     "effectDate": "2026-03-15",
     "summary": "本次春促核心调整：美国站新增10天预热期，限时秒杀（LD）、镇店之宝（BD）免除提报费用，Prime专享折扣取消专属Prime标志、无单独提报入口。欧洲站、日本站同步调整促销门槛，平台流量向秒杀类促销倾斜，重构大促流量分配逻辑，卖家促销策略需全面调整。",
@@ -455,8 +798,8 @@
     "aiGenerated": false
   },
   {
-    "id": "vos_015",
-    "rank": 15,
+    "id": "vos_028",
+    "rank": 28,
     "title": "亚马逊全球站点3月12日全面执行DD+7资金预留新政，回款周期最长延长30天",
     "effectDate": "2026-03-12",
     "summary": "该政策统一全球卖家资金预留规则，要求所有订单货款在商品妥投后需额外冻结7天方可转入卖家可用余额。FBA订单回款周期普遍延长8-9天，FBM订单回款周期最长延长至20-30天，直接加剧卖家现金流压力，月销百万美金卖家额外资金占用超20万美金。",
@@ -529,8 +872,8 @@
     "aiGenerated": false
   },
   {
-    "id": "vos_016",
-    "rank": 16,
+    "id": "vos_029",
+    "rank": 29,
     "title": "3月5日亚马逊全球电商系统大规模宕机，黄金时段订单停摆广告持续扣费",
     "effectDate": "2026-03-05",
     "summary": "宕机覆盖亚马逊全球核心站点，持续约4小时，出现商品页面变狗、订单系统停摆、后台操作失效等问题。恰好处于美国站消费黄金时段，卖家订单量暴跌40%-100%，但广告系统仍正常扣费，大量卖家秒杀活动受影响，单卖家最高损失超2万美金。",
@@ -573,8 +916,8 @@
     "aiGenerated": false
   },
   {
-    "id": "vos_017",
-    "rank": 17,
+    "id": "vos_030",
+    "rank": 30,
     "title": "3月4日亚马逊更新BSA协议，新增AI/自动化工具最严监管规则",
     "effectDate": "2026-03-04",
     "summary": "亚马逊更新《商业解决方案协议》，新增Agent Policy代理政策，对所有AI自动化工具提出强制合规要求：禁止使用平台数据训练AI模型，要求工具必须明确标识自动化身份，平台可随时切断不合规工具访问权限。全球超300万卖家、数千家第三方工具商受影响。",

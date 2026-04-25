@@ -192,7 +192,14 @@ class VOSPipeline:
                             is_dup = True
                             break
             if not is_dup and validate_topic(topic):
-                new_topics.append(topic)
+                # Only keep AI topics that have real links
+                has_links = topic.get("links") and any(
+                    l.get("url", "").startswith("http") for l in topic["links"]
+                )
+                if has_links:
+                    new_topics.append(topic)
+                else:
+                    print(f"  Skipping (no links): {title[:40]}")
 
         print(f"  Existing: {len(existing)} topics, New unique: {len(new_topics)} topics")
 

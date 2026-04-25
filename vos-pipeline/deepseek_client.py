@@ -106,7 +106,7 @@ class DeepSeekClient:
 - source: 信息来源平台（从以下选择：知无不言, AMZ123, Amazon Seller Central Forums, Value Added Resource, 卖家之家, 雨果跨境, 微信公众号, PPC Land, 行业媒体）
 - topic: 话题分类（advertising/promotion/compliance/brand/returns/tax/logistics/trending）
 - layer: 信息层级（policy_impact/macro_event/emerging_unknown）
-- effectDate: 相关日期（YYYY-MM-DD格式）
+- effectDate: 文章或帖子的实际发布日期（YYYY-MM-DD格式），不是政策生效日期。如果无法确定发布日期，使用你认为该话题最早被讨论的大致日期。严禁使用政策生效日期或未来日期。
 - sentiment: 卖家主导情绪（negative/neutral/positive）
 - painPoints: 1-3个具体卖家痛点（如"现金流压力"、"合规成本增加"）
 - alertLevel: 紧急程度（critical/high/normal）

@@ -468,8 +468,308 @@
     "id": "vos_016"
   },
   {
-    "id": "vos_017",
+    "title": "亚马逊5月严查VINE评论合规，变体合并刷评及操纵评论风险需注意",
+    "summary": "亚马逊将于5月启动新一轮VINE评论合规审查，重点打击通过变体合并获取早期评论、操纵评论等行为。违规卖家将面临ASIN下架、账户暂停甚至封号处罚。卖家社区出现恐慌情绪，大量卖家在论坛询问如何自查。AM需提醒卖家立即停止违规操作，确保每个ASIN独立获取Vine评论，避免使用合并变体刷评手段。",
+    "source": "雨果跨境",
+    "topic": "compliance",
+    "topicLabel": "⚖️ 合规",
+    "layer": "policy_impact",
+    "layerLabel": "📋 政策影响",
+    "effectDate": "2026-04-25",
+    "sentiment": "negative",
+    "painPoints": [
+      "合规风险",
+      "账户安全",
+      "评论获取困难"
+    ],
+    "alertLevel": "critical",
+    "insightType": "amplifier",
+    "aiGenerated": true,
+    "links": [
+      {
+        "label": "亚马逊五月将严查VINE评论？卖家必须重视的VINE计划合规红线",
+        "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE12a25sRzZfTzJSS21vb0JQb2hORE5XWWxiUnVjcW53czNOMXZKU2pmZHEybV80SWhFaThGUkZFNkdQLWpRU0xPMGs3WEJaTDA?oc=5"
+      }
+    ],
+    "sellerVoices": [],
+    "comparison": [],
+    "verified": "unconfirmed",
     "rank": 17,
+    "id": "vos_017"
+  },
+  {
+    "title": "亚马逊新政致卖方现金流危机，大型商户发起24小时广告抵制行动",
+    "summary": "亚马逊近期推出的回款新政（DD+7锁款）引发卖家强烈不满，大型商户于4月28日发起24小时广告抵制行动，要求平台调整政策。新政导致FBA订单回款周期延长8-9天，FBM订单延长至20-30天，月销百万美金卖家额外资金占用超20万美金。卖家社区情绪激烈，中小卖家表示现金流断裂风险加剧。AM需关注抵制行动进展，评估对广告收入的影响，并协助卖家优化现金流管理。",
+    "source": "行业媒体",
+    "topic": "advertising",
+    "topicLabel": "📢 广告",
+    "layer": "policy_impact",
+    "layerLabel": "📋 政策影响",
+    "effectDate": "2026-04-25",
+    "sentiment": "negative",
+    "painPoints": [
+      "现金流压力",
+      "广告成本",
+      "回款周期"
+    ],
+    "alertLevel": "critical",
+    "insightType": "amplifier",
+    "aiGenerated": true,
+    "links": [
+      {
+        "label": "亚马逊(AMZN.US)新政引发卖方“现金流危机”，大型商户发起24小时广告抵制行动",
+        "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxNTVlqSVplOTVLWEFHMWI3WkMtZzFJV3BLR19CUlV1andsbjRZS0F4TU8xRFpHaklWdEZjMXktNWE3UWJiX3lfeHVkYmdxZFBmdGZ3Q0gyTmJKQktKZWZvZkdrY1RxQlo2dk94VGVGeVU5TkdxbWxMMzI2VzV6U1BiZjJPMGZBTmFNVWgwSWdMMElJUi1jT0tfb1J3VDhfVFhmbTJkYzRKbmNOSnI5Y09XWjdVSmVQcjVHbVlKcHN5N0kwdExhdnNibFdPU3RnMnJ6M1hFLXAtbUZ6RFVpVjNDQmFuVjZfMHdpdk4xbnFlZ1p0bFBURHVHVzlDSTRwRWEzR0E?oc=5"
+      }
+    ],
+    "sellerVoices": [],
+    "comparison": [],
+    "verified": "unconfirmed",
+    "rank": 18,
+    "id": "vos_018"
+  },
+  {
+    "title": "亚马逊全球智能枢纽仓深圳首仓开放，中国卖家享入仓优先及运费折扣",
+    "summary": "亚马逊全球智能枢纽仓（GWD）深圳首仓于4月26日正式开放，面向中国卖家提供优先入仓、智能分仓及运费折扣服务。该仓可缩短中国至欧美FBA的补货时效约2-3天，并降低头程物流成本5-10%。卖家社区反应积极，但部分中小卖家担忧最低发货量要求。AM需推广GWD优势，协助卖家评估适用性，并关注后续站点扩展计划。",
+    "source": "行业媒体",
+    "topic": "logistics",
+    "topicLabel": "🚚 物流",
+    "layer": "policy_impact",
+    "layerLabel": "📋 政策影响",
+    "effectDate": "2026-04-25",
+    "sentiment": "positive",
+    "painPoints": [
+      "物流时效",
+      "入仓门槛",
+      "成本控制"
+    ],
+    "alertLevel": "high",
+    "insightType": "confirmation",
+    "aiGenerated": true,
+    "links": [
+      {
+        "label": "亚马逊全球智能枢纽仓 (GWD) 深圳首仓面向卖家正式开放",
+        "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE05VWlzeDlSdnBKYWRDaUM0clRheldlbE04NWo2UlVFSDF5elJqTGtrQVBRVGl6THJfOElSeFFmdGc1Wm5OSUhjR2VOdGg?oc=5"
+      }
+    ],
+    "sellerVoices": [],
+    "comparison": [],
+    "verified": "unconfirmed",
+    "rank": 19,
+    "id": "vos_019"
+  },
+  {
+    "title": "亚马逊2026最新回款政策DD+7锁款及账单变更，卖家需自查资金安排",
+    "summary": "亚马逊2026年回款政策发生重大变化：自2026年4月1日起，全球站点统一实施DD+7资金预留规则，即商品妥投后额外冻结7天。同时，账单周期由14天调整为7天，导致卖家资金周转压力骤增。月销10万美金卖家额外资金占用约5万美金。卖家社区大量反馈现金流紧张，部分中小卖家考虑转向FBM。AM需帮助卖家重新评估资金需求，建议启用亚马逊贷款或优化库存周转。",
+    "source": "雨果跨境",
+    "topic": "compliance",
+    "topicLabel": "⚖️ 合规",
+    "layer": "policy_impact",
+    "layerLabel": "📋 政策影响",
+    "effectDate": "2026-04-25",
+    "sentiment": "negative",
+    "painPoints": [
+      "现金流压力",
+      "回款周期",
+      "资金规划"
+    ],
+    "alertLevel": "critical",
+    "insightType": "amplifier",
+    "aiGenerated": true,
+    "links": [
+      {
+        "label": "亚马逊 2026 最新回款政策全解读｜DD+7 锁款 + 账单大变，卖家必自查！",
+        "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1fUm9Sd180aXFCMEU0SGxESzBWN3oxTzBoQVFPcGkzNFJhQWl3WG9mVXRSbWFsMU9rZTluZWt3T3FZT1FoLXByMXZEdVM?oc=5"
+      }
+    ],
+    "sellerVoices": [],
+    "comparison": [],
+    "verified": "unconfirmed",
+    "rank": 20,
+    "id": "vos_020"
+  },
+  {
+    "title": "亚马逊多举措支持卖家优化物流及运营成本，拓展全球跨境业务",
+    "summary": "亚马逊于4月推出多项卖家支持措施，包括降低FBA新选品入仓费用、提供物流补贴、简化VAT注册流程等，旨在帮助卖家降低运营成本。其中，新选品FBA费用平均降低10%，欧洲站VAT注册费用补贴200欧元。卖家社区反馈积极，但部分卖家认为补贴力度有限。AM需向卖家传达最新政策，协助符合条件的卖家申请补贴，并关注后续支持计划。",
+    "source": "行业媒体",
+    "topic": "logistics",
+    "topicLabel": "🚚 物流",
+    "layer": "policy_impact",
+    "layerLabel": "📋 政策影响",
+    "effectDate": "2026-04-25",
+    "sentiment": "positive",
+    "painPoints": [
+      "运营成本",
+      "物流费用",
+      "合规门槛"
+    ],
+    "alertLevel": "normal",
+    "insightType": "confirmation",
+    "aiGenerated": true,
+    "links": [
+      {
+        "label": "从入门到成长，亚马逊多举措支持卖家优化物流及运营成本 高效拓展全球跨境业务",
+        "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1xamlZODRORkp5VzB4U3BxNENaN0FaNTl3VVI4LXQ5Q0xLaHE4OVZ3YktyYjdMcDVBVElJb2M0TGcyZVZ3TXVraWtPOHktdm9kYWNiQUwtdXpOQ3FDQS0xcllZMEJEOV9UYWZwZjR4b0kxQ2M?oc=5"
+      }
+    ],
+    "sellerVoices": [],
+    "comparison": [],
+    "verified": "unconfirmed",
+    "rank": 21,
+    "id": "vos_021"
+  },
+  {
+    "title": "北美电商增长韧性持续，中国卖家推动亚马逊精细化运营",
+    "summary": "2026年北美电商市场保持增长韧性，中国卖家在亚马逊上的精细化运营趋势明显，包括优化产品listing、提升广告ROI、加强品牌建设等。同时，亚马逊推出更多工具支持卖家数据分析。卖家社区中，精细化运营成为热门话题，大量卖家分享成功案例。AM需引导卖家从粗放增长转向精细化运营，提供数据分析和品牌建设支持。",
+    "source": "行业媒体",
+    "topic": "trending",
+    "topicLabel": "🔥 趋势",
+    "layer": "macro_event",
+    "layerLabel": "🌍 宏观传导",
+    "effectDate": "2026-04-25",
+    "sentiment": "positive",
+    "painPoints": [
+      "运营复杂度",
+      "竞争加剧",
+      "品牌建设"
+    ],
+    "alertLevel": "normal",
+    "insightType": "confirmation",
+    "aiGenerated": true,
+    "links": [
+      {
+        "label": "北美电商增长韧性持续，中国卖家推动亚马逊生态进入精细化运营阶段",
+        "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE05RTRjYnc1WHI5cnFuXzRuNkFiblJCMm5TaXpKaFR5c1hYVC1JNFJnZE1GeTM5M1dYYWh5UGJjX1ozU2pUVjRjT3R6YUFYdEM2WmE0OHVjYnRha2xvdXlnYkZEeFBNN0pqb1J5bw?oc=5"
+      }
+    ],
+    "sellerVoices": [],
+    "comparison": [],
+    "verified": "unconfirmed",
+    "rank": 22,
+    "id": "vos_022"
+  },
+  {
+    "title": "2026欧洲跨境迎来最好时代，亚马逊欧洲站机遇与挑战并存",
+    "summary": "行业分析认为2026年是欧洲跨境电商的黄金时期，亚马逊欧洲站推出多项利好政策，包括VAT简化、物流补贴等。但欧元汇率波动、合规要求提高等挑战依然存在。卖家社区中，部分卖家看好欧洲市场并加大投入，但也有卖家因成本上升而犹豫。AM需帮助卖家评估欧洲市场机会，提供汇率风险管理建议。",
+    "source": "行业媒体",
+    "topic": "trending",
+    "topicLabel": "🔥 趋势",
+    "layer": "macro_event",
+    "layerLabel": "🌍 宏观传导",
+    "effectDate": "2026-04-25",
+    "sentiment": "positive",
+    "painPoints": [
+      "汇率风险",
+      "合规成本",
+      "市场进入"
+    ],
+    "alertLevel": "normal",
+    "insightType": "confirmation",
+    "aiGenerated": true,
+    "links": [
+      {
+        "label": "2026，欧洲跨境迎来“最好的时代”",
+        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBhZUxLNVRtVGhwaEh0RmNaNEVoTXB6dVZxX2FMWG9VLWpmUmJTa0xCaDR3UmQwSEZMVW4tbGJkVG1VQ0s0V2hGXzZ0YUgxejJyYW9CQVZFQ00?oc=5"
+      }
+    ],
+    "sellerVoices": [],
+    "comparison": [],
+    "verified": "unconfirmed",
+    "rank": 23,
+    "id": "vos_023"
+  },
+  {
+    "title": "卖家利用信息差实现增长，亚马逊运营策略差异化成为焦点",
+    "summary": "在竞争激烈的亚马逊市场，利用信息差（如提前获取政策变化、选品趋势）成为卖家增长的关键。卖家社区中，信息差话题热度高，不少卖家分享如何通过工具和社群获取先发优势。AM需关注信息不对称问题，主动向卖家传递有价值信息，帮助卖家利用官方数据做出决策。",
+    "source": "行业媒体",
+    "topic": "trending",
+    "topicLabel": "🔥 趋势",
+    "layer": "emerging_unknown",
+    "layerLabel": "🔍 盲区发现",
+    "effectDate": "2026-04-25",
+    "sentiment": "neutral",
+    "painPoints": [
+      "信息不对称",
+      "竞争压力",
+      "决策效率"
+    ],
+    "alertLevel": "normal",
+    "insightType": "blind_spot",
+    "aiGenerated": true,
+    "links": [
+      {
+        "label": "绝影马跨境资讯：2026亚马逊卖家如何利用信息差实现增长快人一步？",
+        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5tX1BJZ3Y3YXk5X291QkdvWk9jOHNXZURnM0tvb0NGSE12SVBmQlEzR2RkVUh2WEc0NngxOHFoZ2hZMFBsQVoyZ3UtQkIwUjJBaDREUVEwNW1xTDJoS3Q4ZlRxdnc1elBrajdRZGFB?oc=5"
+      }
+    ],
+    "sellerVoices": [],
+    "comparison": [],
+    "verified": "unconfirmed",
+    "rank": 24,
+    "id": "vos_024"
+  },
+  {
+    "title": "亚马逊AI生成产品图片引发卖家对版权和真实性的担忧",
+    "summary": "亚马逊测试AI生成产品图片功能，部分卖家发现listing图片被AI修改但未获同意，引发对版权和真实性的担忧。卖家社区中，多数卖家表示反对，认为AI图片可能误导消费者且侵犯版权。AM需关注AI工具对卖家权益的影响，建议卖家主动监控listing图片，并向亚马逊反馈意见。",
+    "source": "Value Added Resource",
+    "topic": "brand",
+    "topicLabel": "🏢 品牌",
+    "layer": "emerging_unknown",
+    "layerLabel": "🔍 盲区发现",
+    "effectDate": "2026-04-25",
+    "sentiment": "negative",
+    "painPoints": [
+      "版权风险",
+      "产品真实性",
+      "控制权丧失"
+    ],
+    "alertLevel": "high",
+    "insightType": "blind_spot",
+    "aiGenerated": true,
+    "links": [
+      {
+        "label": "eBay Quietly Tests AI Fashion Models, Inserts Altered Images Into Seller Listings Without Consent",
+        "url": "https://www.valueaddedresource.net/ebay-tests-ai-fashion-models-alters-images/"
+      }
+    ],
+    "sellerVoices": [],
+    "comparison": [],
+    "verified": "unconfirmed",
+    "rank": 25,
+    "id": "vos_025"
+  },
+  {
+    "title": "亚马逊广告建议出价机制引发卖家对广告成本失控的担忧",
+    "summary": "亚马逊近期调整广告建议出价算法，导致部分卖家的建议出价大幅上升，广告成本增加30-50%。卖家社区中，不少卖家反映广告ACOS恶化，质疑平台推高广告费用。AM需帮助卖家优化广告策略，如使用手动竞价和否定关键词，并关注亚马逊是否调整算法。",
+    "source": "Value Added Resource",
+    "topic": "advertising",
+    "topicLabel": "📢 广告",
+    "layer": "emerging_unknown",
+    "layerLabel": "🔍 盲区发现",
+    "effectDate": "2026-04-25",
+    "sentiment": "negative",
+    "painPoints": [
+      "广告成本",
+      "ACOS恶化",
+      "算法不透明"
+    ],
+    "alertLevel": "high",
+    "insightType": "blind_spot",
+    "aiGenerated": true,
+    "links": [
+      {
+        "label": "eBay Does \"Deep Dive\" On Suggested Ad Rates, Seeks Seller Feedback On Promoted Listings",
+        "url": "https://www.valueaddedresource.net/ebay-suggested-ad-rates/"
+      }
+    ],
+    "sellerVoices": [],
+    "comparison": [],
+    "verified": "unconfirmed",
+    "rank": 26,
+    "id": "vos_026"
+  },
+  {
+    "id": "vos_027",
+    "rank": 27,
     "title": "3月31日起亚马逊终止FBA共享库存政策，六大站点贴标规则全面重构",
     "effectDate": "2026-03-31",
     "summary": "政策覆盖美、加、墨、欧、澳、日六大核心站点，彻底取消共享库存池机制，所有卖家库存独立管理。品牌注册卖家带有效GTIN商品可免贴FNSKU标签入库，非品牌卖家必须全量粘贴亚马逊条形码，否则货件将被拒收。从根源遏制跟卖乱象，同时大幅提升非品牌卖家的入库合规成本。",
@@ -521,8 +821,8 @@
     "aiGenerated": false
   },
   {
-    "id": "vos_018",
-    "rank": 18,
+    "id": "vos_028",
+    "rank": 28,
     "title": "2026春季大促规则调整：美国站新增10天预热期，LD/BD免提报费，流量向秒杀倾斜",
     "effectDate": "2026-03-15",
     "summary": "本次春促核心调整：美国站新增10天预热期，限时秒杀（LD）、镇店之宝（BD）免除提报费用，Prime专享折扣取消专属Prime标志、无单独提报入口。欧洲站、日本站同步调整促销门槛，平台流量向秒杀类促销倾斜，重构大促流量分配逻辑，卖家促销策略需全面调整。",
@@ -574,8 +874,8 @@
     "aiGenerated": false
   },
   {
-    "id": "vos_019",
-    "rank": 19,
+    "id": "vos_029",
+    "rank": 29,
     "title": "亚马逊全球站点3月12日全面执行DD+7资金预留新政，回款周期最长延长30天",
     "effectDate": "2026-03-12",
     "summary": "该政策统一全球卖家资金预留规则，要求所有订单货款在商品妥投后需额外冻结7天方可转入卖家可用余额。FBA订单回款周期普遍延长8-9天，FBM订单回款周期最长延长至20-30天，直接加剧卖家现金流压力，月销百万美金卖家额外资金占用超20万美金。",
@@ -648,8 +948,8 @@
     "aiGenerated": false
   },
   {
-    "id": "vos_020",
-    "rank": 20,
+    "id": "vos_030",
+    "rank": 30,
     "title": "3月5日亚马逊全球电商系统大规模宕机，黄金时段订单停摆广告持续扣费",
     "effectDate": "2026-03-05",
     "summary": "宕机覆盖亚马逊全球核心站点，持续约4小时，出现商品页面变狗、订单系统停摆、后台操作失效等问题。恰好处于美国站消费黄金时段，卖家订单量暴跌40%-100%，但广告系统仍正常扣费，大量卖家秒杀活动受影响，单卖家最高损失超2万美金。",
@@ -692,8 +992,8 @@
     "aiGenerated": false
   },
   {
-    "id": "vos_021",
-    "rank": 21,
+    "id": "vos_031",
+    "rank": 31,
     "title": "3月4日亚马逊更新BSA协议，新增AI/自动化工具最严监管规则",
     "effectDate": "2026-03-04",
     "summary": "亚马逊更新《商业解决方案协议》，新增Agent Policy代理政策，对所有AI自动化工具提出强制合规要求：禁止使用平台数据训练AI模型，要求工具必须明确标识自动化身份，平台可随时切断不合规工具访问权限。全球超300万卖家、数千家第三方工具商受影响。",

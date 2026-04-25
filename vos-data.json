@@ -1,23 +1,28 @@
 [
   {
-    "title": "亚马逊欧洲站要求6月30日前提供COO信息，不合规listing将被移除",
-    "summary": "核心事件：亚马逊欧洲站要求卖家在2026年6月30日前为所有FBA商品提供原产地信息（COO），否则相关listing将被移除。影响分析：涉及所有欧洲站FBA卖家，尤其是多SKU卖家需逐一填写COO，工作量巨大。未合规将导致产品下架，影响旺季销售。卖家反应：卖家社区讨论热烈，部分卖家表示已收到亚马逊提醒，但仍有大量卖家不清楚如何操作，尤其是小语种站点。AM行动建议：AM需组织卖家培训或提供COO填写模板，重点跟进高销量SKU的合规进度，避免大规模下架。",
-    "source": "雨果跨境",
-    "topic": "compliance",
-    "topicLabel": "⚖️ 合规",
+    "title": "亚马逊美国站FBA费用调整提前生效",
+    "summary": "亚马逊美国站原定于2026年7月生效的FBA费用调整提前至6月1日，包括标准尺寸商品配送费平均上涨5%，大件商品上涨8%，同时仓储费在旺季（10-12月）上调10%。该调整影响所有使用FBA的卖家，预计月销10万美金的卖家月均成本增加约500-800美元。卖家社区出现不满情绪，部分卖家考虑提价或转向FBM。AM需及时通知卖家费用变化，帮助分析成本结构，并建议优化库存周转以减少仓储费。",
+    "source": "Amazon Seller Central Forums",
+    "topic": "logistics",
+    "topicLabel": "🚚 物流",
     "layer": "policy_impact",
     "layerLabel": "📋 政策影响",
-    "effectDate": "2026-04-23",
+    "effectDate": "2026-05-25",
     "sentiment": "negative",
     "painPoints": [
-      "合规成本增加",
-      "listing下架风险",
-      "操作复杂性高"
+      "配送费上涨",
+      "仓储费增加",
+      "利润率下降"
     ],
     "alertLevel": "high",
     "insightType": "amplifier",
     "aiGenerated": true,
-    "links": [],
+    "links": [
+      {
+        "label": "Amazon Seller Central Forums讨论",
+        "url": "https://sellercentral.amazon.com/forums/"
+      }
+    ],
     "sellerVoices": [],
     "comparison": [],
     "verified": "unconfirmed",
@@ -25,24 +30,27 @@
     "id": "vos_001"
   },
   {
-    "title": "2026年亚马逊Prime Day规则调整，部分仓库爆仓影响入仓时效",
-    "summary": "核心事件：亚马逊2026年Prime Day规则调整，包括库存截止日期提前、仓储容量限制收紧，同时多个热门仓库（如LAX9、FTW1）出现严重爆仓。影响分析：卖家需在5月底前完成入仓，否则无法参与Prime Day。部分仓库预约排期延长至2-3周，导致断货风险上升。卖家反应：卖家社区普遍焦虑，大量卖家讨论如何优化发货计划，部分卖家考虑分批发货或使用第三方海外仓。AM行动建议：AM应提醒卖家尽早发货，监控库存绩效指标，协助申请额外仓储容量，并关注仓库动态同步给卖家。",
+    "title": "亚马逊AI数字员工工具向新卖家开放",
+    "summary": "亚马逊推出AI数字员工工具，为新卖家提供自动化的产品上架、库存管理和客服支持功能，声称可帮助首年销量增长10倍。该工具目前面向美国站新卖家免费开放，后续可能收费。卖家社区兴趣浓厚，但部分老卖家抱怨未获得同等支持。AM应关注AI工具的实际效果，帮助新卖家充分利用，同时向老卖家解释后续可能推出的付费版本。",
     "source": "雨果跨境",
-    "topic": "logistics",
-    "topicLabel": "🚚 物流",
+    "topic": "trending",
+    "topicLabel": "🔥 趋势",
     "layer": "policy_impact",
     "layerLabel": "📋 政策影响",
-    "effectDate": "2026-04-20",
-    "sentiment": "negative",
+    "effectDate": "2026-05-22",
+    "sentiment": "positive",
     "painPoints": [
-      "入仓延迟",
-      "库存受限",
-      "断货风险"
+      "新老卖家待遇不均"
     ],
-    "alertLevel": "high",
+    "alertLevel": "normal",
     "insightType": "amplifier",
     "aiGenerated": true,
-    "links": [],
+    "links": [
+      {
+        "label": "雨果跨境报道",
+        "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE4yT3NLekJQVlo0bU9Ya1l1MzJSdjRRSDUxbnNEVTNHN1FVaHVDLTFqZDVrYjZYVHlBZlZTaE1OcXJCTHBmbWxyLTNra1Y?oc=5"
+      }
+    ],
     "sellerVoices": [],
     "comparison": [],
     "verified": "unconfirmed",
@@ -50,8 +58,392 @@
     "id": "vos_002"
   },
   {
-    "id": "vos_003",
+    "title": "2026年亚马逊Prime Day规则调整，部分仓库爆仓",
+    "summary": "2026年亚马逊Prime Day规则发生重大变更，包括促销提报截止日期提前、最低折扣要求从20%提高至25%、以及新增库存容量限制。同时，美国部分FBA仓库（如ONT8、LAX9）严重爆仓，入仓预约排期延长至3-4周。卖家社区出现焦虑情绪，大量卖家担心无法及时入仓参与Prime Day，部分卖家考虑转FBM或使用第三方海外仓应急。AM需提醒卖家尽早备货，关注库存容量通知，并协助制定Prime Day备货和促销计划。",
+    "source": "雨果跨境",
+    "topic": "promotion",
+    "topicLabel": "🏷️ 促销",
+    "layer": "policy_impact",
+    "layerLabel": "📋 政策影响",
+    "effectDate": "2026-05-20",
+    "sentiment": "negative",
+    "painPoints": [
+      "入仓延迟",
+      "库存容量限制",
+      "促销成本增加"
+    ],
+    "alertLevel": "critical",
+    "insightType": "amplifier",
+    "aiGenerated": true,
+    "links": [
+      {
+        "label": "雨果跨境报道",
+        "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9uckJJdGtHZ3ktb2Z2YkZQVUs1REZRTHd6OV8tT2pKclliVVBNa0VpUnpNUFRVV0lidmFPYzctNURxd0FuS0l3bTFlX2c?oc=5"
+      }
+    ],
+    "sellerVoices": [],
+    "comparison": [],
+    "verified": "unconfirmed",
     "rank": 3,
+    "id": "vos_003"
+  },
+  {
+    "title": "亚马逊2026年新卖家四大扶持计划已上线",
+    "summary": "亚马逊在2026年推出新卖家四大扶持计划，包括首年佣金减免、免费使用亚马逊物流新品计划、专属广告优惠券以及一对一账户经理支持。该计划覆盖美国、欧洲、日本等主要站点，旨在吸引更多跨境卖家入驻。卖家社区反馈积极，但部分卖家指出扶持计划细节不透明，例如佣金减免仅限特定品类。AM需详细解读政策，帮助新卖家合理规划，同时提醒老卖家关注后续可能推出的类似计划。",
+    "source": "行业媒体",
+    "topic": "trending",
+    "topicLabel": "🔥 趋势",
+    "layer": "policy_impact",
+    "layerLabel": "📋 政策影响",
+    "effectDate": "2026-05-20",
+    "sentiment": "positive",
+    "painPoints": [
+      "政策细节不透明",
+      "优惠品类限制"
+    ],
+    "alertLevel": "normal",
+    "insightType": "confirmation",
+    "aiGenerated": true,
+    "links": [
+      {
+        "label": "潮新闻报道",
+        "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBCaGVLT3ZpYnh1a01TQnEzb1J2bm1aU3dDV0NZODVhT3RsdTBnRldTUkU5b0ZpNm0zeEJicUhwMTY2dXZ1VFVRU2xaT2oxSk5ZY1hQdWRWUlVqdWJXMzZLTHFKUjFpZHFzWEpvdTBzRU04M2M?oc=5"
+      }
+    ],
+    "sellerVoices": [],
+    "comparison": [],
+    "verified": "unconfirmed",
+    "rank": 4,
+    "id": "vos_004"
+  },
+  {
+    "title": "亚马逊欧洲站2026年推出多项卖家利好举措",
+    "summary": "亚马逊欧洲站在2026年升级多项卖家支持政策，包括降低新卖家首年佣金（部分品类从15%降至10%）、推出欧洲物流整合服务（降低跨境配送成本10-15%）、以及简化增值税注册流程。这些举措旨在吸引更多卖家拓展欧洲市场。卖家社区反应积极，但部分卖家指出实际优惠门槛较高，例如低佣金仅适用于新品且限时6个月。AM应帮助卖家评估欧洲站机会，计算实际成本节省，并指导利用物流整合服务优化运营。",
+    "source": "行业媒体",
+    "topic": "trending",
+    "topicLabel": "🔥 趋势",
+    "layer": "policy_impact",
+    "layerLabel": "📋 政策影响",
+    "effectDate": "2026-05-18",
+    "sentiment": "positive",
+    "painPoints": [
+      "优惠门槛高",
+      "跨境物流复杂"
+    ],
+    "alertLevel": "normal",
+    "insightType": "confirmation",
+    "aiGenerated": true,
+    "links": [
+      {
+        "label": "汽车之家报道",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5ZQmNseHhJenUxb3o2aWFIMWJhWnZRY0dZSm8wTDlhc3dXS0g4VW4tVXZmTFRYS1BNUlllcFFTaWZmT3JSLVJXX2FIY1NGajdtQS1NWDZXQW0xZk0?oc=5"
+      }
+    ],
+    "sellerVoices": [],
+    "comparison": [],
+    "verified": "unconfirmed",
+    "rank": 5,
+    "id": "vos_005"
+  },
+  {
+    "title": "跨境电商卖家频收税务自查通知，合规监管加强",
+    "summary": "2026年以来，跨境电商卖家频繁收到税务机关的税务自查通知，主要涉及增值税、企业所得税的合规问题。咨询机构连夜为卖家制定方案，但仍有不少卖家因历史税务问题面临罚款。该趋势源于全球税务信息交换加强和国内金税四期系统上线。卖家社区普遍感到焦虑，部分卖家考虑注销旧账户或转移业务。AM需提醒卖家重视税务合规，建议聘请专业税务顾问，并关注亚马逊官方税务服务。",
+    "source": "行业媒体",
+    "topic": "tax",
+    "topicLabel": "💰 税务",
+    "layer": "macro_event",
+    "layerLabel": "🌍 宏观传导",
+    "effectDate": "2026-05-18",
+    "sentiment": "negative",
+    "painPoints": [
+      "税务合规风险",
+      "历史问题追查",
+      "罚款损失"
+    ],
+    "alertLevel": "critical",
+    "insightType": "amplifier",
+    "aiGenerated": true,
+    "links": [
+      {
+        "label": "证券时报报道",
+        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9NMkZjSGItWktucTFhbkszVWt6MnpMOTF1bGpHaGlrUko5cVR2dTZhNmdZN3hGWGN3ME9nenVfUll6ZjVnY1dJT3NPckxma2lBdXlUTU5lT3lUaWda?oc=5"
+      }
+    ],
+    "sellerVoices": [],
+    "comparison": [],
+    "verified": "unconfirmed",
+    "rank": 6,
+    "id": "vos_006"
+  },
+  {
+    "title": "亚马逊欧洲站将于6月30日强制执行COO信息要求",
+    "summary": "亚马逊欧洲站将于2026年6月30日起，强制要求所有FBA和FBM卖家在货件中提供原产国/地区信息（COO），未提供COO的ASIN将被限制跨境销售。该政策覆盖英国、德国、法国、意大利、西班牙等站点，涉及电子、服装、家居等多个品类。卖家社区普遍反映COO数据整理工作量大，特别是多SKU卖家面临数千条产品信息补录的难题，部分卖家因未及时更新导致ASIN被暂停销售。AM需主动协助卖家梳理COO要求，利用批量上传工具和模板，避免6月30日后产生销售中断风险。",
+    "source": "雨果跨境",
+    "topic": "compliance",
+    "topicLabel": "⚖️ 合规",
+    "layer": "policy_impact",
+    "layerLabel": "📋 政策影响",
+    "effectDate": "2026-05-15",
+    "sentiment": "negative",
+    "painPoints": [
+      "合规成本增加",
+      "数据整理工作量大",
+      "销售中断风险"
+    ],
+    "alertLevel": "high",
+    "insightType": "amplifier",
+    "aiGenerated": true,
+    "links": [
+      {
+        "label": "雨果跨境报道",
+        "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFA0NjBIcjBSYjlwVnhXaGg5T0Z5SXBIbzljLWkxTUZNNDBvcXZiQ1NLS1NiamllWWxuVEhHNUpFVy00bGVJVzB2R0U4WWY?oc=5"
+      }
+    ],
+    "sellerVoices": [],
+    "comparison": [],
+    "verified": "unconfirmed",
+    "rank": 7,
+    "id": "vos_007"
+  },
+  {
+    "title": "亚马逊广告付费方式变更为以按点击付费为主",
+    "summary": "亚马逊广告逐步将默认付费方式从按展示付费（CPM）转向按点击付费（CPC），并计划在2026年底前完全淘汰CPM选项。该变更影响品牌旗舰店广告和展示型广告，预计CPC竞价将上升15-20%，但点击率可能提升。卖家社区反应分化，部分卖家认为CPC更高效，但预算有限的卖家担心点击成本过高。AM需帮助卖家调整广告策略，优化关键词和竞价，并测试新的广告类型以保持ROI。",
+    "source": "行业媒体",
+    "topic": "advertising",
+    "topicLabel": "📢 广告",
+    "layer": "policy_impact",
+    "layerLabel": "📋 政策影响",
+    "effectDate": "2026-05-15",
+    "sentiment": "neutral",
+    "painPoints": [
+      "广告成本上升",
+      "竞价策略调整"
+    ],
+    "alertLevel": "high",
+    "insightType": "confirmation",
+    "aiGenerated": true,
+    "links": [
+      {
+        "label": "PPC Land分析",
+        "url": "https://ppc.land/amazon-ads-cpc-transition/"
+      }
+    ],
+    "sellerVoices": [],
+    "comparison": [],
+    "verified": "unconfirmed",
+    "rank": 8,
+    "id": "vos_008"
+  },
+  {
+    "title": "国际物流运费持续上涨，中国跨境卖家承压",
+    "summary": "受全球油价上涨和航运运力紧张影响，2026年第二季度国际物流运费持续攀升，中国至美西航线的头程运费较年初上涨约20%，至欧洲航线涨幅达25%。同时，港口拥堵导致时效延长5-7天。中国跨境卖家社区普遍反映成本压力增大，部分低利润品类（如家居、小商品）卖家面临亏损。AM需帮助卖家优化物流方案，如使用亚马逊全球物流（AGL）或拼柜发货，并建议适当提价以转嫁成本。",
+    "source": "行业媒体",
+    "topic": "logistics",
+    "topicLabel": "🚚 物流",
+    "layer": "macro_event",
+    "layerLabel": "🌍 宏观传导",
+    "effectDate": "2026-05-15",
+    "sentiment": "negative",
+    "painPoints": [
+      "运费上涨",
+      "时效延长",
+      "利润空间压缩"
+    ],
+    "alertLevel": "high",
+    "insightType": "confirmation",
+    "aiGenerated": true,
+    "links": [
+      {
+        "label": "第一财经报道",
+        "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5zQWoteHYxRWJvbU1MUlA4WmJMbHB2VkxKVlVSa0tTMW9MOGRJNU14eHBiOGFHVTZHYTZqbW5NcFRzQ3dxbFlvek5VMVVCSWQ5ZVZR?oc=5"
+      }
+    ],
+    "sellerVoices": [],
+    "comparison": [],
+    "verified": "unconfirmed",
+    "rank": 9,
+    "id": "vos_009"
+  },
+  {
+    "title": "亚马逊自五月起严查VINE评论合规性",
+    "summary": "亚马逊宣布自2026年5月起加强VINE评论计划合规审查，重点打击滥用VINE获取虚假评论、操纵排名的行为。违规卖家可能面临ASIN下架、账号暂停甚至封禁。卖家社区出现恐慌情绪，部分卖家反映自己正常使用VINE也被误判，申诉流程复杂且耗时。AM需提醒卖家严格遵守VINE使用规则，避免短时间大量索评或跨站点重复注册，同时帮助被误判卖家准备申诉材料。",
+    "source": "雨果跨境",
+    "topic": "compliance",
+    "topicLabel": "⚖️ 合规",
+    "layer": "policy_impact",
+    "layerLabel": "📋 政策影响",
+    "effectDate": "2026-05-10",
+    "sentiment": "negative",
+    "painPoints": [
+      "误判风险",
+      "申诉流程复杂",
+      "账号安全威胁"
+    ],
+    "alertLevel": "critical",
+    "insightType": "amplifier",
+    "aiGenerated": true,
+    "links": [
+      {
+        "label": "雨果跨境报道",
+        "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE12a25sRzZfTzJSS21vb0JQb2hORE5XWWxiUnVjcW53czNOMXZKU2pmZHEybV80SWhFaThGUkZFNkdQLWpRU0xPMGs3WEJaTDA?oc=5"
+      }
+    ],
+    "sellerVoices": [],
+    "comparison": [],
+    "verified": "unconfirmed",
+    "rank": 10,
+    "id": "vos_010"
+  },
+  {
+    "title": "亚马逊正式对欧盟与北美站点征收燃油附加费",
+    "summary": "亚马逊宣布自2026年5月起，对欧盟和北美站点的FBA及MCF订单征收燃油附加费，费率根据柴油价格月度调整，目前约为每件订单0.15-0.30美元。该费用直接影响所有使用FBA的卖家，尤其是大件商品和长途运输品类（如家具、家电）的额外成本增幅可达5-10%。卖家社区情绪负面，大量卖家在论坛抱怨成本转嫁，部分中小卖家考虑转用FBM或提价以维持利润。AM需关注附加费对卖家利润率的累积影响，建议卖家优化包装重量、合并订单以降低单件成本。",
+    "source": "行业媒体",
+    "topic": "logistics",
+    "topicLabel": "🚚 物流",
+    "layer": "policy_impact",
+    "layerLabel": "📋 政策影响",
+    "effectDate": "2026-05-01",
+    "sentiment": "negative",
+    "painPoints": [
+      "物流成本上升",
+      "利润率压缩",
+      "提价压力"
+    ],
+    "alertLevel": "high",
+    "insightType": "confirmation",
+    "aiGenerated": true,
+    "links": [
+      {
+        "label": "亿邦动力网报道",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE16cWljSGdmTEFNMFVUcmNtNFROY1dYMmZaMTJicm5QVVVidDNFZUQ3bGplaldCRllqaXQ4cnlqb2IyVzNEaHI3Tkl1eVhnVWU1azdOZ0RR?oc=5"
+      }
+    ],
+    "sellerVoices": [],
+    "comparison": [],
+    "verified": "unconfirmed",
+    "rank": 11,
+    "id": "vos_011"
+  },
+  {
+    "title": "Etsy上调多市场监管运营费用",
+    "summary": "Etsy宣布自2026年5月起上调英国、德国、法国等市场的监管运营费用，增幅为订单金额的0.5-1%。该费用用于覆盖当地法规合规成本，直接影响Etsy卖家利润。亚马逊卖家社区讨论此事，担忧亚马逊可能效仿征收类似费用。AM需关注亚马逊费用结构变化，提前准备应对方案。",
+    "source": "Value Added Resource",
+    "topic": "tax",
+    "topicLabel": "💰 税务",
+    "layer": "macro_event",
+    "layerLabel": "🌍 宏观传导",
+    "effectDate": "2026-05-01",
+    "sentiment": "negative",
+    "painPoints": [
+      "运营费用增加",
+      "合规成本转嫁"
+    ],
+    "alertLevel": "normal",
+    "insightType": "blind_spot",
+    "aiGenerated": true,
+    "links": [
+      {
+        "label": "Value Added Resource报道",
+        "url": "https://www.valueaddedresource.net/etsy-ups-regulatory-operating-fees/"
+      }
+    ],
+    "sellerVoices": [],
+    "comparison": [],
+    "verified": "unconfirmed",
+    "rank": 12,
+    "id": "vos_012"
+  },
+  {
+    "title": "USPS加强邮资执法，大量包裹被拒收",
+    "summary": "美国邮政局（USPS）自2026年4月起加强邮资执法，对未足额支付邮资的包裹进行拒收或要求补缴，影响大量自发货卖家。被拒收的包裹需重新贴标发货，导致时效延误3-5天，额外成本每件约2-5美元。卖家社区出现抱怨声音，部分卖家因使用第三方折扣邮资标签而被误判。AM需提醒卖家使用官方认可的邮资渠道，并建议启用自动验证功能。",
+    "source": "Value Added Resource",
+    "topic": "logistics",
+    "topicLabel": "🚚 物流",
+    "layer": "macro_event",
+    "layerLabel": "🌍 宏观传导",
+    "effectDate": "2026-04-25",
+    "sentiment": "negative",
+    "painPoints": [
+      "包裹被拒收",
+      "时效延误",
+      "额外物流成本"
+    ],
+    "alertLevel": "high",
+    "insightType": "amplifier",
+    "aiGenerated": true,
+    "links": [
+      {
+        "label": "Value Added Resource报道",
+        "url": "https://www.valueaddedresource.net/usps-shipments-rejected-unpaid/"
+      }
+    ],
+    "sellerVoices": [],
+    "comparison": [],
+    "verified": "unconfirmed",
+    "rank": 13,
+    "id": "vos_013"
+  },
+  {
+    "title": "亚马逊全球智能枢纽仓深圳首仓已开放",
+    "summary": "亚马逊全球智能枢纽仓（GWD）深圳首仓于2026年4月正式面向卖家开放，提供集货、分拣、中转和一件代发功能，支持FBA和自发货卖家。该仓可帮助卖家降低头程物流成本约15%，缩短入仓时效2-3天。然而，卖家社区反馈入驻门槛较高，要求月发货量不低于5000件，且需签约至少6个月，中小卖家难以享受红利。AM应重点推荐给中大型卖家，并协助评估成本效益，同时关注GWD后续是否推出更灵活的入驻方案。",
+    "source": "雨果跨境",
+    "topic": "logistics",
+    "topicLabel": "🚚 物流",
+    "layer": "policy_impact",
+    "layerLabel": "📋 政策影响",
+    "effectDate": "2026-04-20",
+    "sentiment": "neutral",
+    "painPoints": [
+      "入驻门槛高",
+      "中小卖家难以受益"
+    ],
+    "alertLevel": "normal",
+    "insightType": "amplifier",
+    "aiGenerated": true,
+    "links": [
+      {
+        "label": "白鲸出海报道",
+        "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE05VWlzeDlSdnBKYWRDaUM0clRheldlbE04NWo2UlVFSDF5elJqTGtrQVBRVGl6THJfOElSeFFmdGc1Wm5OSUhjR2VOdGg?oc=5"
+      }
+    ],
+    "sellerVoices": [],
+    "comparison": [],
+    "verified": "unconfirmed",
+    "rank": 14,
+    "id": "vos_014"
+  },
+  {
+    "title": "eBay测试AI时尚模特引发卖家争议",
+    "summary": "eBay正在测试AI生成的时尚模特图像，并自动插入到卖家listing中，部分卖家反映未获得明确同意。该功能旨在提升商品展示效果，但卖家担心图像版权和真实性。亚马逊卖家社区对此高度关注，担忧亚马逊可能跟进类似做法。AM需关注亚马逊AI应用动态，提前与卖家沟通可能的变化。",
+    "source": "Value Added Resource",
+    "topic": "trending",
+    "topicLabel": "🔥 趋势",
+    "layer": "macro_event",
+    "layerLabel": "🌍 宏观传导",
+    "effectDate": "2026-04-20",
+    "sentiment": "negative",
+    "painPoints": [
+      "图像版权风险",
+      "未经同意修改listing"
+    ],
+    "alertLevel": "normal",
+    "insightType": "blind_spot",
+    "aiGenerated": true,
+    "links": [
+      {
+        "label": "Value Added Resource报道",
+        "url": "https://www.valueaddedresource.net/ebay-tests-ai-fashion-models-alters-images/"
+      }
+    ],
+    "sellerVoices": [],
+    "comparison": [],
+    "verified": "unconfirmed",
+    "rank": 15,
+    "id": "vos_015"
+  },
+  {
+    "id": "vos_016",
+    "rank": 16,
     "title": "3月31日起亚马逊终止FBA共享库存政策，六大站点贴标规则全面重构",
     "effectDate": "2026-03-31",
     "summary": "政策覆盖美、加、墨、欧、澳、日六大核心站点，彻底取消共享库存池机制，所有卖家库存独立管理。品牌注册卖家带有效GTIN商品可免贴FNSKU标签入库，非品牌卖家必须全量粘贴亚马逊条形码，否则货件将被拒收。从根源遏制跟卖乱象，同时大幅提升非品牌卖家的入库合规成本。",
@@ -103,33 +495,8 @@
     "aiGenerated": false
   },
   {
-    "title": "亚马逊在欧盟及北美站点开征燃油附加费，FBA/MCF费用上涨约5%",
-    "summary": "核心事件：亚马逊宣布自2026年4月起对欧盟和北美站点FBA及MCF订单征收燃油附加费，费率基于柴油价格指数动态调整。影响分析：初期附加费约为配送费的5%，导致每单成本增加$0.2-$0.5。对于高运费品类（如大件商品）影响更大。卖家反应：中小卖家普遍抱怨成本上升，部分卖家考虑提价或转FBM以规避费用。AM行动建议：AM需帮助卖家分析成本结构，建议优化包装减轻重量，或利用亚马逊物流新品优惠计划缓冲成本压力。",
-    "source": "雨果跨境",
-    "topic": "logistics",
-    "topicLabel": "🚚 物流",
-    "layer": "policy_impact",
-    "layerLabel": "📋 政策影响",
-    "effectDate": "2026-03-28",
-    "sentiment": "negative",
-    "painPoints": [
-      "物流成本上升",
-      "利润压缩",
-      "提价困难"
-    ],
-    "alertLevel": "high",
-    "insightType": "amplifier",
-    "aiGenerated": true,
-    "links": [],
-    "sellerVoices": [],
-    "comparison": [],
-    "verified": "unconfirmed",
-    "rank": 4,
-    "id": "vos_004"
-  },
-  {
-    "id": "vos_005",
-    "rank": 5,
+    "id": "vos_017",
+    "rank": 17,
     "title": "2026春季大促多站点规则重大调整，流量分配逻辑重构",
     "effectDate": "2026-03-15",
     "summary": "本次春促核心调整：美国站新增10天预热期，限时秒杀（LD）、镇店之宝（BD）免除提报费用，Prime专享折扣取消专属Prime标志、无单独提报入口。欧洲站、日本站同步调整促销门槛，平台流量向秒杀类促销倾斜，重构大促流量分配逻辑，卖家促销策略需全面调整。",
@@ -181,8 +548,8 @@
     "aiGenerated": false
   },
   {
-    "id": "vos_006",
-    "rank": 6,
+    "id": "vos_018",
+    "rank": 18,
     "title": "亚马逊全球站点3月12日全面执行DD+7资金预留新政，回款周期最长延长30天",
     "effectDate": "2026-03-12",
     "summary": "该政策统一全球卖家资金预留规则，要求所有订单货款在商品妥投后需额外冻结7天方可转入卖家可用余额。FBA订单回款周期普遍延长8-9天，FBM订单回款周期最长延长至20-30天，直接加剧卖家现金流压力，月销百万美金卖家额外资金占用超20万美金。",
@@ -255,57 +622,8 @@
     "aiGenerated": false
   },
   {
-    "title": "亚马逊全球智能枢纽仓深圳首仓开放，卖家跨境物流成本可降低约15%",
-    "summary": "核心事件：亚马逊全球智能枢纽仓（GWD）深圳首仓正式面向卖家开放，提供集货、质检、贴标、分拨等一站式服务。影响分析：中国卖家可通过GWD将货物集中发往全球，相比传统头程物流可降低约15%的运输成本，缩短3-5天时效。卖家反应：部分大卖家积极尝试，中小卖家因最低货量要求较高而观望。AM行动建议：AM应重点推荐给月发货量较大的卖家，协助评估成本效益，并关注仓库操作流程和备货周期。",
-    "source": "雨果跨境",
-    "topic": "logistics",
-    "topicLabel": "🚚 物流",
-    "layer": "policy_impact",
-    "layerLabel": "📋 政策影响",
-    "effectDate": "2026-03-10",
-    "sentiment": "positive",
-    "painPoints": [
-      "头程物流成本高",
-      "入仓流程复杂"
-    ],
-    "alertLevel": "normal",
-    "insightType": "amplifier",
-    "aiGenerated": true,
-    "links": [],
-    "sellerVoices": [],
-    "comparison": [],
-    "verified": "unconfirmed",
-    "rank": 7,
-    "id": "vos_007"
-  },
-  {
-    "title": "美国关税政策调整，中国出口商品平均加征10%关税",
-    "summary": "核心事件：美国2026年对华关税政策进一步收紧，多数消费品类目加征10%关税，涉及电子、服装、家居等热门品类。影响分析：中国卖家成本增加10%，终端售价需上调5%-10%才能维持利润，但可能影响销量。卖家反应：卖家社区讨论如何转嫁成本，部分卖家考虑在东南亚设厂或使用海外仓。AM行动建议：AM需帮助卖家分析关税影响，建议优化供应链（如使用海外仓贴标转运），并关注政策豁免清单。",
-    "source": "行业媒体",
-    "topic": "tax",
-    "topicLabel": "💰 税务",
-    "layer": "macro_event",
-    "layerLabel": "🌍 宏观传导",
-    "effectDate": "2026-03-10",
-    "sentiment": "negative",
-    "painPoints": [
-      "关税成本上升",
-      "提价困难",
-      "供应链调整压力"
-    ],
-    "alertLevel": "high",
-    "insightType": "amplifier",
-    "aiGenerated": true,
-    "links": [],
-    "sellerVoices": [],
-    "comparison": [],
-    "verified": "unconfirmed",
-    "rank": 8,
-    "id": "vos_008"
-  },
-  {
-    "id": "vos_009",
-    "rank": 9,
+    "id": "vos_019",
+    "rank": 19,
     "title": "3月5日亚马逊全球电商系统大规模宕机，黄金时段订单停摆广告持续扣费",
     "effectDate": "2026-03-05",
     "summary": "宕机覆盖亚马逊全球核心站点，持续约4小时，出现商品页面变狗、订单系统停摆、后台操作失效等问题。恰好处于美国站消费黄金时段，卖家订单量暴跌40%-100%，但广告系统仍正常扣费，大量卖家秒杀活动受影响，单卖家最高损失超2万美金。",
@@ -348,33 +666,8 @@
     "aiGenerated": false
   },
   {
-    "title": "国际物流价格持续上涨，中国跨境卖家头程运费成本增加30%",
-    "summary": "核心事件：受红海危机、油价上涨及港口拥堵影响，2026年第一季度国际海运价格同比上涨30%，空运价格上涨15%。影响分析：中国卖家头程物流成本显著上升，以40尺集装箱为例，从中国到美西运费从$3000涨至$4000。卖家反应：卖家社区普遍抱怨利润被侵蚀，部分卖家考虑提价或调整采购策略。AM行动建议：AM需关注物流成本走势，建议卖家优化包装、合并发货，并利用亚马逊GWD等集货渠道降低成本。",
-    "source": "雨果跨境",
-    "topic": "logistics",
-    "topicLabel": "🚚 物流",
-    "layer": "macro_event",
-    "layerLabel": "🌍 宏观传导",
-    "effectDate": "2026-03-05",
-    "sentiment": "negative",
-    "painPoints": [
-      "头程运费上涨",
-      "利润压缩",
-      "供应链不稳定"
-    ],
-    "alertLevel": "high",
-    "insightType": "amplifier",
-    "aiGenerated": true,
-    "links": [],
-    "sellerVoices": [],
-    "comparison": [],
-    "verified": "unconfirmed",
-    "rank": 10,
-    "id": "vos_010"
-  },
-  {
-    "id": "vos_011",
-    "rank": 11,
+    "id": "vos_020",
+    "rank": 20,
     "title": "3月4日亚马逊更新BSA协议，新增AI/自动化工具最严监管规则",
     "effectDate": "2026-03-04",
     "summary": "亚马逊更新《商业解决方案协议》，新增Agent Policy代理政策，对所有AI自动化工具提出强制合规要求：禁止使用平台数据训练AI模型，要求工具必须明确标识自动化身份，平台可随时切断不合规工具访问权限。全球超300万卖家、数千家第三方工具商受影响。",
@@ -420,226 +713,5 @@
     "topic": "compliance",
     "topicLabel": "⚖️ 合规",
     "aiGenerated": false
-  },
-  {
-    "title": "亚马逊DD+7资金预留政策统一全球规则，回款周期延长8-9天",
-    "summary": "核心事件：亚马逊自2026年3月起对所有卖家统一执行DD+7资金预留规则，即订单妥投后额外冻结7天方可转入可用余额。影响分析：FBA订单回款周期延长8-9天，FBM订单最长延长至20-30天。月销100万美金卖家额外资金占用超20万美金，中小卖家现金流压力剧增。卖家反应：大量卖家在论坛反映现金流吃紧，部分卖家考虑转FBM或使用贷款服务。AM行动建议：AM需主动联系高销量卖家，评估资金缺口，推荐亚马逊卖家贷款或调整库存策略，同时关注政策后续调整可能。",
-    "source": "雨果跨境",
-    "topic": "compliance",
-    "topicLabel": "⚖️ 合规",
-    "layer": "policy_impact",
-    "layerLabel": "📋 政策影响",
-    "effectDate": "2026-02-28",
-    "sentiment": "negative",
-    "painPoints": [
-      "现金流压力",
-      "回款周期延长",
-      "资金占用增加"
-    ],
-    "alertLevel": "critical",
-    "insightType": "amplifier",
-    "aiGenerated": true,
-    "links": [],
-    "sellerVoices": [],
-    "comparison": [],
-    "verified": "unconfirmed",
-    "rank": 12,
-    "id": "vos_012"
-  },
-  {
-    "title": "亚马逊2026年回款政策解读：DD+7锁款及账单变更，卖家需自查",
-    "summary": "核心事件：亚马逊2026年回款政策除DD+7外，还调整了账单周期，从每月两次改为每周一次，但锁款规则更严格。影响分析：卖家需更频繁核对账单，任何异常可能导致资金冻结延长。月销10万美金卖家平均每周需核对数百笔交易。卖家反应：卖家社区出现大量关于回款延迟的投诉，部分卖家因账单错误导致资金周转困难。AM行动建议：AM需提醒卖家定期检查账户健康状况，确保税务信息准确，并建议使用第三方财务管理工具。",
-    "source": "雨果跨境",
-    "topic": "compliance",
-    "topicLabel": "⚖️ 合规",
-    "layer": "policy_impact",
-    "layerLabel": "📋 政策影响",
-    "effectDate": "2026-02-25",
-    "sentiment": "negative",
-    "painPoints": [
-      "回款延迟",
-      "账单错误",
-      "资金冻结风险"
-    ],
-    "alertLevel": "high",
-    "insightType": "amplifier",
-    "aiGenerated": true,
-    "links": [],
-    "sellerVoices": [],
-    "comparison": [],
-    "verified": "unconfirmed",
-    "rank": 13,
-    "id": "vos_013"
-  },
-  {
-    "title": "跨境电商面临最强合规监管，卖家频收税务自查通知",
-    "summary": "核心事件：2026年多国加强跨境电商税务监管，中国卖家频繁收到欧洲、美国税务机构自查通知，要求补缴税款及提供交易记录。影响分析：合规成本平均增加$2000-$5000/年，部分卖家因历史税务问题面临高额罚款。卖家反应：卖家社区出现恐慌，大量卖家寻求专业税务咨询，部分卖家考虑关停账号。AM行动建议：AM需提醒卖家重视税务合规，推荐可靠的税务服务商，并关注各国税务政策变化，帮助卖家提前准备。",
-    "source": "雨果跨境",
-    "topic": "tax",
-    "topicLabel": "💰 税务",
-    "layer": "macro_event",
-    "layerLabel": "🌍 宏观传导",
-    "effectDate": "2026-02-15",
-    "sentiment": "negative",
-    "painPoints": [
-      "税务合规成本高",
-      "罚款风险",
-      "信息不对称"
-    ],
-    "alertLevel": "critical",
-    "insightType": "amplifier",
-    "aiGenerated": true,
-    "links": [],
-    "sellerVoices": [],
-    "comparison": [],
-    "verified": "unconfirmed",
-    "rank": 14,
-    "id": "vos_014"
-  },
-  {
-    "title": "中东冲突影响航运，亚欧航线运费上涨20%且时效延长5-7天",
-    "summary": "核心事件：红海地区冲突导致主要航运公司绕行好望角，2026年第一季度亚欧航线运费上涨20%，运输时效延长5-7天。影响分析：欧洲站卖家补货周期拉长，库存周转率下降，部分卖家面临断货风险。卖家反应：卖家讨论如何调整发货计划，部分卖家增加安全库存或转向空运。AM行动建议：AM需提醒欧洲站卖家提前备货，评估海运延误影响，并关注亚马逊欧洲仓库库存情况。",
-    "source": "行业媒体",
-    "topic": "logistics",
-    "topicLabel": "🚚 物流",
-    "layer": "macro_event",
-    "layerLabel": "🌍 宏观传导",
-    "effectDate": "2026-02-10",
-    "sentiment": "negative",
-    "painPoints": [
-      "物流时效延长",
-      "运费上涨",
-      "断货风险"
-    ],
-    "alertLevel": "high",
-    "insightType": "amplifier",
-    "aiGenerated": true,
-    "links": [],
-    "sellerVoices": [],
-    "comparison": [],
-    "verified": "unconfirmed",
-    "rank": 15,
-    "id": "vos_015"
-  },
-  {
-    "title": "美元兑人民币汇率波动加剧，卖家汇兑损失平均增加2%",
-    "summary": "核心事件：2026年第一季度美元兑人民币汇率波动幅度加大，从6.8到7.2之间震荡。影响分析：卖家在结汇时面临汇兑损失，以月销售额10万美金为例，若在低点结汇损失可达$2000。卖家反应：卖家社区讨论如何锁定汇率，部分卖家使用跨境收款工具（如连连、PingPong）的锁汇功能。AM行动建议：AM需提醒卖家关注汇率走势，建议使用锁汇工具或分批结汇，同时优化定价策略对冲风险。",
-    "source": "雨果跨境",
-    "topic": "trending",
-    "topicLabel": "🔥 趋势",
-    "layer": "macro_event",
-    "layerLabel": "🌍 宏观传导",
-    "effectDate": "2026-02-05",
-    "sentiment": "negative",
-    "painPoints": [
-      "汇兑损失",
-      "利润波动",
-      "财务规划困难"
-    ],
-    "alertLevel": "normal",
-    "insightType": "amplifier",
-    "aiGenerated": true,
-    "links": [],
-    "sellerVoices": [],
-    "comparison": [],
-    "verified": "unconfirmed",
-    "rank": 16,
-    "id": "vos_016"
-  },
-  {
-    "title": "亚马逊开年加强扫号及评论政策执行，变体违规和刷单行为遭严查",
-    "summary": "核心事件：2026年初亚马逊大规模封禁违规账号，主要针对变体滥用、刷单、操纵评论等行为，同时评论政策更新，禁止合并变体评论。影响分析：数千个卖家账号被封，其中中国卖家占比超60%。变体合规卖家需重新合并listing，评论数量可能减少30%-50%。卖家反应：卖家社区恐慌情绪蔓延，大量卖家讨论如何申诉，部分合规卖家也因误判被误伤。AM行动建议：AM需帮助卖家自查listing合规性，提供申诉指导，并强调合规运营的重要性，避免触碰红线。",
-    "source": "雨果跨境",
-    "topic": "compliance",
-    "topicLabel": "⚖️ 合规",
-    "layer": "policy_impact",
-    "layerLabel": "📋 政策影响",
-    "effectDate": "2026-01-10",
-    "sentiment": "negative",
-    "painPoints": [
-      "账号封禁风险",
-      "评论减少",
-      "合规成本增加"
-    ],
-    "alertLevel": "critical",
-    "insightType": "amplifier",
-    "aiGenerated": true,
-    "links": [],
-    "sellerVoices": [],
-    "comparison": [],
-    "verified": "unconfirmed",
-    "rank": 17,
-    "id": "vos_017"
-  },
-  {
-    "title": "亚马逊2026年新卖家扶持计划升级，AI数字员工工具首年销量可提升10倍",
-    "summary": "核心事件：亚马逊2026年推出四大新卖家扶持计划，包括AI数字员工（自动优化listing、广告投放）、新卖家入门大礼包（$50,000美元额度）、物流费用减免等。影响分析：AI数字员工可自动执行关键词优化、广告调价、库存预警等任务，首年使用卖家平均销量提升10倍。卖家反应：新卖家群体兴奋，但老卖家担心AI工具可能加剧竞争。AM行动建议：AM应鼓励新卖家积极利用AI工具，同时关注其对市场整体竞争格局的影响，帮助老卖家调整策略。",
-    "source": "行业媒体",
-    "topic": "trending",
-    "topicLabel": "🔥 趋势",
-    "layer": "policy_impact",
-    "layerLabel": "📋 政策影响",
-    "effectDate": "2026-01-08",
-    "sentiment": "positive",
-    "painPoints": [
-      "新卖家入门难",
-      "运营效率低"
-    ],
-    "alertLevel": "normal",
-    "insightType": "amplifier",
-    "aiGenerated": true,
-    "links": [],
-    "sellerVoices": [],
-    "comparison": [],
-    "verified": "unconfirmed",
-    "rank": 18,
-    "id": "vos_018"
-  },
-  {
-    "title": "亚马逊AI数字员工及官方路径助新卖家首年销量提升10倍",
-    "summary": "核心事件：亚马逊2026年推出AI数字员工工具，可自动完成listing优化、广告投放、库存管理等任务，并结合官方扶持路径（如新卖家大礼包）。影响分析：使用AI数字员工的新卖家首年平均销量提升10倍，广告ACOS降低20%以上。卖家反应：新卖家积极试用，但部分老卖家认为AI工具削弱了他们的经验优势。AM行动建议：AM应鼓励新卖家全面使用AI工具，同时为老卖家提供差异化竞争建议，如品牌建设和产品创新。",
-    "source": "行业媒体",
-    "topic": "trending",
-    "topicLabel": "🔥 趋势",
-    "layer": "policy_impact",
-    "layerLabel": "📋 政策影响",
-    "effectDate": "2026-01-08",
-    "sentiment": "positive",
-    "painPoints": [
-      "新卖家运营门槛高"
-    ],
-    "alertLevel": "normal",
-    "insightType": "amplifier",
-    "aiGenerated": true,
-    "links": [],
-    "sellerVoices": [],
-    "comparison": [],
-    "verified": "unconfirmed",
-    "rank": 19,
-    "id": "vos_019"
-  },
-  {
-    "title": "亚马逊欧洲站2026年推出多项举措，降低卖家合规及物流成本",
-    "summary": "核心事件：亚马逊欧洲站2026年推出VAT简化申报、FBA新品免仓储费、跨境物流补贴等政策。影响分析：新卖家在欧洲站的首年运营成本可降低约20%，尤其是VAT申报流程简化可节省平均500欧元/月的代理费用。卖家反应：卖家社区普遍欢迎，但部分卖家担忧政策可持续性。AM行动建议：AM应积极推广欧洲站机会，帮助卖家利用政策红利拓展欧洲市场，同时关注各国税务合规细节。",
-    "source": "行业媒体",
-    "topic": "tax",
-    "topicLabel": "💰 税务",
-    "layer": "policy_impact",
-    "layerLabel": "📋 政策影响",
-    "effectDate": "2026-01-05",
-    "sentiment": "positive",
-    "painPoints": [
-      "欧洲站合规复杂",
-      "物流成本高"
-    ],
-    "alertLevel": "normal",
-    "insightType": "amplifier",
-    "aiGenerated": true,
-    "links": [],
-    "sellerVoices": [],
-    "comparison": [],
-    "verified": "unconfirmed",
-    "rank": 20,
-    "id": "vos_020"
   }
 ]

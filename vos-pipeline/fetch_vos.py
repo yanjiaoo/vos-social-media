@@ -26,7 +26,7 @@ from manual_entry import ManualEntryPreserver
 
 
 class VOSPipeline:
-    TOTAL_TOPICS = 20
+    TOTAL_TOPICS = 50  # max topics to keep (accumulative)
     EXECUTION_TIMEOUT = 180  # seconds
     OUTPUT_FILE = "vos-data.json"
 
@@ -156,10 +156,9 @@ class VOSPipeline:
             except Exception as e:
                 print(f"  [DeepSeek] Summary enrichment failed: {e}")
 
-        # 8. Enrich all topics with required fields + match RSS URLs
+        # 8. Enrich all new topics with required fields + match RSS URLs
         for topic in ai_topics:
             self._enrich_topic(topic)
-            # If topic has no links, try to match with RSS items by title keywords
             if not topic.get("links"):
                 title_words = set(topic.get("title", "").lower().split())
                 for item in rss_items:
@@ -169,16 +168,41 @@ class VOSPipeline:
                             topic["links"] = [{"label": item.source_platform, "url": item.url}]
                             break
 
-        # 9. Merge with manual entries
-        print("\n[Phase 8] Merging with manual entries...")
-        merged = self.manual.merge(manual_entries, ai_topics, self.TOTAL_TOPICS)
-        print(f"  Final count: {len(merged)} topics ({len(manual_entries)} manual + {len(merged) - len(manual_entries)} AI)")
+        # 9. INCREMENTAL MERGE: keep ALL existing topics, only add new non-duplicate ones
+        print("\n[Phase 8] Incremental merge (preserving existing topics)...")
+        existing_titles = set()
+        for e in existing:
+            existing_titles.add(e.get("title", "").strip().lower())
+            # Also add simplified version for fuzzy matching
+            simplified = "".join(e.get("title", "").lower().split())
+            existing_titles.add(simplified)
 
-        # 10. Validate, sort, assign ranks
-        print("\n[Phase 9] Validating and finalizing...")
+        new_topics = []
+        for topic in ai_topics:
+            title = topic.get("title", "").strip()
+            title_lower = title.lower()
+            simplified = "".join(title_lower.split())
+            # Check for duplicates: exact match or >60% character overlap with any existing
+            is_dup = title_lower in existing_titles or simplified in existing_titles
+            if not is_dup:
+                for et in existing_titles:
+                    if len(et) > 5 and len(simplified) > 5:
+                        overlap = sum(1 for c in simplified if c in et)
+                        if overlap / max(len(simplified), 1) > 0.6:
+                            is_dup = True
+                            break
+            if not is_dup and validate_topic(topic):
+                new_topics.append(topic)
+
+        print(f"  Existing: {len(existing)} topics, New unique: {len(new_topics)} topics")
+
+        # Combine: existing first (unchanged), then new topics
+        combined = list(existing) + new_topics
+
+        # 10. Sort, assign ranks
+        print("\n[Phase 9] Finalizing...")
         valid_topics = []
-        for topic in merged:
-            self._enrich_topic(topic)
+        for topic in combined:
             if validate_topic(topic):
                 valid_topics.append(topic)
             else:

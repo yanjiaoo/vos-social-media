@@ -144,9 +144,18 @@ class VOSPipeline:
             except Exception as e:
                 print(f"  [DeepSeek] Summary enrichment failed: {e}")
 
-        # 8. Enrich all topics with required fields
+        # 8. Enrich all topics with required fields + match RSS URLs
         for topic in ai_topics:
             self._enrich_topic(topic)
+            # If topic has no links, try to match with RSS items by title keywords
+            if not topic.get("links"):
+                title_words = set(topic.get("title", "").lower().split())
+                for item in rss_items:
+                    if item.url and item.url.startswith("http"):
+                        item_words = set(item.title.lower().split())
+                        if len(title_words & item_words) >= 3:
+                            topic["links"] = [{"label": item.source_platform, "url": item.url}]
+                            break
 
         # 9. Merge with manual entries
         print("\n[Phase 8] Merging with manual entries...")

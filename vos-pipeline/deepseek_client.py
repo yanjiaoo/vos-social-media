@@ -80,9 +80,11 @@ class DeepSeekClient:
         # Build context from scraped items
         context_text = ""
         if context_items:
-            context_text = "\n\n以下是从Google News和卖家论坛抓取的近期讨论，作为参考素材：\n"
+            context_text = "\n\n以下是从Google News和卖家论坛抓取的近期讨论，作为参考素材（请在生成话题时引用对应的URL作为links）：\n"
             for i, item in enumerate(context_items[:30]):
                 context_text += f"\n{i+1}. [{item.source_platform}] {item.title}"
+                if item.url:
+                    context_text += f"\n   URL: {item.url}"
                 if item.content:
                     context_text += f"\n   {item.content[:200]}"
 
@@ -111,7 +113,7 @@ class DeepSeekClient:
 - painPoints: 1-3个具体卖家痛点（如"现金流压力"、"合规成本增加"）
 - alertLevel: 紧急程度（critical/high/normal）
 - insightType: 洞察类型（blind_spot/amplifier/confirmation）
-- links: 参考链接数组，每个包含label和url。如果没有可验证的链接，只放来源平台名称不放URL。严禁编造虚假URL。
+- links: 参考链接数组，每个包含label和url。**必须尽量提供真实链接**。优先使用参考素材中提供的原始URL。如果素材中有URL，必须包含在links中。只有在完全没有任何可用URL时，才放来源平台名称不放URL。严禁编造虚假URL。
 
 ## 摘要质量标准（极其重要）
 优秀摘要示例：

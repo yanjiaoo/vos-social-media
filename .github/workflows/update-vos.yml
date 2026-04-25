@@ -2,7 +2,7 @@ name: 自动更新VOS卖家热议
 
 on:
   schedule:
-    - cron: '0 6 * * *'
+    - cron: '0 17 * * *'  # 北京时间凌晨1点（UTC 17:00）
   workflow_dispatch:
 
 permissions:

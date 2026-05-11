@@ -192,14 +192,30 @@ class VOSPipeline:
                             is_dup = True
                             break
             if not is_dup and validate_topic(topic):
-                # Only keep AI topics that have real links
+                # Anti-fabrication: topic must have a real link
                 has_links = topic.get("links") and any(
                     l.get("url", "").startswith("http") for l in topic["links"]
                 )
-                if has_links:
+                if not has_links:
+                    print(f"  Skipping (no links): {title[:40]}")
+                    continue
+
+                # Anti-fabrication: URL must match an RSS item with keyword overlap
+                topic_url = next((l["url"] for l in topic.get("links", []) if l.get("url", "").startswith("http")), "")
+                url_verified = False
+                for item in rss_items:
+                    if item.url == topic_url:
+                        # RSS title and AI topic title must share at least 2 keywords
+                        rss_words = set(item.title.lower().split())
+                        ai_words = set(title_lower.split())
+                        if len(rss_words & ai_words) >= 2:
+                            url_verified = True
+                        break
+
+                if url_verified:
                     new_topics.append(topic)
                 else:
-                    print(f"  Skipping (no links): {title[:40]}")
+                    print(f"  Skipping (URL-title mismatch): {title[:40]}")
 
         print(f"  Existing: {len(existing)} topics, New unique: {len(new_topics)} topics")
 

@@ -6,6 +6,7 @@ then uses DeepSeek AI to generate intelligence briefings for Amazon AMs.
 """
 import json
 import os
+import re
 import sys
 import time
 from datetime import datetime, timezone
@@ -23,6 +24,46 @@ from noise_filter import NoiseFilter
 from topic_merger import TopicMerger
 from deepseek_client import DeepSeekClient
 from manual_entry import ManualEntryPreserver
+
+
+def title_tokens(text: str) -> set:
+    """
+    中英文混合分词。
+    注意：中文标题没有空格，直接用 .split() 会得到一整串，
+    导致关键词重叠永远为 0，防编造校验会把所有中文话题全部拒掉。
+    这里对中文按 2 字滑窗切词，英文/数字按单词切。
+    """
+    t = (text or "").lower()
+    tokens = set(re.findall(r'[a-z0-9]{2,}', t))
+    for seg in re.findall(r'[\u4e00-\u9fff]+', t):
+        for i in range(len(seg) - 1):
+            tokens.add(seg[i:i + 2])
+    return tokens
+
+
+def same_url(a: str, b: str) -> bool:
+    """URL 归一化比较（忽略 query 和结尾斜杠）"""
+    if not a or not b:
+        return False
+    na = a.split('?')[0].rstrip('/')
+    nb = b.split('?')[0].rstrip('/')
+    return na == nb or a == b
+
+
+def is_cjk(text: str) -> bool:
+    return len(re.findall(r'[\u4e00-\u9fff]', text or "")) >= 4
+
+
+def title_match_score(ai_title: str, item) -> int:
+    """AI 标题与 RSS 素材的关键词重叠数（素材标题+正文一起算）"""
+    ai = title_tokens(ai_title)
+    src = title_tokens(item.title) | title_tokens(getattr(item, "content", "")[:400])
+    return len(ai & src)
+
+
+def title_match_threshold(ai_title: str, item) -> int:
+    """跨语言时（中文标题 vs 英文原文）只能靠品牌词/数字匹配，阈值放宽到 1"""
+    return 2 if is_cjk(ai_title) == is_cjk(item.title) else 1
 
 
 class VOSPipeline:
@@ -160,13 +201,15 @@ class VOSPipeline:
         for topic in ai_topics:
             self._enrich_topic(topic)
             if not topic.get("links"):
-                title_words = set(topic.get("title", "").lower().split())
+                ai_title = topic.get("title", "")
+                best, best_score = None, 0
                 for item in rss_items:
                     if item.url and item.url.startswith("http"):
-                        item_words = set(item.title.lower().split())
-                        if len(title_words & item_words) >= 3:
-                            topic["links"] = [{"label": item.source_platform, "url": item.url}]
-                            break
+                        score = title_match_score(ai_title, item)
+                        if score > best_score:
+                            best, best_score = item, score
+                if best is not None and best_score >= max(3, title_match_threshold(ai_title, best)):
+                    topic["links"] = [{"label": best.title, "url": best.url}]
 
         # 9. INCREMENTAL MERGE: keep ALL existing topics, only add new non-duplicate ones
         print("\n[Phase 8] Incremental merge (preserving existing topics)...")
@@ -200,20 +243,21 @@ class VOSPipeline:
                     print(f"  Skipping (no links): {title[:40]}")
                     continue
 
-                # Anti-fabrication: URL must match an RSS item with keyword overlap
+                # Anti-fabrication: URL 必须能在 RSS 素材中找到，且标题有关键词重叠
                 topic_url = next((l["url"] for l in topic.get("links", []) if l.get("url", "").startswith("http")), "")
                 url_verified = False
+                matched_url = False
                 for item in rss_items:
-                    if item.url == topic_url:
-                        # RSS title and AI topic title must share at least 2 keywords
-                        rss_words = set(item.title.lower().split())
-                        ai_words = set(title_lower.split())
-                        if len(rss_words & ai_words) >= 2:
+                    if same_url(item.url, topic_url):
+                        matched_url = True
+                        if title_match_score(title, item) >= title_match_threshold(title, item):
                             url_verified = True
                         break
 
                 if url_verified:
                     new_topics.append(topic)
+                elif not matched_url:
+                    print(f"  Skipping (URL not in RSS material): {title[:40]}")
                 else:
                     print(f"  Skipping (URL-title mismatch): {title[:40]}")
 

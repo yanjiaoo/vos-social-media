@@ -4,6 +4,8 @@ on:
   schedule:
     - cron: '0 17 * * *'  # 北京时间凌晨1点（UTC 17:00）
   workflow_dispatch:
+  repository_dispatch:
+    types: [run-now]  # 允许用只有 contents:write 的 PAT 手动触发
 
 permissions:
   contents: write

@@ -87,34 +87,6 @@
     "id": "vos_003"
   },
   {
-    "title": "亚马逊严打跟卖政策落地，2024年已下架大量跟卖链接",
-    "summary": "亚马逊自2024年起加大对跟卖的打击力度，通过品牌注册和透明计划等措施，下架了数百万条跟卖链接。2026年政策进一步收紧，未授权跟卖将面临封号风险。卖家社区反应积极，品牌卖家表示销量提升，但部分跟卖卖家转向其他平台。AM需鼓励卖家注册品牌，并利用品牌保护工具。",
-    "source": "行业媒体",
-    "topic": "compliance",
-    "topicLabel": "⚖️ 合规",
-    "layer": "policy_impact",
-    "layerLabel": "📋 政策影响",
-    "effectDate": "2026-08-04",
-    "sentiment": "positive",
-    "painPoints": [
-      "待分析"
-    ],
-    "alertLevel": "normal",
-    "insightType": "confirmation",
-    "aiGenerated": true,
-    "links": [
-      {
-        "label": "2024亚马逊严打跟卖政策落地 平台跟卖乱象潮水消退 跨境电商卖家合规运营成主流趋势",
-        "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9uU0RNdm1BaUJNTHpsNnRacFVVcGQ1SlZjdjZScUlrMURGcVQ1Uy1ZbkNXMXRIUDdtOEJ6WTdDeHVQWUxLaTNlc3NneGVhOENhbUZV?oc=5"
-      }
-    ],
-    "sellerVoices": [],
-    "comparison": [],
-    "verified": "unconfirmed",
-    "rank": 4,
-    "id": "vos_004"
-  },
-  {
     "title": "欧盟海关新政7月生效，欧洲站卖家进口合规门槛提高",
     "summary": "欧盟海关新政将于2026年7月1日生效，要求所有进口商品提供更详细的申报信息，包括原产地证明和合规声明。该政策将增加卖家的合规成本和时间，预计每票货物处理时间延长2-3天。卖家社区担忧清关延误和额外费用。AM需提醒欧洲站卖家提前准备合规文件，并与物流商沟通清关安排。",
     "source": "雨果跨境",
@@ -140,7 +112,7 @@
     "sellerVoices": [],
     "comparison": [],
     "verified": "unconfirmed",
-    "rank": 5,
+    "rank": 4,
     "id": "vos_005"
   },
   {
@@ -168,7 +140,7 @@
     "sellerVoices": [],
     "comparison": [],
     "verified": "unconfirmed",
-    "rank": 6,
+    "rank": 5,
     "id": "vos_006"
   },
   {
@@ -196,7 +168,7 @@
     "sellerVoices": [],
     "comparison": [],
     "verified": "unconfirmed",
-    "rank": 7,
+    "rank": 6,
     "id": "vos_007"
   },
   {
@@ -225,7 +197,7 @@
     "sellerVoices": [],
     "comparison": [],
     "verified": "unconfirmed",
-    "rank": 8,
+    "rank": 7,
     "id": "vos_008"
   },
   {
@@ -253,7 +225,7 @@
     "sellerVoices": [],
     "comparison": [],
     "verified": "unconfirmed",
-    "rank": 9,
+    "rank": 8,
     "id": "vos_009"
   },
   {
@@ -282,7 +254,7 @@
     "sellerVoices": [],
     "comparison": [],
     "verified": "unconfirmed",
-    "rank": 10,
+    "rank": 9,
     "id": "vos_010"
   },
   {
@@ -311,7 +283,7 @@
     "sellerVoices": [],
     "comparison": [],
     "verified": "unconfirmed",
-    "rank": 11,
+    "rank": 10,
     "id": "vos_011"
   },
   {
@@ -340,7 +312,7 @@
     "sellerVoices": [],
     "comparison": [],
     "verified": "unconfirmed",
-    "rank": 12,
+    "rank": 11,
     "id": "vos_012"
   },
   {
@@ -370,7 +342,7 @@
     "sellerVoices": [],
     "comparison": [],
     "verified": "unconfirmed",
-    "rank": 13,
+    "rank": 12,
     "id": "vos_013"
   },
   {
@@ -399,7 +371,7 @@
     "sellerVoices": [],
     "comparison": [],
     "verified": "unconfirmed",
-    "rank": 14,
+    "rank": 13,
     "id": "vos_014"
   },
   {
@@ -428,7 +400,7 @@
     "sellerVoices": [],
     "comparison": [],
     "verified": "unconfirmed",
-    "rank": 15,
+    "rank": 14,
     "id": "vos_015"
   },
   {
@@ -457,7 +429,7 @@
     "sellerVoices": [],
     "comparison": [],
     "verified": "unconfirmed",
-    "rank": 16,
+    "rank": 15,
     "id": "vos_016"
   },
   {
@@ -486,7 +458,7 @@
     "sellerVoices": [],
     "comparison": [],
     "verified": "unconfirmed",
-    "rank": 17,
+    "rank": 16,
     "id": "vos_017"
   },
   {
@@ -515,7 +487,7 @@
     "sellerVoices": [],
     "comparison": [],
     "verified": "unconfirmed",
-    "rank": 18,
+    "rank": 17,
     "id": "vos_018"
   },
   {
@@ -544,7 +516,7 @@
     "sellerVoices": [],
     "comparison": [],
     "verified": "unconfirmed",
-    "rank": 19,
+    "rank": 18,
     "id": "vos_019"
   },
   {
@@ -573,7 +545,7 @@
     "sellerVoices": [],
     "comparison": [],
     "verified": "unconfirmed",
-    "rank": 20,
+    "rank": 19,
     "id": "vos_020"
   },
   {
@@ -602,7 +574,7 @@
     "sellerVoices": [],
     "comparison": [],
     "verified": "unconfirmed",
-    "rank": 21,
+    "rank": 20,
     "id": "vos_021"
   },
   {
@@ -631,7 +603,7 @@
     "sellerVoices": [],
     "comparison": [],
     "verified": "unconfirmed",
-    "rank": 22,
+    "rank": 21,
     "id": "vos_022"
   },
   {
@@ -660,7 +632,7 @@
     "sellerVoices": [],
     "comparison": [],
     "verified": "unconfirmed",
-    "rank": 23,
+    "rank": 22,
     "id": "vos_023"
   },
   {
@@ -688,7 +660,7 @@
     "sellerVoices": [],
     "comparison": [],
     "verified": "unconfirmed",
-    "rank": 24,
+    "rank": 23,
     "id": "vos_024"
   },
   {
@@ -718,7 +690,7 @@
     "sellerVoices": [],
     "comparison": [],
     "verified": "unconfirmed",
-    "rank": 25,
+    "rank": 24,
     "id": "vos_025"
   },
   {
@@ -747,7 +719,7 @@
     "sellerVoices": [],
     "comparison": [],
     "verified": "unconfirmed",
-    "rank": 26,
+    "rank": 25,
     "id": "vos_026"
   },
   {
@@ -777,7 +749,7 @@
     "sellerVoices": [],
     "comparison": [],
     "verified": "unconfirmed",
-    "rank": 27,
+    "rank": 26,
     "id": "vos_027"
   },
   {
@@ -806,7 +778,7 @@
     "sellerVoices": [],
     "comparison": [],
     "verified": "unconfirmed",
-    "rank": 28,
+    "rank": 27,
     "id": "vos_028"
   },
   {
@@ -835,7 +807,7 @@
     "sellerVoices": [],
     "comparison": [],
     "verified": "unconfirmed",
-    "rank": 29,
+    "rank": 28,
     "id": "vos_029"
   },
   {
@@ -864,7 +836,7 @@
     "sellerVoices": [],
     "comparison": [],
     "verified": "unconfirmed",
-    "rank": 30,
+    "rank": 29,
     "id": "vos_030"
   },
   {
@@ -898,7 +870,7 @@
     "sellerVoices": [],
     "comparison": [],
     "verified": "unconfirmed",
-    "rank": 31,
+    "rank": 30,
     "id": "vos_031"
   },
   {
@@ -928,7 +900,7 @@
     "sellerVoices": [],
     "comparison": [],
     "verified": "unconfirmed",
-    "rank": 32,
+    "rank": 31,
     "id": "vos_032"
   },
   {
@@ -958,7 +930,7 @@
     "sellerVoices": [],
     "comparison": [],
     "verified": "unconfirmed",
-    "rank": 33,
+    "rank": 32,
     "id": "vos_033"
   },
   {
@@ -988,7 +960,7 @@
     "sellerVoices": [],
     "comparison": [],
     "verified": "unconfirmed",
-    "rank": 34,
+    "rank": 33,
     "id": "vos_034"
   },
   {
@@ -1018,7 +990,7 @@
     "sellerVoices": [],
     "comparison": [],
     "verified": "unconfirmed",
-    "rank": 35,
+    "rank": 34,
     "id": "vos_035"
   },
   {
@@ -1048,7 +1020,7 @@
     "sellerVoices": [],
     "comparison": [],
     "verified": "unconfirmed",
-    "rank": 36,
+    "rank": 35,
     "id": "vos_036"
   },
   {
@@ -1078,7 +1050,7 @@
     "sellerVoices": [],
     "comparison": [],
     "verified": "unconfirmed",
-    "rank": 37,
+    "rank": 36,
     "id": "vos_037"
   },
   {
@@ -1107,7 +1079,7 @@
     "sellerVoices": [],
     "comparison": [],
     "verified": "unconfirmed",
-    "rank": 38,
+    "rank": 37,
     "id": "vos_038"
   },
   {
@@ -1136,7 +1108,7 @@
     "sellerVoices": [],
     "comparison": [],
     "verified": "unconfirmed",
-    "rank": 39,
+    "rank": 38,
     "id": "vos_039"
   },
   {
@@ -1164,7 +1136,7 @@
     "sellerVoices": [],
     "comparison": [],
     "verified": "unconfirmed",
-    "rank": 40,
+    "rank": 39,
     "id": "vos_040"
   },
   {
@@ -1194,7 +1166,7 @@
     "sellerVoices": [],
     "comparison": [],
     "verified": "unconfirmed",
-    "rank": 41,
+    "rank": 40,
     "id": "vos_041"
   },
   {
@@ -1224,7 +1196,7 @@
     "sellerVoices": [],
     "comparison": [],
     "verified": "unconfirmed",
-    "rank": 42,
+    "rank": 41,
     "id": "vos_042"
   },
   {
@@ -1252,7 +1224,7 @@
     "sellerVoices": [],
     "comparison": [],
     "verified": "unconfirmed",
-    "rank": 43,
+    "rank": 42,
     "id": "vos_043"
   },
   {
@@ -1280,7 +1252,7 @@
     "sellerVoices": [],
     "comparison": [],
     "verified": "unconfirmed",
-    "rank": 44,
+    "rank": 43,
     "id": "vos_044"
   },
   {
@@ -1309,7 +1281,7 @@
     "sellerVoices": [],
     "comparison": [],
     "verified": "unconfirmed",
-    "rank": 45,
+    "rank": 44,
     "id": "vos_045"
   },
   {
@@ -1337,7 +1309,7 @@
     "sellerVoices": [],
     "comparison": [],
     "verified": "unconfirmed",
-    "rank": 46,
+    "rank": 45,
     "id": "vos_046"
   },
   {
@@ -1366,7 +1338,7 @@
     "sellerVoices": [],
     "comparison": [],
     "verified": "unconfirmed",
-    "rank": 47,
+    "rank": 46,
     "id": "vos_047"
   },
   {
@@ -1395,7 +1367,7 @@
     "sellerVoices": [],
     "comparison": [],
     "verified": "unconfirmed",
-    "rank": 48,
+    "rank": 47,
     "id": "vos_048"
   },
   {
@@ -1424,7 +1396,7 @@
     "sellerVoices": [],
     "comparison": [],
     "verified": "unconfirmed",
-    "rank": 49,
+    "rank": 48,
     "id": "vos_049"
   },
   {
@@ -1453,7 +1425,7 @@
     "sellerVoices": [],
     "comparison": [],
     "verified": "unconfirmed",
-    "rank": 50,
+    "rank": 49,
     "id": "vos_050"
   },
   {
@@ -1481,7 +1453,7 @@
     "sellerVoices": [],
     "comparison": [],
     "verified": "unconfirmed",
-    "rank": 51,
+    "rank": 50,
     "id": "vos_051"
   },
   {
@@ -1510,7 +1482,7 @@
     "sellerVoices": [],
     "comparison": [],
     "verified": "unconfirmed",
-    "rank": 52,
+    "rank": 51,
     "id": "vos_052"
   },
   {
@@ -1540,7 +1512,7 @@
     "sellerVoices": [],
     "comparison": [],
     "verified": "unconfirmed",
-    "rank": 53,
+    "rank": 52,
     "id": "vos_053"
   },
   {
@@ -1570,7 +1542,7 @@
     "sellerVoices": [],
     "comparison": [],
     "verified": "unconfirmed",
-    "rank": 54,
+    "rank": 53,
     "id": "vos_054"
   },
   {
@@ -1598,7 +1570,7 @@
     "sellerVoices": [],
     "comparison": [],
     "verified": "unconfirmed",
-    "rank": 55,
+    "rank": 54,
     "id": "vos_055"
   },
   {
@@ -1627,7 +1599,7 @@
     "sellerVoices": [],
     "comparison": [],
     "verified": "unconfirmed",
-    "rank": 56,
+    "rank": 55,
     "id": "vos_056"
   },
   {
@@ -1656,7 +1628,7 @@
     "sellerVoices": [],
     "comparison": [],
     "verified": "unconfirmed",
-    "rank": 57,
+    "rank": 56,
     "id": "vos_057"
   },
   {
@@ -1684,7 +1656,7 @@
     "sellerVoices": [],
     "comparison": [],
     "verified": "unconfirmed",
-    "rank": 58,
+    "rank": 57,
     "id": "vos_058"
   },
   {
@@ -1713,7 +1685,7 @@
     "sellerVoices": [],
     "comparison": [],
     "verified": "unconfirmed",
-    "rank": 59,
+    "rank": 58,
     "id": "vos_059"
   },
   {
@@ -1742,7 +1714,7 @@
     "sellerVoices": [],
     "comparison": [],
     "verified": "unconfirmed",
-    "rank": 60,
+    "rank": 59,
     "id": "vos_060"
   },
   {
@@ -1771,7 +1743,7 @@
     "sellerVoices": [],
     "comparison": [],
     "verified": "unconfirmed",
-    "rank": 61,
+    "rank": 60,
     "id": "vos_061"
   },
   {
@@ -1801,7 +1773,7 @@
     "sellerVoices": [],
     "comparison": [],
     "verified": "unconfirmed",
-    "rank": 62,
+    "rank": 61,
     "id": "vos_062"
   },
   {
@@ -1830,7 +1802,7 @@
     "sellerVoices": [],
     "comparison": [],
     "verified": "unconfirmed",
-    "rank": 63,
+    "rank": 62,
     "id": "vos_063"
   },
   {
@@ -1859,7 +1831,7 @@
     "sellerVoices": [],
     "comparison": [],
     "verified": "unconfirmed",
-    "rank": 64,
+    "rank": 63,
     "id": "vos_064"
   },
   {
@@ -1888,7 +1860,7 @@
     "sellerVoices": [],
     "comparison": [],
     "verified": "unconfirmed",
-    "rank": 65,
+    "rank": 64,
     "id": "vos_065"
   },
   {
@@ -1916,7 +1888,7 @@
     "sellerVoices": [],
     "comparison": [],
     "verified": "unconfirmed",
-    "rank": 66,
+    "rank": 65,
     "id": "vos_066"
   },
   {
@@ -1945,7 +1917,7 @@
     "sellerVoices": [],
     "comparison": [],
     "verified": "unconfirmed",
-    "rank": 67,
+    "rank": 66,
     "id": "vos_067"
   },
   {
@@ -1973,7 +1945,7 @@
     "sellerVoices": [],
     "comparison": [],
     "verified": "unconfirmed",
-    "rank": 68,
+    "rank": 67,
     "id": "vos_068"
   },
   {
@@ -2001,7 +1973,7 @@
     "sellerVoices": [],
     "comparison": [],
     "verified": "unconfirmed",
-    "rank": 69,
+    "rank": 68,
     "id": "vos_069"
   },
   {
@@ -2030,7 +2002,7 @@
     "sellerVoices": [],
     "comparison": [],
     "verified": "unconfirmed",
-    "rank": 70,
+    "rank": 69,
     "id": "vos_070"
   },
   {
@@ -2059,7 +2031,7 @@
     "sellerVoices": [],
     "comparison": [],
     "verified": "unconfirmed",
-    "rank": 71,
+    "rank": 70,
     "id": "vos_071"
   },
   {
@@ -2088,7 +2060,7 @@
     "sellerVoices": [],
     "comparison": [],
     "verified": "unconfirmed",
-    "rank": 72,
+    "rank": 71,
     "id": "vos_072"
   },
   {
@@ -2117,7 +2089,7 @@
     "sellerVoices": [],
     "comparison": [],
     "verified": "unconfirmed",
-    "rank": 73,
+    "rank": 72,
     "id": "vos_073"
   },
   {
@@ -2146,7 +2118,7 @@
     "sellerVoices": [],
     "comparison": [],
     "verified": "unconfirmed",
-    "rank": 74,
+    "rank": 73,
     "id": "vos_074"
   },
   {
@@ -2175,7 +2147,7 @@
     "sellerVoices": [],
     "comparison": [],
     "verified": "unconfirmed",
-    "rank": 75,
+    "rank": 74,
     "id": "vos_075"
   },
   {
@@ -2204,7 +2176,7 @@
     "sellerVoices": [],
     "comparison": [],
     "verified": "unconfirmed",
-    "rank": 76,
+    "rank": 75,
     "id": "vos_076"
   },
   {
@@ -2233,7 +2205,7 @@
     "sellerVoices": [],
     "comparison": [],
     "verified": "unconfirmed",
-    "rank": 77,
+    "rank": 76,
     "id": "vos_077"
   },
   {
@@ -2262,7 +2234,7 @@
     "sellerVoices": [],
     "comparison": [],
     "verified": "unconfirmed",
-    "rank": 78,
+    "rank": 77,
     "id": "vos_078"
   },
   {
@@ -2291,7 +2263,7 @@
     "sellerVoices": [],
     "comparison": [],
     "verified": "unconfirmed",
-    "rank": 79,
+    "rank": 78,
     "id": "vos_079"
   },
   {
@@ -2321,7 +2293,7 @@
     "sellerVoices": [],
     "comparison": [],
     "verified": "unconfirmed",
-    "rank": 80,
+    "rank": 79,
     "id": "vos_080"
   },
   {
@@ -2350,7 +2322,7 @@
     "sellerVoices": [],
     "comparison": [],
     "verified": "unconfirmed",
-    "rank": 81,
+    "rank": 80,
     "id": "vos_081"
   },
   {
@@ -2379,7 +2351,7 @@
     "sellerVoices": [],
     "comparison": [],
     "verified": "unconfirmed",
-    "rank": 82,
+    "rank": 81,
     "id": "vos_082"
   },
   {
@@ -2408,7 +2380,7 @@
     "sellerVoices": [],
     "comparison": [],
     "verified": "unconfirmed",
-    "rank": 83,
+    "rank": 82,
     "id": "vos_083"
   },
   {
@@ -2437,7 +2409,7 @@
     "sellerVoices": [],
     "comparison": [],
     "verified": "unconfirmed",
-    "rank": 84,
+    "rank": 83,
     "id": "vos_084"
   },
   {
@@ -2466,7 +2438,7 @@
     "sellerVoices": [],
     "comparison": [],
     "verified": "unconfirmed",
-    "rank": 85,
+    "rank": 84,
     "id": "vos_085"
   },
   {
@@ -2495,7 +2467,7 @@
     "sellerVoices": [],
     "comparison": [],
     "verified": "unconfirmed",
-    "rank": 86,
+    "rank": 85,
     "id": "vos_086"
   },
   {
@@ -2524,7 +2496,7 @@
     "sellerVoices": [],
     "comparison": [],
     "verified": "unconfirmed",
-    "rank": 87,
+    "rank": 86,
     "id": "vos_087"
   },
   {
@@ -2553,7 +2525,7 @@
     "sellerVoices": [],
     "comparison": [],
     "verified": "unconfirmed",
-    "rank": 88,
+    "rank": 87,
     "id": "vos_088"
   },
   {
@@ -2582,7 +2554,7 @@
     "sellerVoices": [],
     "comparison": [],
     "verified": "unconfirmed",
-    "rank": 89,
+    "rank": 88,
     "id": "vos_089"
   },
   {
@@ -2612,7 +2584,7 @@
     "sellerVoices": [],
     "comparison": [],
     "verified": "unconfirmed",
-    "rank": 90,
+    "rank": 89,
     "id": "vos_090"
   },
   {
@@ -2642,7 +2614,7 @@
     "sellerVoices": [],
     "comparison": [],
     "verified": "unconfirmed",
-    "rank": 91,
+    "rank": 90,
     "id": "vos_091"
   },
   {
@@ -2671,7 +2643,7 @@
     "sellerVoices": [],
     "comparison": [],
     "verified": "unconfirmed",
-    "rank": 92,
+    "rank": 91,
     "id": "vos_092"
   },
   {
@@ -2701,7 +2673,7 @@
     "sellerVoices": [],
     "comparison": [],
     "verified": "unconfirmed",
-    "rank": 93,
+    "rank": 92,
     "id": "vos_093"
   },
   {
@@ -2731,7 +2703,7 @@
     "sellerVoices": [],
     "comparison": [],
     "verified": "unconfirmed",
-    "rank": 94,
+    "rank": 93,
     "id": "vos_094"
   },
   {
@@ -2761,7 +2733,7 @@
     "sellerVoices": [],
     "comparison": [],
     "verified": "unconfirmed",
-    "rank": 95,
+    "rank": 94,
     "id": "vos_095"
   },
   {
@@ -2791,7 +2763,7 @@
     "sellerVoices": [],
     "comparison": [],
     "verified": "unconfirmed",
-    "rank": 96,
+    "rank": 95,
     "id": "vos_096"
   },
   {
@@ -2821,7 +2793,7 @@
     "sellerVoices": [],
     "comparison": [],
     "verified": "unconfirmed",
-    "rank": 97,
+    "rank": 96,
     "id": "vos_097"
   },
   {
@@ -2851,7 +2823,7 @@
     "sellerVoices": [],
     "comparison": [],
     "verified": "unconfirmed",
-    "rank": 98,
+    "rank": 97,
     "id": "vos_098"
   },
   {
@@ -2881,7 +2853,7 @@
     "sellerVoices": [],
     "comparison": [],
     "verified": "unconfirmed",
-    "rank": 99,
+    "rank": 98,
     "id": "vos_099"
   },
   {
@@ -2911,7 +2883,7 @@
     "sellerVoices": [],
     "comparison": [],
     "verified": "unconfirmed",
-    "rank": 100,
+    "rank": 99,
     "id": "vos_100"
   },
   {
@@ -2941,7 +2913,7 @@
     "sellerVoices": [],
     "comparison": [],
     "verified": "unconfirmed",
-    "rank": 101,
+    "rank": 100,
     "id": "vos_101"
   },
   {
@@ -2971,7 +2943,7 @@
     "sellerVoices": [],
     "comparison": [],
     "verified": "unconfirmed",
-    "rank": 102,
+    "rank": 101,
     "id": "vos_102"
   },
   {
@@ -3001,12 +2973,12 @@
     "sellerVoices": [],
     "comparison": [],
     "verified": "unconfirmed",
-    "rank": 103,
+    "rank": 102,
     "id": "vos_103"
   },
   {
     "id": "vos_104",
-    "rank": 104,
+    "rank": 103,
     "title": "3月31日起亚马逊终止FBA共享库存政策，六大站点贴标规则全面重构",
     "effectDate": "2026-03-31",
     "summary": "政策覆盖美、加、墨、欧、澳、日六大核心站点，彻底取消共享库存池机制，所有卖家库存独立管理。品牌注册卖家带有效GTIN商品可免贴FNSKU标签入库，非品牌卖家必须全量粘贴亚马逊条形码，否则货件将被拒收。从根源遏制跟卖乱象，同时大幅提升非品牌卖家的入库合规成本。",
@@ -3059,7 +3031,7 @@
   },
   {
     "id": "vos_105",
-    "rank": 105,
+    "rank": 104,
     "title": "2026春季大促规则调整：美国站新增10天预热期，LD/BD免提报费，流量向秒杀倾斜",
     "effectDate": "2026-03-15",
     "summary": "本次春促核心调整：美国站新增10天预热期，限时秒杀（LD）、镇店之宝（BD）免除提报费用，Prime专享折扣取消专属Prime标志、无单独提报入口。欧洲站、日本站同步调整促销门槛，平台流量向秒杀类促销倾斜，重构大促流量分配逻辑，卖家促销策略需全面调整。",
@@ -3112,7 +3084,7 @@
   },
   {
     "id": "vos_106",
-    "rank": 106,
+    "rank": 105,
     "title": "亚马逊全球站点3月12日全面执行DD+7资金预留新政，回款周期最长延长30天",
     "effectDate": "2026-03-12",
     "summary": "该政策统一全球卖家资金预留规则，要求所有订单货款在商品妥投后需额外冻结7天方可转入卖家可用余额。FBA订单回款周期普遍延长8-9天，FBM订单回款周期最长延长至20-30天，直接加剧卖家现金流压力，月销百万美金卖家额外资金占用超20万美金。",
@@ -3186,7 +3158,7 @@
   },
   {
     "id": "vos_107",
-    "rank": 107,
+    "rank": 106,
     "title": "3月5日亚马逊全球电商系统大规模宕机，黄金时段订单停摆广告持续扣费",
     "effectDate": "2026-03-05",
     "summary": "宕机覆盖亚马逊全球核心站点，持续约4小时，出现商品页面变狗、订单系统停摆、后台操作失效等问题。恰好处于美国站消费黄金时段，卖家订单量暴跌40%-100%，但广告系统仍正常扣费，大量卖家秒杀活动受影响，单卖家最高损失超2万美金。",
@@ -3230,7 +3202,7 @@
   },
   {
     "id": "vos_108",
-    "rank": 108,
+    "rank": 107,
     "title": "3月4日亚马逊更新BSA协议，新增AI/自动化工具最严监管规则",
     "effectDate": "2026-03-04",
     "summary": "亚马逊更新《商业解决方案协议》，新增Agent Policy代理政策，对所有AI自动化工具提出强制合规要求：禁止使用平台数据训练AI模型，要求工具必须明确标识自动化身份，平台可随时切断不合规工具访问权限。全球超300万卖家、数千家第三方工具商受影响。",

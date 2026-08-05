@@ -66,6 +66,23 @@ def title_match_threshold(ai_title: str, item) -> int:
     return 2 if is_cjk(ai_title) == is_cjk(item.title) else 1
 
 
+def load_deleted_titles() -> list:
+    """读取人工删除名单（deleted-topics.json），这些标题不再收录"""
+    path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
+                        "deleted-topics.json")
+    try:
+        with open(path, "r", encoding="utf-8") as f:
+            titles = json.load(f).get("titles", [])
+        if titles:
+            print(f"  [Blocklist] 已加载 {len(titles)} 条人工删除记录")
+        return titles
+    except FileNotFoundError:
+        return []
+    except Exception as e:
+        print(f"  [WARN] 删除名单读取失败: {e}")
+        return []
+
+
 class VOSPipeline:
     TOTAL_TOPICS = 50  # max topics to keep (accumulative)
     EXECUTION_TIMEOUT = 180  # seconds
@@ -219,6 +236,11 @@ class VOSPipeline:
             # Also add simplified version for fuzzy matching
             simplified = "".join(e.get("title", "").lower().split())
             existing_titles.add(simplified)
+
+        # 人工删除过的话题：种进去重集合，防止下次又被生成出来
+        for t in load_deleted_titles():
+            existing_titles.add(t.strip().lower())
+            existing_titles.add("".join(t.lower().split()))
 
         new_topics = []
         for topic in ai_topics:

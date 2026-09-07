@@ -78,6 +78,9 @@ def build_generic_set() -> set:
 
 GENERIC_TOKENS = build_generic_set()
 
+# AI 未给 sourceIndex 时，回退匹配所需的最少独特词数
+FALLBACK_MIN_SCORE = 3
+
 
 def distinctive_tokens(text: str, corpus_df: dict = None, n_docs: int = 0) -> set:
     """
@@ -264,7 +267,7 @@ class VOSPipeline:
         # 8. 用 AI 声明的 sourceIndex 取链接（不再靠关键词猜哪条素材）
         corpus_df, n_docs = build_corpus_df(rss_items)
         indexable = [it for it in rss_items if it.url and it.url.startswith("http")]
-        linked_by_index = 0
+        linked_by_index = linked_by_fallback = 0
         for topic in ai_topics:
             self._enrich_topic(topic)
             topic["links"] = []          # 一律重建，不采纳 AI 自己写的 URL
@@ -273,18 +276,31 @@ class VOSPipeline:
                 idx = int(idx)
             except (TypeError, ValueError):
                 idx = 0
+            ai_title = topic.get("title", "")
             if 1 <= idx <= len(indexable):
                 src = indexable[idx - 1]
                 # 即便 AI 给了编号，也要复核内容是否真的对得上
-                score = title_match_score(topic.get("title", ""), src, corpus_df, n_docs)
-                if score >= title_match_threshold(topic.get("title", ""), src):
+                score = title_match_score(ai_title, src, corpus_df, n_docs)
+                if score >= title_match_threshold(ai_title, src):
                     topic["links"] = [{"label": src.title, "url": src.url}]
-                    topic["_srcTitle"] = src.title
                     linked_by_index += 1
-                else:
-                    print(f"  Skipping link (sourceIndex {idx} 内容对不上, 独特词×{score}): "
-                          f"{topic.get('title', '')[:36]}")
-        print(f"  [Link] {linked_by_index}/{len(ai_topics)} 条通过 sourceIndex 关联到素材")
+                    continue
+                print(f"  Skipping link (sourceIndex {idx} 内容对不上, 独特词×{score}): {ai_title[:36]}")
+                continue
+
+            # 兜底：AI 没给编号时，用独特词回退匹配。
+            # 阈值取得比较严，且要求最优明显优于次优，避免又出现"随便挂一条"的情况。
+            scored = sorted(
+                ((title_match_score(ai_title, s, corpus_df, n_docs), s) for s in indexable),
+                key=lambda x: -x[0])
+            if scored and scored[0][0] >= FALLBACK_MIN_SCORE:
+                runner_up = scored[1][0] if len(scored) > 1 else 0
+                if scored[0][0] >= runner_up + 2:
+                    topic["links"] = [{"label": scored[0][1].title, "url": scored[0][1].url}]
+                    linked_by_fallback += 1
+
+        print(f"  [Link] sourceIndex 命中 {linked_by_index} 条，独特词兜底 {linked_by_fallback} 条 "
+              f"/ 共 {len(ai_topics)} 条")
 
         # 9. INCREMENTAL MERGE: keep ALL existing topics, only add new non-duplicate ones
         print("\n[Phase 8] Incremental merge (preserving existing topics)...")

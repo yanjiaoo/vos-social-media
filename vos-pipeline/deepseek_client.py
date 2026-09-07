@@ -174,6 +174,9 @@ class DeepSeekClient:
                 "alertLevel": t.get("alertLevel", "normal") if t.get("alertLevel") in ALLOWED_ALERT_LEVELS else "normal",
                 "insightType": t.get("insightType", "confirmation") if t.get("insightType") in ALLOWED_INSIGHT_TYPES else "confirmation",
                 "aiGenerated": True,
+                # sourceIndex：AI 声明本话题依据的素材编号，下游据此取真实URL。
+                # 注意这个字段必须透传，之前漏掉导致所有话题都关联不上素材。
+                "sourceIndex": t.get("sourceIndex", 0),
                 "links": t.get("links", []),
                 "sellerVoices": [],
                 "comparison": [],

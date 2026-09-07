@@ -233,11 +233,14 @@ class VOSPipeline:
         print(f"  Found {len(clusters)} topic clusters")
 
         # 5. Generate topics via DeepSeek
-        print("\n[Phase 5] Generating topics via DeepSeek...")
+        # 关键：喂给 AI 编号的列表 和 下游按 sourceIndex 取 URL 的列表，必须是同一个对象，
+        # 否则编号会错位（曾因一个是 clean_items[:30]、一个是过滤后的 rss_items 而全部对不上）
+        source_items = [it for it in clean_items if it.url and it.url.startswith("http")][:30]
+        print(f"\n[Phase 5] Generating topics via DeepSeek... (可引用素材 {len(source_items)} 条)")
         self._init_deepseek()
         ai_topics = []
         try:
-            ai_topics = self.deepseek.generate_topics(clean_items)
+            ai_topics = self.deepseek.generate_topics(source_items)
             print(f"  Generated {len(ai_topics)} AI topics")
         except Exception as e:
             print(f"  [DeepSeek] Topic generation failed: {e}")
@@ -266,7 +269,7 @@ class VOSPipeline:
 
         # 8. 用 AI 声明的 sourceIndex 取链接（不再靠关键词猜哪条素材）
         corpus_df, n_docs = build_corpus_df(rss_items)
-        indexable = [it for it in rss_items if it.url and it.url.startswith("http")]
+        indexable = source_items          # 必须与喂给 AI 编号的列表完全一致
         linked_by_index = linked_by_fallback = 0
         for topic in ai_topics:
             self._enrich_topic(topic)
@@ -285,8 +288,12 @@ class VOSPipeline:
                     topic["links"] = [{"label": src.title, "url": src.url}]
                     linked_by_index += 1
                     continue
-                print(f"  Skipping link (sourceIndex {idx} 内容对不上, 独特词×{score}): {ai_title[:36]}")
+                print(f"  Skipping link (sourceIndex {idx} 内容对不上, 独特词×{score})")
+                print(f"      话题: {ai_title[:40]}")
+                print(f"      素材: {src.title[:40]}")
                 continue
+            if idx > len(indexable):
+                print(f"  [WARN] sourceIndex {idx} 超出素材范围 1-{len(indexable)}: {ai_title[:36]}")
 
             # 兜底：AI 没给编号时，用独特词回退匹配。
             # 阈值取得比较严，且要求最优明显优于次优，避免又出现"随便挂一条"的情况。

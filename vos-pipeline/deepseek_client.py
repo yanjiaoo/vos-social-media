@@ -82,7 +82,8 @@ class DeepSeekClient:
         if context_items:
             context_text = ("\n\n以下是从Google News和卖家论坛抓取的近期讨论，作为参考素材。"
                             "每条素材前面的编号很重要，生成话题时必须用 sourceIndex 指明你依据的是哪一条：\n")
-            for i, item in enumerate(context_items[:30]):
+            # 不在这里切片：调用方决定给哪些素材、编号必须与调用方的列表一一对应
+            for i, item in enumerate(context_items):
                 context_text += f"\n[素材{i+1}] ({item.source_platform}) {item.title}"
                 if item.content:
                     context_text += f"\n   正文: {item.content[:200]}"

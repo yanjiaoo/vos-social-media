@@ -54,15 +54,62 @@ def is_cjk(text: str) -> bool:
     return len(re.findall(r'[\u4e00-\u9fff]', text or "")) >= 4
 
 
-def title_match_score(ai_title: str, item) -> int:
-    """AI 标题与 RSS 素材的关键词重叠数（素材标题+正文一起算）"""
-    ai = title_tokens(ai_title)
-    src = title_tokens(item.title) | title_tokens(getattr(item, "content", "")[:400])
+# 领域通用词：几乎每条亚马逊卖家资讯都有，用来判断相关性毫无意义。
+# 教训：曾经把阈值定成"共享2个字符2元组"，而"亚马逊卖家"本身就产生
+# 亚马/马逊/逊卖/卖家 四个组，导致任意两条中文资讯都能通过校验，
+# 一条讲资金周转的原文被挂到了讲社媒引流的话题上。
+GENERIC_TERMS = (
+    "亚马逊卖家跨境电商平台政策规则运营产品店铺账号listing费用成本影响"
+    "美国欧洲市场业务服务数据增长变化调整新规上线通知社区反馈情绪"
+    "amazon seller sellers marketplace ecommerce platform policy fee fees"
+)
+
+
+def build_generic_set() -> set:
+    s = set()
+    for w in GENERIC_TERMS.split():
+        if re.fullmatch(r'[a-z]+', w):
+            s.add(w)
+    for seg in re.findall(r'[\u4e00-\u9fff]+', GENERIC_TERMS):
+        for i in range(len(seg) - 1):
+            s.add(seg[i:i + 2])
+    return s
+
+
+GENERIC_TOKENS = build_generic_set()
+
+
+def distinctive_tokens(text: str, corpus_df: dict = None, n_docs: int = 0) -> set:
+    """
+    只保留有辨识度的词：剔除领域通用词，以及在素材库里出现过于频繁的词。
+    这样"亚马逊""卖家""政策"之类不再贡献相关性分数。
+    """
+    toks = title_tokens(text) - GENERIC_TOKENS
+    if corpus_df and n_docs >= 10:
+        cutoff = max(3, int(n_docs * 0.15))
+        toks = {t for t in toks if corpus_df.get(t, 0) <= cutoff}
+    return toks
+
+
+def build_corpus_df(rss_items) -> tuple:
+    """统计每个词在多少条素材里出现过，用于识别高频通用词"""
+    df = {}
+    for it in rss_items:
+        for t in title_tokens(it.title) | title_tokens(getattr(it, "content", "")[:300]):
+            df[t] = df.get(t, 0) + 1
+    return df, len(rss_items)
+
+
+def title_match_score(ai_title: str, item, corpus_df=None, n_docs=0) -> int:
+    """AI 标题与素材共享几个有辨识度的词"""
+    ai = distinctive_tokens(ai_title, corpus_df, n_docs)
+    src = distinctive_tokens(item.title, corpus_df, n_docs) | \
+        distinctive_tokens(getattr(item, "content", "")[:400], corpus_df, n_docs)
     return len(ai & src)
 
 
 def title_match_threshold(ai_title: str, item) -> int:
-    """跨语言时（中文标题 vs 英文原文）只能靠品牌词/数字匹配，阈值放宽到 1"""
+    """跨语言（中文标题 vs 英文原文）只能靠品牌词/数字对上，阈值放宽到 1"""
     return 2 if is_cjk(ai_title) == is_cjk(item.title) else 1
 
 
@@ -214,19 +261,30 @@ class VOSPipeline:
             except Exception as e:
                 print(f"  [DeepSeek] Summary enrichment failed: {e}")
 
-        # 8. Enrich all new topics with required fields + match RSS URLs
+        # 8. 用 AI 声明的 sourceIndex 取链接（不再靠关键词猜哪条素材）
+        corpus_df, n_docs = build_corpus_df(rss_items)
+        indexable = [it for it in rss_items if it.url and it.url.startswith("http")]
+        linked_by_index = 0
         for topic in ai_topics:
             self._enrich_topic(topic)
-            if not topic.get("links"):
-                ai_title = topic.get("title", "")
-                best, best_score = None, 0
-                for item in rss_items:
-                    if item.url and item.url.startswith("http"):
-                        score = title_match_score(ai_title, item)
-                        if score > best_score:
-                            best, best_score = item, score
-                if best is not None and best_score >= max(3, title_match_threshold(ai_title, best)):
-                    topic["links"] = [{"label": best.title, "url": best.url}]
+            topic["links"] = []          # 一律重建，不采纳 AI 自己写的 URL
+            idx = topic.get("sourceIndex")
+            try:
+                idx = int(idx)
+            except (TypeError, ValueError):
+                idx = 0
+            if 1 <= idx <= len(indexable):
+                src = indexable[idx - 1]
+                # 即便 AI 给了编号，也要复核内容是否真的对得上
+                score = title_match_score(topic.get("title", ""), src, corpus_df, n_docs)
+                if score >= title_match_threshold(topic.get("title", ""), src):
+                    topic["links"] = [{"label": src.title, "url": src.url}]
+                    topic["_srcTitle"] = src.title
+                    linked_by_index += 1
+                else:
+                    print(f"  Skipping link (sourceIndex {idx} 内容对不上, 独特词×{score}): "
+                          f"{topic.get('title', '')[:36]}")
+        print(f"  [Link] {linked_by_index}/{len(ai_topics)} 条通过 sourceIndex 关联到素材")
 
         # 9. INCREMENTAL MERGE: keep ALL existing topics, only add new non-duplicate ones
         print("\n[Phase 8] Incremental merge (preserving existing topics)...")
@@ -265,23 +323,25 @@ class VOSPipeline:
                     print(f"  Skipping (no links): {title[:40]}")
                     continue
 
-                # Anti-fabrication: URL 必须能在 RSS 素材中找到，且标题有关键词重叠
+                # Anti-fabrication: URL 必须在素材中，且内容有辨识度地对得上
                 topic_url = next((l["url"] for l in topic.get("links", []) if l.get("url", "").startswith("http")), "")
                 url_verified = False
                 matched_url = False
                 for item in rss_items:
                     if same_url(item.url, topic_url):
                         matched_url = True
-                        if title_match_score(title, item) >= title_match_threshold(title, item):
+                        if title_match_score(title, item, corpus_df, n_docs) >= title_match_threshold(title, item):
                             url_verified = True
                         break
 
+                topic.pop("_srcTitle", None)
+                topic.pop("sourceIndex", None)
                 if url_verified:
                     new_topics.append(topic)
                 elif not matched_url:
                     print(f"  Skipping (URL not in RSS material): {title[:40]}")
                 else:
-                    print(f"  Skipping (URL-title mismatch): {title[:40]}")
+                    print(f"  Skipping (内容与原文不相关): {title[:40]}")
 
         print(f"  Existing: {len(existing)} topics, New unique: {len(new_topics)} topics")
 

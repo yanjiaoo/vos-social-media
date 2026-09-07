@@ -80,13 +80,12 @@ class DeepSeekClient:
         # Build context from scraped items
         context_text = ""
         if context_items:
-            context_text = "\n\n以下是从Google News和卖家论坛抓取的近期讨论，作为参考素材（请在生成话题时引用对应的URL作为links）：\n"
+            context_text = ("\n\n以下是从Google News和卖家论坛抓取的近期讨论，作为参考素材。"
+                            "每条素材前面的编号很重要，生成话题时必须用 sourceIndex 指明你依据的是哪一条：\n")
             for i, item in enumerate(context_items[:30]):
-                context_text += f"\n{i+1}. [{item.source_platform}] {item.title}"
-                if item.url:
-                    context_text += f"\n   URL: {item.url}"
+                context_text += f"\n[素材{i+1}] ({item.source_platform}) {item.title}"
                 if item.content:
-                    context_text += f"\n   {item.content[:200]}"
+                    context_text += f"\n   正文: {item.content[:200]}"
 
         prompt = f"""你是一位资深的亚马逊Account Manager情报分析师。请基于你对亚马逊卖家社区的了解，生成20个当前最热门的亚马逊卖家话题。
 
@@ -115,7 +114,12 @@ class DeepSeekClient:
 - painPoints: 1-3个具体卖家痛点（如"现金流压力"、"合规成本增加"）
 - alertLevel: 紧急程度（critical/high/normal）
 - insightType: 洞察类型（blind_spot/amplifier/confirmation）
-- links: 参考链接数组，每个包含label和url。**只能使用参考素材中提供的真实URL**。如果话题来自参考素材，必须引用素材的URL。如果没有对应的素材URL，links设为空数组[]。严禁编造URL，严禁放没有url字段的假链接。
+- sourceIndex: **必填**。这个话题依据的是哪条参考素材，填素材编号（整数，如 7 表示 [素材7]）。
+  系统会用这个编号自动取该素材的真实URL作为链接，你不需要自己写URL。
+  要求：该素材的内容必须与话题讲的是同一件事。如果你写的话题在参考素材里找不到对应的那一条，
+  说明这是你自己补充的内容，此时 sourceIndex 填 0 —— 填 0 的话题会被系统丢弃，所以尽量基于素材写。
+  **严禁乱填编号凑数**：把一条讲资金周转的素材编号安在讲社媒引流的话题上，比不给链接更糟。
+- links: 不需要你填，系统会根据 sourceIndex 自动生成。
 
 ## 摘要质量标准（极其重要）
 优秀摘要示例：

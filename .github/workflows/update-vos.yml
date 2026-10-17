@@ -34,8 +34,30 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add vos-data.json
           if git diff --staged --quiet; then
-            echo "No changes to commit"
+            echo "::warning::vos-data.json 无变化，本次没有产出新话题"
           else
             git commit -m "auto: 更新VOS卖家热议 $(date +%Y-%m-%d)"
             git push
           fi
+
+      # 单次无变化是正常的，连续多天无变化才是故障。这里用「最新话题有多旧」来判断，
+      # 2026-10 那次欠费就是卡在这个盲区：天天 success，数据冻结 12 天。
+      - name: 检查数据新鲜度
+        run: |
+          python - <<'PY'
+          import json, sys
+          from datetime import date
+          data = json.load(open('vos-data.json', encoding='utf-8-sig'))
+          dates = sorted(t.get("effectDate", "") for t in data if t.get("effectDate"))
+          if not dates:
+              print("::error::vos-data.json 里没有任何 effectDate")
+              sys.exit(1)
+          newest = date.fromisoformat(dates[-1])
+          lag = (date.today() - newest).days
+          print(f"共 {len(data)} 条话题，最新 {newest}，滞后 {lag} 天")
+          LIMIT = 3
+          if lag > LIMIT:
+              print(f"::error::VOS 数据已滞后 {lag} 天（阈值 {LIMIT}），"
+                    f"请检查 DeepSeek 余额与上一步日志")
+              sys.exit(1)
+          PY

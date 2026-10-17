@@ -134,7 +134,10 @@ def load_deleted_titles() -> list:
 
 
 class VOSPipeline:
-    TOTAL_TOPICS = 50  # max topics to keep (accumulative)
+    # 注意：这个常量目前【不生效】，增量合并只加不减，话题会一直累积（现已 353 条）。
+    # 这是刻意的决定——要保留全部历史话题。日后若要封顶，在 Phase 9 加截断，
+    # 并记得人工条目（有 sellerVoices / comparison）无论多旧都必须保留。
+    TOTAL_TOPICS = 50  # 保留字段，未启用
     EXECUTION_TIMEOUT = 180  # seconds
     OUTPUT_FILE = "vos-data.json"
 
@@ -243,11 +246,18 @@ class VOSPipeline:
             ai_topics = self.deepseek.generate_topics(source_items)
             print(f"  Generated {len(ai_topics)} AI topics")
         except Exception as e:
-            print(f"  [DeepSeek] Topic generation failed: {e}")
-            print("  Preserving existing data unchanged.")
-            return
+            # 2026-10 教训：账户欠费后 API 返回 HTTP 402，这里原来是 return，
+            # 于是「没有 diff」→「No changes to commit」→ job 全绿，
+            # vos-data.json 冻结 12 天无人察觉。API 故障必须让 job 红。
+            print(f"  [DeepSeek] ERROR: Topic generation failed: {e}")
+            if "402" in str(e):
+                print("  [DeepSeek] HTTP 402 = 账户余额不足，请到 "
+                      "https://platform.deepseek.com/usage 充值")
+            print("  Existing data preserved; failing the job on purpose.")
+            sys.exit(1)
 
         if not ai_topics:
+            # 与上面区分开：API 通了但没产出内容，属于业务层面的空结果，不算故障。
             print("  [DeepSeek] No topics generated. Preserving existing data.")
             return
 
